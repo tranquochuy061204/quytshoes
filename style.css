@@ -214,7 +214,7 @@ section {
     position: relative;
     width: 252px;
     margin: 0 10px;
-
+   
 }
 
 .products li p {
@@ -237,12 +237,14 @@ section {
 }
 
 .products li:hover {
+    
     border: 1px solid black;
 }
 
 .products li:hover .pro-top-hover {
     display: block;
-    
+   
+   
 }
 
 .pro-item {
@@ -262,11 +264,6 @@ section {
 }
 
 
-
-.pro-thumb {
-
-
-}
 
 .pro-top-hover{
     display: none;
@@ -295,7 +292,7 @@ section {
     background-color: #ba7076;
 }
 
-.nike-logo div {
+.nike-logo div {    
     width: 180px;
     
 }
@@ -368,3 +365,47 @@ section {
 .converse-shoe-banner a:hover {
     opacity: 0.9;
 }
+
+
+.brand-banner {
+
+
+}
+
+.brand-banner-ul {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+.brand-banner-list {
+    width: 300px;
+    height: 200px;
+}
+
+.brand-banner-list img {
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.brand-name {
+
+
+}
+
+.brand-description {
+
+
+}
+
+
+.nike-brand {
+    background-image: url(./images/nike/brand-banner.jpg);
+}
+
+.converse-brand {
+    background-image: url(./images/converse/brand-banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
