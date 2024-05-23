@@ -1,22 +1,24 @@
-body * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}z
+}
 
 p {
     margin: 0;
 }
 
-body {
-    height: 10000px;
-}
+
 
 a {
     text-decoration: none;
@@ -96,7 +98,52 @@ section {
 
 .other {
     width: 630px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
 }
+
+.other .search-bar {
+    
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.other .search-bar .search-bar-wrapper {
+    border: 1px solid black;
+    display: flex;
+    border-radius: 2px;
+    height: 40px;
+    overflow: hidden;
+}
+
+
+.other .search-bar input {
+    border: none;
+    padding: 5px 0;
+    padding-left: 20px;
+    font-size: 16px;
+    height: 100%;
+}
+
+
+.other .search-bar input:focus {
+    outline: none;
+
+}
+
+.other .search-bar button {
+    border-collapse: collapse;
+    width: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: aliceblue;
+    height: 40px;
+}
+
 
 .other .other-ul {
     height: 100%;
@@ -242,7 +289,7 @@ section {
 }
 
 .products li:hover .pro-top-hover {
-    display: block;
+    opacity: 1;
    
    
 }
@@ -266,11 +313,12 @@ section {
 
 
 .pro-top-hover{
-    display: none;
+    opacity: 0;
     width: 100%;
     position: absolute;
     left: 0;
     top: 0;
+    transition: all 0.3s ease;
 }
 
 
@@ -355,57 +403,134 @@ section {
 }
 
 .converse-shoe-banner {
-    width: 900px;
+    width: 800px;
     position: absolute;
-    right: -150px;
+    right: -100px;
     top: 0px;
     box-shadow: black;
+    height: 600px
 }
 
 .converse-shoe-banner a:hover {
     opacity: 0.9;
 }
 
-
 .brand-banner {
-
+    margin-bottom: 100px;
 
 }
+
+.brand-banner .title {
+    font-size: 25px;
+    color: aliceblue;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-weight: bold;
+    padding-left: 50px;
+    margin-bottom: 30px;
+}
+
+
 
 .brand-banner-ul {
     display: flex;
     justify-content: space-around;
     width: 1200px;
+    color: aliceblue;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(52, 46, 46);
 }
 
 .brand-banner-list {
     width: 300px;
     height: 200px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.brand-banner-list img {
-    border-radius: 10px;
-    object-fit: cover;
+.brand-banner-list > * {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.brand-banner-list > * > * {
+    margin: 5px 0;
 }
 
 .brand-name {
-
-
+    background-color: rgb(0, 0, 0, 0.5);
+    width: fit-content;
+    border-radius: 10px;
 }
 
 .brand-description {
-
-
+    font-size: 25px;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 
-.nike-brand {
-    background-image: url(./images/nike/brand-banner.jpg);
+.adidas-brand {
+    background: url(./images/adidas/brand-banner.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .converse-brand {
-    background-image: url(./images/converse/brand-banner.jpg);
-    background-size: cover;
+    background: url(./images/converse/brand-banner.jpg);
+    background-size: contain;
     background-position: center;
 }
+
+.nike-brand {
+    background: url(./images/nike/brand-banner.jpg);
+    background-size: contain;
+    background-position: center;
+    
+}
+
+.footer .wrapper {
+    width: 100%;
+    background-color: #555555;
+    height: 400px;
+    padding: 10px 20px;
+}
+
+.wrapper h2 {
+    
+    color: #FFFFFF;
+    font-style: italic;
+}
+
+.footer-sec {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-sec li  {
+    width: 200px;
+    font-size: 20px;
+
+    
+}
+
+.footer-sec a {
+    color: #CCCCCC;
+    font-size: 16px;
+    
+}
+
+
+
+
 

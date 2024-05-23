@@ -13,6 +13,9 @@
 <link rel="stylesheet" href="./style.css">
 <title>Quýt Shoes</title>
 </head>
+
+
+
 <body class=".roboto-medium">
     <header>
         <!-- Thanh đen-->
@@ -33,7 +36,7 @@
                             <a href="#" class="menu-link">TRANG CHỦ</a>
                           </li>
                         <li class="menu-item">
-                          <a href="#" class="menu-link">SẢN PHẨM</a>
+                          <a href="./product-list.html" class="menu-link">SẢN PHẨM</a>
                         </li>
                         <li class="menu-item">
                             <a href="#" class="menu-link">NAM</a>
@@ -50,8 +53,16 @@
 
                    <!-- Other -->
                     <div class="col-md-6 other">
+                        <div class="search-bar">
+                            <div class="search-bar-wrapper">
+                                <form action="product-list.html" method="get">
+                            <input class="search-bar-input" placeholder="Tìm kiếm..." type="text">
+                            <button class="search-bar-btn"><i class="bi bi-search"></i></button>
+                                </form>
+                        </div>
+                        </div>
+
                         <ul class="other-ul">
-                            <li class="other-item"><i class="bi bi-search"></i></li>
                             <li class="other-item"><i class="bi bi-bag"></i></li>
                             <li class="other-item"><i class="bi bi-person-fill"></i></li>
                         </ul>
@@ -87,12 +98,12 @@
 
                 <ul class="products">
                     <li class="">
-                        <a href="">
+                        <a href="./adidas-products/Samba-og/adidas-shoes-A001.html">
                         <div class="pro-item">
-                            <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/adidas/adiadas-samba-og.avif" alt=""></a></div>
+                            <div class="pro-top"><a class="pro-thumb" href="./adidas-products/Samba-og/adidas-shoes-A001.html"><img src="./images/adidas/adiadas-samba-og.avif" alt=""></a></div>
                         </div>
-                        <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/adidas/adidas-samba-og-hover.avif" alt=""></a></div>
-                        <p class="pro-name"><a href="">Adidas Samba OG</a></p>
+                        <div class="pro-top-hover"><a href="./adidas-products/Samba-og/adidas-shoes-A001.html"><img src="./images/adidas/adidas-samba-og-hover.avif" alt=""></a></div>
+                        <p class="pro-name"><a href="./adidas-products/Samba-og/adidas-shoes-A001.html">Adidas Samba OG</a></p>
                         <p class="pro-price">2.700.000đ</p>
                     </a>
                     </li>
@@ -236,60 +247,62 @@
  <section>
     <div class="container">
         <div class="title"><p>Sản phẩm tiêu biểu</p></div>
-        <div class="row product-list mx-auto">
-
-            <ul class="products">
-                <li class="">
-                    <a href="">
-                    <div class="pro-item">
-                        <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/converse/converse-shoes-C001.jpg" alt=""></a></div>
-                    </div>
-                    <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/converse/converse-shoes-C001-hover.jpg" alt=""></a></div>
-                    <p class="pro-name"><a href="">Chuck Taylor All Star</a></p>
-                    <p class="pro-price">1.550.000đ</p>
-                </a>
-                </li>
-                <li class="">
-                  <a href="">
-                    <div class="pro-item">
-                        <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/converse/converse-shoes-C002.jpg" alt=""></a></div>
-                    </div>
-                    <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/converse/converse-shoes-C002-hover.jpg" alt=""></a></div>
-                    <p class="pro-name"><a href="">Chuck 70 Paint Splatter</a></p>
-                    <p class="pro-price">2.000.000đ</p>
-                  </a>
-                </li>
-                <li class="">
-                   <a href="">
-                    <div class="pro-item">
-                        <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/converse/converse-shoes-C003.jpg" alt=""></a></div>
-                    </div>
-                    <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/converse/converse-shoes-C003-hover.jpg" alt=""></a></div>
-                    <p class="pro-name"><a href="">Chuck Taylor All Star Move Platform</a></p>
-                    <p class="pro-price">2.000.000đ</p>
-                   </a>
-                </li>
-                <li class="">
-                   <a href="">
-                    <div class="pro-item">
-                        <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/converse/converse-shoes-C004.jpg" alt=""></a></div>
-                    </div>
-                    <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/converse/converse-shoes-C004-hover.jpg" alt=""></a></div>
-                    <p class="pro-name"><a href="">Chuck 70 Monochrome</a></p>
-                    <p class="pro-price">1.400.0000đ</p>
-                   </a>
-                </li>
-                <li class="">
-                    <a href="">
-                    <div class="pro-item">
-                        <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/converse/converse-shoes-C005.jpg" alt=""></a></div>
-                    </div>
-                    <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/converse/converse-shoes-C005-hover.jpg" alt=""></a></div>
-                    <p class="pro-name"><a href="">Chuck 70</a></p>
-                    <p class="pro-price">2.000.000đ</p>
-                </a>
-                </li>
-            </ul>
+       
+            <div class="row product-list mx-auto">
+                <ul class="products">
+                    <li class="">
+                        <a href="">
+                        <div class="pro-item">
+                            <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/converse/converse-shoes-C001.jpg" alt=""></a></div>
+                        </div>
+                        <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/converse/converse-shoes-C001-hover.jpg" alt=""></a></div>
+                        <p class="pro-name"><a href="">Chuck Taylor All Star</a></p>
+                        <p class="pro-price">1.550.000đ</p>
+                    </a>
+                    </li>
+                    <li class="">
+                      <a href="">
+                        <div class="pro-item">
+                            <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/converse/converse-shoes-C002.jpg" alt=""></a></div>
+                        </div>
+                        <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/converse/converse-shoes-C002-hover.jpg" alt=""></a></div>
+                        <p class="pro-name"><a href="">Chuck 70 Paint Splatter</a></p>
+                        <p class="pro-price">2.000.000đ</p>
+                      </a>
+                    </li>
+                    <li class="">
+                       <a href="">
+                        <div class="pro-item">
+                            <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/converse/converse-shoes-C003.jpg" alt=""></a></div>
+                        </div>
+                        <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/converse/converse-shoes-C003-hover.jpg" alt=""></a></div>
+                        <p class="pro-name"><a href="">Chuck Taylor All Star Move Platform</a></p>
+                        <p class="pro-price">2.000.000đ</p>
+                       </a>
+                    </li>
+                    <li class="">
+                       <a href="">
+                        <div class="pro-item">
+                            <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/converse/converse-shoes-C004.jpg" alt=""></a></div>
+                        </div>
+                        <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/converse/converse-shoes-C004-hover.jpg" alt=""></a></div>
+                        <p class="pro-name"><a href="">Chuck 70 Monochrome</a></p>
+                        <p class="pro-price">1.400.0000đ</p>
+                       </a>
+                    </li>
+                    <li class="">
+                        <a href="">
+                        <div class="pro-item">
+                            <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/converse/converse-shoes-C005.jpg" alt=""></a></div>
+                        </div>
+                        <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/converse/converse-shoes-C005-hover.jpg" alt=""></a></div>
+                        <p class="pro-name"><a href="">Chuck 70</a></p>
+                        <p class="pro-price">2.000.000đ</p>
+                    </a>
+                    </li>
+                </ul>
+            
+            
         </div>
     </div>
 </section>  
@@ -300,28 +313,70 @@
         <div class="container">
             <div class="title">Các thương hiệu của tiệm chúng tôi hiện tại</div>
 
-            <ul class="brand-banner-ul mx-auto">
-                <li class="brand-banner-list">
-                    <img src="./images/adidas/brand-banner.webp" alt="adidas">
-                    <h1 class="brand-name">Adidas</h1>
-                    <p class="brand-description"></p>
+            <div class="row"><ul class="brand-banner-ul mx-auto">
+                <li class="brand-banner-list adidas-brand">
+                    
+                    <a href="#">
+                        <h1 class="brand-name mx-auto">Adidas</h1>
+                        <p class="brand-description"></p>
+                    </a>
                 </li>
 
-                <li class="brand-banner-list">
-                    <img src="./images/nike/brand-banner.jpg" alt="nike">
-                    <h1 class="brand-name">Nike</h1>
-                    <p class="brand-description"></p>
+                <li class="brand-banner-list nike-brand">
+                    
+                    <a href="#"><h1 class="brand-name mx-auto">Nike</h1>
+                        <p class="brand-description">Just do it !</p></a>
                 </li>
 
-                <li class="brand-banner-list">
-                    <img src="./images/converse/brand-banner.jpg" alt="converse">
-                    <h1 class="brand-name">Converse</h1>
-                    <p class="brand-description"></p>
+                <li class="brand-banner-list converse-brand">
+                    
+                    
+                    <a href="#"><h1 class="brand-name mx-auto">Converse</h1>
+                        <p class="brand-description"></p></a>
+                    
                 </li>
             </ul>            
-
+</div>
+            
         </div>
     </section>
+
+    <section class="footer">
+        
+        <div class="container-fluid p-0">
+            <div class="wrapper row">
+             
+
+                <div class="row footer-sec mx-auto">
+                    <div class="footer-item col-md-4">
+                        <h2>Sản phẩm</h2>
+                        <ul>
+                            <li><a href="">Adidas</a></li>
+                            <li><a href="">Nike</a></li>
+                            <li><a href="">Converse</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item col-md-4">
+                        <h2>Thành viên</h2>
+                        <ul>
+                            <li><a href="">Trần Quốc Huy</a></li>
+                            <li><a href="">Trương Văn Thạch Bảo</a></li>
+                            <li><a href="">A</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item col-md-4">
+                        <h2>Liên hệ</h2>
+                        <ul>
+                            <li><a href="">Email chúng tôi</a></li>
+                            <li><a href="">Igstagram</a></li>
+                            <li><a href="">Zalo</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>

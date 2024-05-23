@@ -1,0 +1,578 @@
+[
+    {
+        "brand": "Adidas",
+        "name": "Adidas Samba OG",
+        "code": "A001",
+        "price": 2700000,
+        "image": "./images/adidas/product-list/adidas-shoes-A001.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A001-hover.avif",
+        "gender": "unisex",
+        "link":"./adidas-products/Samba-og/adidas-shoes-A001.html"
+        
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas Stan Smith",
+        "code": "A002",
+        "price": 2600000,
+        "image": "./images/adidas/product-list/adidas-shoes-A002.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A002-hover.avif",
+        "gender": "unisex",
+        "link":"./adidas-products/Adidas-stan-smith/adidas-shoes-A002.html"
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas Adidas Gazelle",
+        "code": "A003",
+        "price": 2500000,
+        "image": "./images/adidas/product-list/adidas-shoes-A003.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A003-hover.avif",
+        "gender": "unisex",
+        "link":""
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas Gazelle",
+        "code": "A004",
+        "price": 2500000,
+        "image": "./images/adidas/product-list/adidas-shoes-A004.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A004-hover.avif",
+        "gender": "unisex",
+        "link":""
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas Forum Low CL",
+        "code": "A005",
+        "price": 2600000,
+        "image": "./images/adidas/product-list/adidas-shoes-A005.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A005-hover.avif",
+        "gender": "unisex",
+        "link":""
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas NY 90",
+        "code": "A006",
+        "price": 2000000,
+        "image": "./images/adidas/product-list/adidas-shoes-A006.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A006-hover.avif",
+        "gender": "unisex",
+        "link":""
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas CONTINENTAL 80 VEGAN",
+        "code": "A007",
+        "price": 2700000,
+        "image": "./images/adidas/product-list/adidas-shoes-A007.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A007-hover.avif",
+        "gender": "female",
+        "link":""
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas NMD_R1 W",
+        "code": "A008",
+        "price": 3900000,
+        "image": "./images/adidas/product-list/adidas-shoes-A008.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A008-hover.avif",
+        "gender": "female",
+        "link":""
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas UBOUNCE DNA",
+        "code": "A009",
+        "price": 2500000,
+        "image": "./images/adidas/product-list/adidas-shoes-A009.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A009-hover.avif",
+        "gender": "female",
+        "link":""
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas GRAND COURT PLATFORM",
+        "code": "A010",
+        "price": 2000000,
+        "image": "./images/adidas/product-list/adidas-shoes-A010.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A010-hover.avif",
+        "gender": "female",
+        "link":""
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas SUPERSTAR Cloud White",
+        "code": "A011",
+        "price": 2600000,
+        "image": "./images/adidas/product-list/adidas-shoes-A011.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A011-hover.avif",
+        "gender": "female",
+        "link":""
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas SAMBA MESSI",
+        "code": "A012",
+        "price": 2700000,
+        "image": "./images/adidas/product-list/adidas-shoes-A012.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A012-hover.avif",
+        "gender": "male",
+        "link":""
+  },
+    {
+        "brand": "Adidas",
+        "name": "Adidas RIVALRY SUMMER LOW",
+        "code": "A013",
+        "price": 2700000,
+        "image": "./images/adidas/product-list/adidas-shoes-A013.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A013-hover.avif",
+        "gender": "unisex",
+        "link":""
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas HANDBALL SPEZIAL",
+        "code": "A014",
+        "price": 2500000,
+        "image": "./images/adidas/product-list/adidas-shoes-A014.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A014-hover.avif",
+        "gender": "unisex",
+        "link":""
+
+    },
+    {
+        "brand": "Adidas",
+        "name": "Adidas OZMILLEN",
+        "code": "A015",
+        "price": 2500000,
+        "image": "./images/adidas/product-list/adidas-shoes-A015.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A015-hover.avif",
+        "gender": "male",
+        "link":""
+  },
+    {
+        "brand": "Adidas",
+        "name": "Adidas ADISTAR CUSHION 3",
+        "code": "A016",
+        "price": 3800000,
+        "image": "./images/adidas/product-list/adidas-shoes-A016.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A016-hover.avif",
+        "gender": "male",
+        "link":""
+     },
+    {
+        "brand": "Adidas",
+        "name": "Adidas NY 90 W",
+        "code": "A017",
+        "price": 2000000,
+        "image": "./images/adidas/product-list/adidas-shoes-A017.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A017-hover.avif",
+        "gender": "female",
+        "link":""
+    },
+    
+    {
+        "brand": "Adidas",
+        "name": "Adidas GAZELLE BOLD",
+        "code": "A018",
+        "price": 2900000,
+        "image": "./images/adidas/product-list/adidas-shoes-A018.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A018-hover.avif",
+        "gender": "female",
+        "link":""
+    },
+    
+    {
+        "brand": "Adidas",
+        "name": "Adidas SUPERSTAR SLIP-ON",
+        "code": "A019",
+        "price": 2500000,
+        "image": "./images/adidas/product-list/adidas-shoes-A019.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A019-hover.avif",
+        "gender": "female",
+        "link":""
+    },
+    
+    {
+        "brand": "Adidas",
+        "name": "Adidas CONTINENTAL 80 STRIPES",
+        "code": "A020",
+        "price": 2700000,
+        "image": "./images/adidas/product-list/adidas-shoes-A020.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A020-hover.avif",
+        "gender": "male",
+        "link":""
+  },
+    
+    {
+        "brand": "Adidas",
+        "name": "Adidas CAMPUS 00S",
+        "code": "A021",
+        "price": 2600000,
+        "image": "./images/adidas/product-list/adidas-shoes-A021.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A021-hover.avif",
+        "gender": "male",
+        "link":""
+ },
+    
+    {
+        "brand": "Adidas",
+        "name": "Adidas COURTIC",
+        "code": "A022",
+        "price": 2500000,
+        "image": "./images/adidas/product-list/adidas-shoes-A022.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A022-hover.avif",
+        "gender": "male",
+        "link":""
+  },
+    
+    {
+        "brand": "Adidas",
+        "name": "Adidas ADIFOM CLIMACOOL",
+        "code": "A023",
+        "price": 2600000,
+        "image": "./images/adidas/product-list/adidas-shoes-A023.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A023-hover.avif",
+        "gender": "unisex",
+        "link":""
+    },
+    
+    {
+        "brand": "Adidas",
+        "name": "Adidas STAN SMITH XLG",
+        "code": "A024",
+        "price": 3000000,
+        "image": "./images/adidas/product-list/adidas-shoes-A024.avif",
+        "imageHover": "./images/adidas/product-list/adidas-shoes-A024-hover.avif",
+        "gender": "unisex",
+        "link":""
+    }, 
+    
+    {
+        "brand": "Nike",
+        "name": "Nike Air Jordan 1 Low SE",
+        "code": "N001",
+        "price": 3520000,
+        "image": "./images/nike/product-list/nike-shoes-N001.jpg",
+        "imageHover": "./images/nike/product-list/nike-shoes-N001-hover.jpg",
+        "gender": "male",
+        "link":""
+ },
+    {
+        "brand": "Nike",
+        "name": "Nike Air Force 1 '07",
+        "code": "N002",
+        "price": 2930000,
+        "image": "./images/nike/product-list/nike-shoes-N002.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N002-hover.png",
+        "gender": "unisex",
+        "link":""
+    }
+    ,   {
+        "brand": "Nike",
+        "name": "Nike Court Vision Low",
+        "code": "N003",
+        "price": 2350000,
+        "image": "./images/nike/product-list/nike-shoes-N003.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N003-hover.png",
+        "gender": "female",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Nike Blazer Mid '77",
+        "code": "N004",
+        "price": 2930000,
+        "image": "./images/nike/product-list/nike-shoes-N004.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N004-hover.png",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Nike Air Max 90",
+        "code": "N005",
+        "price": 3520000,
+        "image": "./images/nike/product-list/nike-shoes-N005.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N005-hover.png",
+        "gender": "male",
+        "link":""
+},   
+    {
+        "brand": "Nike",
+        "name": "Nike Court Vision Low",
+        "code": "N006",
+        "price": 2650000,
+        "image": "./images/nike/product-list/nike-shoes-N006.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N006-hover.png",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Nike Zoom Vomero 5",
+        "code": "N007",
+        "price": 4700000,
+        "image": "./images/nike/product-list/nike-shoes-N007.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N007-hover.png",
+        "gender": "male",
+        "link":""
+  },   
+    {
+        "brand": "Nike",
+        "name": "Nike Blazer Low '77 Vintage",
+        "code": "N008",
+        "price": 2500000,
+        "image": "./images/nike/product-list/nike-shoes-N008.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N008-hover.png",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Nike Court Vision Low",
+        "code": "N009",
+        "price": 3520000,
+        "image": "./images/nike/product-list/nike-shoes-N009.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N009-hover.png",
+        "gender": "female",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Nike Air Max 1 Premium",
+        "code": "N010",
+        "price": 4700000,
+        "image": "./images/nike/product-list/nike-shoes-N010.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N010-hover.png",
+        "gender": "male",
+        "link":""
+ },   
+    {
+        "brand": "Nike",
+        "name": "Nike Dunk Low",
+        "code": "N011",
+        "price": 3520000,
+        "image": "./images/nike/product-list/nike-shoes-N011.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N011-hover.png",
+        "gender": "female",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Jordan Stadium 90",
+        "code": "N012",
+        "price": 4110000,
+        "image": "./images/nike/product-list/nike-shoes-N012.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N012-hover.png",
+        "gender": "female",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Nike Air Force 1 Sage Low",
+        "code": "N013",
+        "price": 2930000,
+        "image": "./images/nike/product-list/nike-shoes-N013.jpg",
+        "imageHover": "./images/nike/product-list/nike-shoes-N013-hover.jpg",
+        "gender": "female",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Nike Court Royale 2 Next Nature",
+        "code": "N014",
+        "price": 1610000,
+        "image": "./images/nike/product-list/nike-shoes-N014.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N014-hover.png",
+        "gender": "male",
+         "link":""
+ },   
+    {
+        "brand": "Nike",
+        "name": "Nike Killshot 2 Leather",
+        "code": "N015",
+        "price": 2780000,
+        "image": "./images/nike/product-list/nike-shoes-N015.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N015-hover.png",
+        "gender": "male",
+        "link":""
+  },   
+    {
+        "brand": "Nike",
+        "name": "Air Jordan 1 Zoom CMFT 2",
+        "code": "N016",
+        "price": 4260000,
+        "image": "./images/nike/product-list/nike-shoes-N016.jpg",
+        "imageHover": "./images/nike/product-list/nike-shoes-N016-hover.png",
+        "gender": "male",
+        "link":""
+  },   
+    {
+        "brand": "Nike",
+        "name": "Nike Terminator High",
+        "code": "N017",
+        "price": 4110000,
+        "image": "./images/nike/product-list/nike-shoes-N017.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N017-hover.png",
+        "gender": "unisex",
+        "link":""
+    },
+    {
+        "brand": "Nike",
+        "name": "NikeCourt Legacy",
+        "code": "N018",
+        "price": 2070000,
+        "image": "./images/nike/product-list/nike-shoes-N018.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N018-hover.png",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Nike SB Zoom Janoski OG+",
+        "code": "N019",
+        "price": 2780000,
+        "image": "./images/nike/product-list/nike-shoes-N019.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N019-hover.png",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Nike Air Force 1 '07 EasyOn",
+        "code": "N020",
+        "price": 3240000,
+        "image": "./images/nike/product-list/nike-shoes-N020.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N020-hover.png",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Nike Air Force 1 '07 Next Nature",
+        "code": "N021",
+        "price": 3520000,
+        "image": "./images/nike/product-list/nike-shoes-N021.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N021-hover.png",
+        "gender": "female",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Nike Killshot 2",
+        "code": "N022",
+        "price": 3240000,
+        "image": "./images/nike/product-list/nike-shoes-N022.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N022-hover.png",
+        "gender": "female",
+        "link":""
+    },   
+    {
+        "brand": "Nike",
+        "name": "Nike Court Vision Low Next Nature",
+        "code": "N023",
+        "price": 1910000,
+        "image": "./images/nike/product-list/nike-shoes-N023.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N023-hover.png",
+        "gender": "male",
+        "link":""
+ },   
+    {
+        "brand": "Nike",
+        "name": "Nike Air Force 1 Low EVO",
+        "code": "N024",
+        "price": 4110000,
+        "image": "./images/nike/product-list/nike-shoes-N024.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N024-hover.png",
+        "gender": "male",
+        "link":""
+  },   
+    {
+        "brand": "Converse",
+        "name": "Chuck Taylor All Star",
+        "code": "C001",
+        "price": 1550000,
+        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
+        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Converse",
+        "name": "Chuck 70 Paint Splatter",
+        "code": "C002",
+        "price": 2000000,
+        "image": "./images/converse/product-list/converse-shoes-C002.jpg",
+        "imageHover": "./images/converse/product-list/converse-shoes-C002-hover.jpg",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Converse",
+        "name": "Chuck Taylor All Star Move Platform",
+        "code": "C001",
+        "price": 4110000,
+        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
+        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Converse",
+        "name": "Nike Air Force 1 Low EVO",
+        "code": "C001",
+        "price": 4110000,
+        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
+        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Converse",
+        "name": "Nike Air Force 1 Low EVO",
+        "code": "C001",
+        "price": 4110000,
+        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
+        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Converse",
+        "name": "Nike Air Force 1 Low EVO",
+        "code": "C001",
+        "price": 4110000,
+        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
+        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Converse",
+        "name": "Nike Air Force 1 Low EVO",
+        "code": "C001",
+        "price": 4110000,
+        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
+        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
+        "gender": "unisex",
+        "link":""
+    },   
+    {
+        "brand": "Converse",
+        "name": "Converse Taylor 70",
+        "code": "C015",
+        "price": 4110000,
+        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
+        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
+        "gender": "unisex",
+        "link":""
+    }
+
+   
+    
+    
+   
+
+]
