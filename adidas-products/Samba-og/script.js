@@ -15,8 +15,6 @@ const mainImg = document.querySelector('.prd-detail-main-img')
 const mainImage = document.getElementById('main-img')
 
 
-
-
 const contentImg = document.querySelectorAll('.content-item img')
 
 
