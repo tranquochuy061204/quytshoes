@@ -66,6 +66,8 @@ function addItemToCart (productCode) {
             product.size = selectedSize.innerText
             
         } else {
+            console.log(res)
+            // updateQuantity(res.code, 1)
             warning1.style.display = 'block'
             warning.style.display = 'none'
             return
@@ -115,10 +117,21 @@ function updateQuantity (productCode, quantity) {
 }
 
 
+const removeBtns = document.querySelectorAll('.removeItem')
+
+console.log(removeBtns)
+
+removeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+        removeItemFromCart(btn.innerText)
+
+    })
+
+})
+
+
+
 const cartItems = document.querySelector('.cart-items')
-
-
-
 
 
 cartData.forEach((item, index) => {
@@ -145,14 +158,6 @@ cartData.forEach((item, index) => {
 })
 
 
-const removeBtns = document.querySelectorAll('.removeItem')
-removeBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-        removeItemFromCart(btn.innerText)
-
-    })
-
-})
 
 
 // Giỏ hàng đóng mở Fixed
