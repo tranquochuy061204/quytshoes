@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../../fixedCart.css">
     <title>Samba OG</title>
 </head>
 
@@ -27,51 +28,51 @@
 
         <!-- Nav -->
     
-            <div class="container nav mx-auto">
-                <div class="navlist row">
-                  
+        <div class="container nav mx-auto">
+            <div class="navlist row">
+              
 
-                  <div class="col-md-6">
-                    <div class="menu">
-                    <ul class="menu-ul text-center">
-                        <li class="menu-item">
-                            <a href="../../index.html" class="menu-link">TRANG CHỦ</a>
-                          </li>
-                        <li class="menu-item">
-                          <a href="../../product-list.html" class="menu-link">SẢN PHẨM</a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#" class="menu-link">NAM</a>
-                          </li>
-                          <li class="menu-item">
-                            <a href="#" class="menu-link">NỮ</a>
-                          </li>
-                          <li class="menu-item">
-                            <a href="#" class="menu-link">UNISEX</a>
-                          </li>
-                      </ul>
+              <div class="col-md-6">
+                <div class="menu">
+                <ul class="menu-ul text-center">
+                    <li class="menu-item">
+                        <a href="../../index.html" class="menu-link">TRANG CHỦ</a>
+                      </li>
+                    <li class="menu-item">
+                      <a href="../../product-list.html" onclick="saveGender('')" class="menu-link">SẢN PHẨM</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="../../product-list.html" onclick="saveGender('nam')" class="menu-link">NAM</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="../../product-list.html" onclick="saveGender('nữ')" class="menu-link">NỮ</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="../../product-list.html" onclick="saveGender('unisex')" class="menu-link">UNISEX</a>
+                      </li>
+                  </ul>
+                </div>
+             </div>
+
+               <!-- Other -->
+                <div class="col-md-6 other">
+                    <div class="search-bar">
+                        <div class="search-bar-wrapper">
+                        <input id="searchInput" class="search-bar-input" placeholder="Tìm kiếm..." type="text">
+                        <button class="search-bar-btn"><i class="bi bi-search"></i></button>
                     </div>
-                 </div>
-
-                   <!-- Other -->
-                    <div class="col-md-6 other">
-                        <div class="search-bar">
-                            <div class="search-bar-wrapper">
-                            <input class="search-bar-input" placeholder="Tìm kiếm..." type="text">
-                            <button class="search-bar-btn"><i class="bi bi-search"></i></button>
-                        </div>
-                        </div>
-
-                        <ul class="other-ul">
-                            <li class="other-item"><i class="bi bi-bag"></i></li>
-                            <li class="other-item"><i class="bi bi-person-fill"></i></li>
-                        </ul>
                     </div>
-                 </div>
 
-           
+                    <ul class="other-ul">
+                        <li class="other-item"><i class="bi bi-bag"></i></li>
+                        <li class="other-item"><i class="bi bi-person-fill"></i></li>
+                    </ul>
+                </div>
+             </div>
 
-        </div>
+       
+
+    </div>
              
     </header>
 
@@ -212,20 +213,21 @@
                         </div>
 
                     </div>
-                    <div class="size">
-                        <p id="prd-detail-size"><strong>Kích cỡ</strong></p>
+                    <div class="quantity">
+                        <p id="prd-detail-quantity"><strong>Số lượng</strong></p>
                         <div class="size-selector">
-                            <button class="prd-detail-size-item">35</button>
-                            <button class="prd-detail-size-item">36</button>
-                            <button class="prd-detail-size-item">37</button>
-                            <button class="prd-detail-size-item">38</button>
-                            <button class="prd-detail-size-item">39</button>
-                            <button class="prd-detail-size-item">40</button>
-                            <button class="prd-detail-size-item">41</button>
-                            <button class="prd-detail-size-item">42</button>
-                            <button class="prd-detail-size-item">43</button>
-                            <button class="prd-detail-size-item">44</button>
-                            <button class="prd-detail-size-item">45</button>
+                            <button class="prd-detail-quantity-item">1</button>
+                            <button class="prd-detail-quantity-item">2</button>
+                            <button class="prd-detail-quantity-item">3</button>
+                            <button class="prd-detail-quantity-item">4</button>
+                            <button class="prd-detail-quantity-item">5</button>
+                            <button class="prd-detail-quantity-item">6</button>
+                            <button class="prd-detail-quantity-item">7</button>
+                            <button class="prd-detail-quantity-item">8</button>
+                            <button class="prd-detail-quantity-item">9</button>
+                            <button class="prd-detail-quantity-item">10</button>
+                            <button class="prd-detail-quantity-item">11</button>
+                            <button class="prd-detail-quantity-item">12</button>
                         </div>
 
                     </div>
@@ -236,7 +238,7 @@
                     <div class="payNow">
                         <button class="payNow-btn"><strong>Thanh Toán Ngay</strong></button>
                     </div>
-                    <div class="warning">Vui lòng chọn kích thước !</div>
+                    <div class="warning">Vui lòng chọn kích thước và số lượng!</div>
                     <div class="warning-1">Đã có sẵn mặt hàng này trong giỏ rồi !</div>
                 </div>
        
@@ -326,7 +328,12 @@
 
                 </li>
                 <div class="cart-divider"></div>
-                <li class="list-cart-item cart-total"></li>
+                <li class="list-cart-item cart-total">
+                    <h5 class="media-total-prize">
+                        <span class="media-total">Tổng giá tiền:</span>
+                        <span class="total-value"></span>
+                    </h5>
+                </li>
                 <li class="list-cart-item cart-btn"><button><strong>Thanh toán ngay</strong></button></li>
             </ul>
         </div>
@@ -342,7 +349,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="../../fixedCart.js"></script>
+    <script src="../../pagescript.js"></script>
+    <script src="./searchGlobal.js"></script>
     <script src="../../cart.js"></script>
-    <script src="./script.js" t ></script>
+    <script src="./script.js"></script>
+    
 </body>
 </html>

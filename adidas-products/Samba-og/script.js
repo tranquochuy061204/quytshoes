@@ -45,3 +45,21 @@ sizeBtns.forEach (btn => {
     })
 })
 
+const quantityBtns = document.querySelectorAll('.prd-detail-quantity-item')
+
+
+
+quantityBtns.forEach (btn => {
+  btn.addEventListener('click', () => {
+        var selectedQuantityBtn = document.querySelector('.selected-quantity')
+        if (selectedQuantityBtn != undefined){  
+          selectedQuantityBtn.classList.remove('selected-quantity')
+        }
+        btn.classList.add('selected-quantity')
+        
+        selectedQuantity = document.querySelector('.selected-quantity')
+
+        console.log(selectedQuantity)
+      
+  })
+})

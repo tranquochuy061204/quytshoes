@@ -257,7 +257,7 @@
         "image": "./images/nike/product-list/nike-shoes-N001.jpg",
         "imageHover": "./images/nike/product-list/nike-shoes-N001-hover.jpg",
         "gender": "male",
-        "link":""
+        "link":"./nike-products/air-jordan-1-low-se/nike-shoes-N001.html"
  },
     {
         "brand": "Nike",
@@ -267,7 +267,7 @@
         "image": "./images/nike/product-list/nike-shoes-N002.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N002-hover.png",
         "gender": "unisex",
-        "link":""
+        "link":"./nike-products/air-force-1/nike-shoes-N002.html"
     }
     ,   {
         "brand": "Nike",
