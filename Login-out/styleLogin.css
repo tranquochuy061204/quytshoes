@@ -1,0 +1,92 @@
+body{
+    font-family: "Roboto Serif", serif;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-size: cover;
+}
+.wrapper{
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 2px;
+    margin-top: 20px;
+    background-color: white;
+}
+.logo {
+    text-align: center;
+}
+.logo img{
+    width: 180px;
+    height: 160px;
+    margin-bottom: -30px;
+}
+.wrapper-heading{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+.input-general{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.input-general .boder{
+    display: flex;
+    position: relative;
+}
+.input-general .boder input{
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+}
+.input-general .boder i{
+    position: absolute;
+    left: 15px;
+    top: 16px;
+}
+.input-general .boder input{
+    padding-left: 34px;
+    margin-top: 2px;
+}
+.input-general .boder .eye{
+    position: absolute;
+    left: 250px;
+}
+.input-general .boder i{
+    cursor: pointer;
+}
+.social p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+}
+.social p a{
+    text-decoration: none;
+}
+.login-button {
+    text-align: center;
+
+}
+.login-button button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.login-button button:hover{
+    background: aquamarine;
+    border: 2px solid black;
+}
+.login-button button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.decor p{
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid black;
+    border-radius: 100vh;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+}

@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+p {
+    margin: 0;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {padding: 0;}
+
+li {
+    list-style-type: none;
+}
+
+section {
+    margin-top: 10px;
+}
+
+/* active button */
+
+.active {
+    border-bottom: 2px solid !important; 
+}
+
+.hide {
+    display: none;
+    opacity: 0;
+}
+
+.sub-hide {
+    display: none;
+}
+
+
+.showed {
+    display: block;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.blackbar {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    background-color: black;
+}
+
+.nav {
+    margin: 0 auto;
+    padding: 0;
+    width: 1300px;
+}
+
+.navlist {
+  height: 100px;
+}
+
+.navlist > div {
+    height: 100px;
+}
+
+.navlist .menu-ul {
+    display: flex;
+    justify-self: left;
+    align-items: center;
+   
+}
+
+.navlist .menu-ul li {
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+.navlist .menu-ul li:first-child {
+    margin-left: 10px;
+}
+
+
+.menu {
+    width: 900px;
+    line-height: 100px;
+     height: 100%;
+   padding-right: 10px;
+}
+
+
+.other {
+    width: 630px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.other .search-bar {
+    
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.other .search-bar .search-bar-wrapper {
+    border: 1px solid black;
+    display: flex;
+    border-radius: 2px;
+    height: 40px;
+   
+}
+
+
+.other .search-bar input {
+    border: none;
+    padding: 5px 0;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.other .search-bar input:focus {
+    outline: none;
+
+}
+
+.other .search-bar button {
+    border-collapse: collapse;
+    width: 50px;
+    border: none;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+
+.other .other-ul {
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+   
+}
+
+.other .other-ul li {
+    
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+
+
+/* Chi tiet san pham */
+
+.prd-detail {
+    max-width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wrapper-slide {
+   
+}
+
+.prd-detail-main-img {
+    width: 640px;
+}
+
+
+.prd-detail-slide {
+    width: 640px;
+}
+
+.thumbnail .content-item img:hover {
+    cursor: pointer;
+
+}
+
+.slick-prev {
+    left: 10px;
+    background: url(./images/arr_left.png) center center no-repeat;
+    width: 28px;
+    height: 42px;
+    top: 50%;
+    z-index: 1;
+}
+
+.slick-next {
+    background: url(./images/arr_right.png) center center no-repeat;
+    width: 28px;
+    height: 42px;
+    top: 50%;
+    z-index: 1;
+    right: 10px;
+}
+
+
+.slick-next::before,
+.slick-prev::before {
+    content: "";
+}
+
+
+
+.slick-prev:hover,
+.slick-next:hover {
+    opacity: 0.5;
+
+}
+
+
+.slick-prev:hover, 
+.slick-prev:focus {
+    color: black;
+    background: url(./images/arr_left.png) center center no-repeat;
+
+}
+
+.slick-next:hover,
+.slick-next:focus {
+    background: url(./images/arr_right.png) center center no-repeat;
+}
+
+
+.thumbnail .content-item {
+    width: 160px;
+    
+    border-collapse: collapse;
+}
+
+
+.prd-detail-description > * {
+    margin-bottom: 20px;
+
+}
+
+
+
+#prd-detail-name {
+    font-size: 50px;
+
+}
+
+#prd-detail-quantity,
+#prd-detail-size,
+#prd-detail-color,
+#prd-detail-code {
+    font-size: 20px;
+
+}
+
+#prd-detail-price {
+    font-size: 30px;
+
+}
+
+.divider {
+    height: 2px;
+    width: 100%;
+    border-bottom: 1px dashed grey;
+}
+
+.color > * {
+    margin-bottom: 15px;
+}
+
+#colors-ul {
+    display: flex;
+}
+
+#colors-ul li {
+    width: 70px;
+    margin-right: 10px;
+}
+
+
+.size-selector {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    width: 80%;
+    border-left: 1px solid black;
+}
+
+#prd-detail-quantity,
+#prd-detail-size {
+    margin-bottom: 15px;
+
+}
+
+.size-selector button {
+    border: 1px solid black;
+    width: 100%;
+    height: 40px;
+    border-left: none;
+    margin-bottom: -1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.size-selector:last-child {
+    margin-top: 1px;
+}
+
+.selected-quantity,
+.selected-size {
+    background-color: black !important;
+    color: aliceblue !important;
+}
+
+
+
+
+
+.addToCart {
+    width: 100%;
+}
+
+.addToCart .addToCart-btn {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.payNow {
+    width: 100%;
+
+}
+
+
+.payNow-btn {
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    color: black;
+    border: 3px black solid;
+    text-transform: uppercase;
+}
+
+.warning, .warning-1 {
+    color: red;
+    display: none;
+}
+
+/* Footer */
+
+.footer-divider {
+    margin-top: 20px !important;
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding-top: 20px !important;
+
+}
+
+.footer .footer-wrapper {
+  
+    background-color: white;
+    height: 400px;
+    padding: 10px 20px;
+}
+
+.footer-wrapper h2 {
+    
+    color: black;
+    font-style: italic;
+}
+
+.footer-sec {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-sec li  {
+    width: 200px;
+    font-size: 20px;
+
+    
+}
+
+.footer-sec a {
+    color: black;
+    font-size: 16px;
+    
+}
+
+
+

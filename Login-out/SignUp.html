@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styleSU.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="login/sneakers.png" alt="logo">
+        </div>
+        <div class="wrapper-heading">
+            <h1>Sign Up</h1>
+        </div>
+        <form id="signup-form">
+            <div class="input-general">
+                <div class="boder">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" id="username" placeholder="Username">
+                </div>
+            </div>
+            <div class="input-general">
+                <div class="boder">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <input type="email" id="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="input-general">
+                <div class="boder">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <input type="number" id="numberphone" placeholder="Number Phone">
+                </div>
+            </div>
+            <div class="input-general">
+                <div class="boder">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="password" id="password" placeholder="Password">
+                    <div class="eye">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="input-general">
+                <div class="boder">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="password" id="Confirmpassword" placeholder="Confirm Password">
+                    <div class="eye">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="login-button">
+                <button type="submit" id="submit">Register</button>
+            </div>
+            <div class="decor">
+                <p>Or</p>
+            </div>
+            <div class="social">
+                <p>Đã có tài khoản? <a href="login.html">Login</a></p>                
+            </div>
+        </form>
+    </div>
+   
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="signup.js"></script>
+<script src="app.js"></script>
+</html>

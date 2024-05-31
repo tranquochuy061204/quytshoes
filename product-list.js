@@ -8,7 +8,7 @@ var products = document.querySelector('.products');
 
 let selectedGender;
 
-let selectedBrand = 'Adidas'
+let selectedBrand = localStorage.getItem('selectedBrand')
 
 fetchData();
 
@@ -39,6 +39,8 @@ async function fetchData() {
       const filterInit = filterBrand(selectedBrand)
     
       clickSearch()
+
+
     } catch (error) {
       // Xử lý lỗi (nếu có)
       console.error('Fetch error:', error);
@@ -69,7 +71,7 @@ async function fetchData() {
         <div class="pro-top-hover"><a href="${item.link}"><img src="${item.imageHover}" alt=""></a></div>
         <p class="pro-name"><a class="pro-name-link" href="${item.link}">${item.name}</a></p>
         <p class="pro-gender">Giày ${genderTranslate}</p>
-        <p class="pro-price">${priceString}đ</p>`;
+        <p class="pro-price">${priceString}<span class="vnd fs-1">₫</span></p>`;
 
         products.appendChild(newProduct);
 
@@ -96,7 +98,7 @@ async function fetchData() {
 
         })
     
-        filterBrand('Adidas')
+       
         clickSearch();
     }
 
@@ -111,6 +113,8 @@ function filterBrand (value) {
         {
             if (value.toUpperCase()  === btn.innerText.toUpperCase()) {
                 btn.classList.add("active")
+                selectedBrand = btn.innerText
+                localStorage.setItem('selectedBrand', selectedBrand)
             } 
             else {
                 btn.classList.remove("active")
@@ -179,10 +183,12 @@ function clickSearch () {
                     item.classList.add('hide');
                     item.classList.remove('showed');
                 }
-    
+     
             })
             }
         })
+
+        
         
 
         buttons.forEach(btn => { 
@@ -217,7 +223,7 @@ function clickSearch () {
                     <div class="pro-top-hover"><a href="${mockData[index].link}"><img src="${mockData[index].imageHover}" alt=""></a></div>
                     <p class="pro-name"><a class="pro-name-link" href="${mockData[index].link}">${mockData[index].name}</a></p>
                     <p class="pro-gender">Giày ${genderTranslate}</p>
-                    <p class="pro-price">${priceString}đ</p>`;
+                    <p class="pro-price">${priceString}<span class="vnd">₫</span></p>`;
         
                     products.appendChild(newProduct);
                  
@@ -304,7 +310,7 @@ searchInput.addEventListener('keydown', function(e) {
                     <div class="pro-top-hover"><a href="${mockData[index].link}"><img src="${mockData[index].imageHover}" alt=""></a></div>
                     <p class="pro-name"><a class="pro-name-link" href="${mockData[index].link}">${mockData[index].name}</a></p>
                     <p class="pro-gender">Giày ${genderTranslate}</p>
-                    <p class="pro-price">${priceString}đ</p>`;
+                    <p class="pro-price">${priceString}<span class="vnd fs-1">₫</span></p>`;
         
                     products.appendChild(newProduct);
                  
@@ -333,6 +339,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function selectGender() {
     document.addEventListener('DOMContentLoaded', function() {
     selectedGender = localStorage.getItem('selectedGender')
+    selectedBrand = localStorage.getItem('selectedBrand')
   });}
 
   selectGender()

@@ -22,13 +22,13 @@
     },
     {
         "brand": "Adidas",
-        "name": "Adidas Adidas Gazelle",
+        "name": "Adidas FORUM 84 LOW",
         "code": "A003",
-        "price": 2500000,
+        "price": 2600000,
         "image": "./images/adidas/product-list/adidas-shoes-A003.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A003-hover.avif",
         "gender": "unisex",
-        "link":""
+        "link":"./adidas-products/Adidas FORUM 84 LOW/adidas-shoes-A003.html"
     },
     {
         "brand": "Adidas",
@@ -38,7 +38,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A004.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A004-hover.avif",
         "gender": "unisex",
-        "link":""
+        "link":"./adidas-products/Adidas Gazelle/adidas-shoes-A004.html"
     },
     {
         "brand": "Adidas",
@@ -48,7 +48,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A005.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A005-hover.avif",
         "gender": "unisex",
-        "link":""
+        "link":"./adidas-products/Adidas Forum Low CL/adidas-shoes-A005.html"
     },
     {
         "brand": "Adidas",
@@ -58,27 +58,27 @@
         "image": "./images/adidas/product-list/adidas-shoes-A006.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A006-hover.avif",
         "gender": "unisex",
-        "link":""
+        "link":"./adidas-products/Adidas NY 90/adidas-shoes-A006.html"
     },
     {
         "brand": "Adidas",
-        "name": "Adidas CONTINENTAL 80 VEGAN",
+        "name": "Adidas Continental 80 Vegan",
         "code": "A007",
         "price": 2700000,
         "image": "./images/adidas/product-list/adidas-shoes-A007.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A007-hover.avif",
         "gender": "female",
-        "link":""
+        "link":"./adidas-products/Adidas Continental 80 Vegan/adidas-shoes-A007.html"
     },
     {
         "brand": "Adidas",
-        "name": "Adidas NMD_R1 W",
+        "name": "Adidas NMD_R1",
         "code": "A008",
         "price": 3900000,
         "image": "./images/adidas/product-list/adidas-shoes-A008.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A008-hover.avif",
         "gender": "female",
-        "link":""
+        "link":"./adidas-products/Adidas NMD_R1/adidas-shoes-A008.html"
     },
     {
         "brand": "Adidas",
@@ -88,7 +88,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A009.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A009-hover.avif",
         "gender": "female",
-        "link":""
+        "link":"./adidas-products/Adidas UBOUNCE DNA/adidas-shoes-A009.html"
     },
     {
         "brand": "Adidas",
@@ -98,17 +98,17 @@
         "image": "./images/adidas/product-list/adidas-shoes-A010.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A010-hover.avif",
         "gender": "female",
-        "link":""
+        "link":"./adidas-products/Adidas GRAND COURT PLATFORM/adidas-shoes-A010.html"
     },
     {
         "brand": "Adidas",
-        "name": "Adidas SUPERSTAR Cloud White",
+        "name": "Adidas SUPERSTAR",
         "code": "A011",
         "price": 2600000,
         "image": "./images/adidas/product-list/adidas-shoes-A011.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A011-hover.avif",
         "gender": "female",
-        "link":""
+        "link":"./adidas-products/Adidas SUPERSTAR/adidas-shoes-A011.html"
     },
     {
         "brand": "Adidas",
@@ -118,7 +118,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A012.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A012-hover.avif",
         "gender": "male",
-        "link":""
+        "link":"./adidas-products/Adidas SAMBA MESSI/adidas-shoes-A012.html"
   },
     {
         "brand": "Adidas",
@@ -128,7 +128,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A013.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A013-hover.avif",
         "gender": "unisex",
-        "link":""
+        "link":"./adidas-products/Adidas RIVALRY SUMMER LOW/adidas-shoes-A013.html"
     },
     {
         "brand": "Adidas",
@@ -138,7 +138,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A014.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A014-hover.avif",
         "gender": "unisex",
-        "link":""
+        "link":"./adidas-products/Adidas HANDBALL SPEZIAL/adidas-shoes-A014.html"
 
     },
     {
@@ -149,7 +149,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A015.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A015-hover.avif",
         "gender": "male",
-        "link":""
+        "link":"./adidas-products/Adidas OZMILLEN/adidas-shoes-A015.html"
   },
     {
         "brand": "Adidas",
@@ -159,7 +159,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A016.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A016-hover.avif",
         "gender": "male",
-        "link":""
+        "link":"./adidas-products/Adidas ADISTAR CUSHION 3/adidas-shoes-A016.html"
      },
     {
         "brand": "Adidas",
@@ -169,7 +169,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A017.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A017-hover.avif",
         "gender": "female",
-        "link":""
+        "link":"./adidas-products/Adidas NY 90 W/adidas-shoes-A017.html"
     },
     
     {
@@ -180,7 +180,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A018.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A018-hover.avif",
         "gender": "female",
-        "link":""
+        "link":"./adidas-products/Adidas GAZELLE BOLD/adidas-shoes-A018.html"
     },
     
     {
@@ -191,7 +191,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A019.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A019-hover.avif",
         "gender": "female",
-        "link":""
+        "link":"./adidas-products/Adidas SUPERSTAR SLIP-ON/adidas-shoes-A019.html"
     },
     
     {
@@ -202,7 +202,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A020.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A020-hover.avif",
         "gender": "male",
-        "link":""
+        "link":"./adidas-products/Adidas CONTINENTAL 80 STRIPES/adidas-shoes-A020.html"
   },
     
     {
@@ -213,7 +213,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A021.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A021-hover.avif",
         "gender": "male",
-        "link":""
+        "link":"./adidas-products/Adidas CAMPUS 00S/adidas-shoes-A021.html"
  },
     
     {
@@ -224,7 +224,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A022.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A022-hover.avif",
         "gender": "male",
-        "link":""
+        "link":"./adidas-products/Adidas COURTIC/adidas-shoes-A022.html"
   },
     
     {
@@ -235,7 +235,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A023.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A023-hover.avif",
         "gender": "unisex",
-        "link":""
+        "link":"./adidas-products/Adidas ADIFOM CLIMACOOL/adidas-shoes-A023.html"
     },
     
     {
@@ -246,7 +246,7 @@
         "image": "./images/adidas/product-list/adidas-shoes-A024.avif",
         "imageHover": "./images/adidas/product-list/adidas-shoes-A024-hover.avif",
         "gender": "unisex",
-        "link":""
+        "link":"./adidas-products/Adidas STAN SMITH XLG/adidas-shoes-A024.html"
     }, 
     
     {
@@ -301,9 +301,9 @@
 },   
     {
         "brand": "Nike",
-        "name": "Nike Court Vision Low",
+        "name": "Air Jordan 1 Elevate Low",
         "code": "N006",
-        "price": 2650000,
+        "price": 3829000,
         "image": "./images/nike/product-list/nike-shoes-N006.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N006-hover.png",
         "gender": "unisex",
@@ -331,7 +331,7 @@
     },   
     {
         "brand": "Nike",
-        "name": "Nike Court Vision Low",
+        "name": "Nike Air Force 1 '07 LV8",
         "code": "N009",
         "price": 3520000,
         "image": "./images/nike/product-list/nike-shoes-N009.png",
@@ -351,9 +351,9 @@
  },   
     {
         "brand": "Nike",
-        "name": "Nike Dunk Low",
+        "name": "Nike Dunk Low Unlocked By You",
         "code": "N011",
-        "price": 3520000,
+        "price": 4699000,
         "image": "./images/nike/product-list/nike-shoes-N011.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N011-hover.png",
         "gender": "female",
@@ -421,7 +421,7 @@
     },
     {
         "brand": "Nike",
-        "name": "NikeCourt Legacy",
+        "name": "Nike Court Legacy Lift",
         "code": "N018",
         "price": 2070000,
         "image": "./images/nike/product-list/nike-shoes-N018.png",
@@ -489,86 +489,187 @@
         "gender": "male",
         "link":""
   },   
-    {
-        "brand": "Converse",
-        "name": "Chuck Taylor All Star",
-        "code": "C001",
-        "price": 1550000,
-        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
-        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
-        "gender": "unisex",
-        "link":""
-    },   
-    {
-        "brand": "Converse",
-        "name": "Chuck 70 Paint Splatter",
-        "code": "C002",
-        "price": 2000000,
-        "image": "./images/converse/product-list/converse-shoes-C002.jpg",
-        "imageHover": "./images/converse/product-list/converse-shoes-C002-hover.jpg",
-        "gender": "unisex",
-        "link":""
-    },   
-    {
-        "brand": "Converse",
-        "name": "Chuck Taylor All Star Move Platform",
-        "code": "C001",
-        "price": 4110000,
-        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
-        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
-        "gender": "unisex",
-        "link":""
-    },   
-    {
-        "brand": "Converse",
-        "name": "Nike Air Force 1 Low EVO",
-        "code": "C001",
-        "price": 4110000,
-        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
-        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
-        "gender": "unisex",
-        "link":""
-    },   
-    {
-        "brand": "Converse",
-        "name": "Nike Air Force 1 Low EVO",
-        "code": "C001",
-        "price": 4110000,
-        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
-        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
-        "gender": "unisex",
-        "link":""
-    },   
-    {
-        "brand": "Converse",
-        "name": "Nike Air Force 1 Low EVO",
-        "code": "C001",
-        "price": 4110000,
-        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
-        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
-        "gender": "unisex",
-        "link":""
-    },   
-    {
-        "brand": "Converse",
-        "name": "Nike Air Force 1 Low EVO",
-        "code": "C001",
-        "price": 4110000,
-        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
-        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
-        "gender": "unisex",
-        "link":""
-    },   
-    {
-        "brand": "Converse",
-        "name": "Converse Taylor 70",
-        "code": "C015",
-        "price": 4110000,
-        "image": "./images/converse/product-list/converse-shoes-C001.jpg",
-        "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
-        "gender": "unisex",
-        "link":""
-    }
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck Taylor All Star",
+      "code": "C001",
+      "price": 1550000,
+      "image": "./images/converse/product-list/converse-shoes-C001.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
+      "gender": "unisex",
+      "link":""
+  },   
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck 70 Paint Splatter",
+      "code": "C002",
+      "price": 2000000,
+      "image": "./images/converse/product-list/converse-shoes-C002.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C002-hover.jpg",
+      "gender": "unisex",
+      "link":""
+  },   
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck Taylor All Star Move Platform",
+      "code": "C003",
+      "price": 4110000,
+      "image": "./images/converse/product-list/converse-shoes-C003.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C003-hover.jpg",
+      "gender": "male",
+      "link":""
+  },   
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck 70 Monochrome",
+      "code": "C004",
+      "price": 1000000,
+      "image": "./images/converse/product-list/converse-shoes-C004.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C004-hover.jpg",
+      "gender": "male",
+      "link":""
+  },   
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck 70",
+      "code": "C005",
+      "price": 2000000,
+      "image": "./images/converse/product-list/converse-shoes-C005.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C005-hover.jpg",
+      "gender": "unisex",
+      "link":""
+  },   
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck 70 Converse Ribbon",
+      "code": "C006",
+      "price": 1400000,
+      "image": "./images/converse/product-list/converse-shoes-C006.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C006-hover.jpg",
+      "gender": "female",
+      "link":""
+  },   
+  {
+      "brand": "Converse",
+      "name": "Nike Chuck 70 De Luxe Heel Satin",
+      "code": "C007",
+      "price": 2310000,
+      "image": "./images/converse/product-list/converse-shoes-C007.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C007-hover.jpg",
+      "gender": "female",
+      "link":""
+  },   
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck 70 De Luxe Wedge",
+      "code": "C008",
+      "price": 3100000,
+      "image": "./images/converse/product-list/converse-shoes-C008.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C008-hover.jpg",
+      "gender": "female",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck Taylor All Star",
+      "code": "C009",
+      "price": 1550000,
+      "image": "./images/converse/product-list/converse-shoes-C009.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C009-hover.jpg",
+      "gender": "unisex",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck 70 Hacked Heel",
+      "code": "C010",
+      "price": 1250000,
+      "image": "./images/converse/product-list/converse-shoes-C010.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C010-hover.jpg",
+      "gender": "unisex",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck 70 Vintage Athletic",
+      "code": "C011",
+      "price": 1400000,
+      "image": "./images/converse/product-list/converse-shoes-C011.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C011-hover.jpg",
+      "gender": "unisex",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck 70 Aesthetics",
+      "code": "C012",
+      "price": 1400000,
+      "image": "./images/converse/product-list/converse-shoes-C012.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C012-hover.jpg",
+      "gender": "male",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Weapon",
+      "code": "C013",
+      "price": 1400000,
+      "image": "./images/converse/product-list/converse-shoes-C013.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C013-hover.jpg",
+      "gender": "male",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Run Star Legacy CX",
+      "code": "C014",
+      "price": 1400000,
+      "image": "./images/converse/product-list/converse-shoes-C014.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C014-hover.jpg",
+      "gender": "female",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Run Star Motion Foundational",
+      "code": "C015",
+      "price": 2600000,
+      "image": "./images/converse/product-list/converse-shoes-C015.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C015-hover.jpg",
+      "gender": "unisex",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck 70 Black & White",
+      "code": "C016",
+      "price": 1400000,
+      "image": "./images/converse/product-list/converse-shoes-C016.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C016-hover.jpg",
+      "gender": "unisex",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Run Star Legacy CX",
+      "code": "C017",
+      "price": 1400000,
+      "image": "./images/converse/product-list/converse-shoes-C017.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C017-hover.jpg",
+      "gender": "female",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Run Star Legacy CX",
+      "code": "C018",
+      "price": 1400000,
+      "image": "./images/converse/product-list/converse-shoes-C018.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C018-hover.jpg",
+      "gender": "female",
+      "link":""
+  }
+
 
    
     

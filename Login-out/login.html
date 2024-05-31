@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styleLogin.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <img src="login/sneakers.png" alt="logo">
+        </div>
+        <div class="wrapper-heading">
+            <h1>Login</h1>
+        </div>
+        <form id="login-form">
+            <div class="input-general">
+                <div class="boder">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <input type="text" id="username" placeholder="Username" required>
+                </div>
+            </div>
+            <div class="input-general">
+                <div class="boder">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <div class="eye">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="login-button">
+                <button type="submit">Login</button>
+            </div>
+            <div class="decor">
+                <p>Or</p>
+            </div>
+            <div class="social">
+                <p>Nếu chưa có tài khoản? <a href="SignUp.html">Sign Up</a></p>                
+            </div>
+        </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="./app.js"></script>
+</html>

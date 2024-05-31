@@ -8,6 +8,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 
+body {
+    overflow-x: hidden;
+}
+
 img {
     width: 100%;
     height: 100%;
@@ -55,6 +59,8 @@ section {
   }
   
 
+/* Nav */
+
 .blackbar {
     width: 100%;
     margin: 0;
@@ -67,10 +73,19 @@ section {
     margin: 0 auto;
     padding: 0;
     width: 1300px;
+    
 }
 
 .navlist {
   height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.nav__pc{
+    width: 100%;
+    height: 100%;
+   
 }
 
 .navlist > div {
@@ -85,7 +100,7 @@ section {
 }
 
 .navlist .menu-ul li {
-    font-size: 25px;
+    font-size: 1.6rem;
     margin-right: 40px;
 }
 
@@ -95,7 +110,7 @@ section {
 
 
 .menu {
-    width: 900px;
+    width: 700px;
     line-height: 100px;
      height: 100%;
    padding-right: 10px;
@@ -103,12 +118,13 @@ section {
 
 
 .other {
-    width: 630px;
+    width: 50%;
     display: flex;
     align-content: center;
     justify-content: space-around;
 }
 
+.search-bar-moblie,
 .other .search-bar {
     
     width: 400px;
@@ -118,6 +134,17 @@ section {
 
 }
 
+.search-bar-moblie {
+    width: fit-content;
+    display: none;
+}
+
+.search-bar-moblie .sm-btn-search {
+    display: none;
+
+}
+
+.search-bar-moblie .search-bar-wrapper,
 .other .search-bar .search-bar-wrapper {
     border: 1px solid black;
     display: flex;
@@ -127,6 +154,12 @@ section {
 }
 
 
+
+.search-bar-moblie .search-bar-wrapper {
+    
+}
+
+.search-bar-moblie input,
 .other .search-bar input {
     border: none;
     padding: 5px 0;
@@ -136,11 +169,13 @@ section {
 }
 
 
+.search-bar-moblie input:focus, 
 .other .search-bar input:focus {
     outline: none;
 
 }
 
+.search-bar-moblie button,
 .other .search-bar button {
     border-collapse: collapse;
     width: 50px;
@@ -165,9 +200,86 @@ section {
     font-size: 25px;
 }
 
+.nav__bars-btn {
+    width: 40px;
+    height: 100%;
+    display: none;
+    float: right;
+}
+
+.nav__overlay {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.3);
+    z-index: 1;
+    display: none;
+}
+
+/* Nav moblie */
+
+.nav__mobile {
+    z-index: 3;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: #FFFFFF;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: none;
+    transform: translateX(100%);
+}
+
+.menu__mobile {
+    position: relative;
+    padding-top: 30px;
+}
+
+.menu__mobile-ul {
+    
+}
+
+.menu__mobile-item {
+    font-size: 2em;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid black;
+}
+
+.menu__mobile-text {
+    padding-left: 20px;
+
+}
+
+.menu__mobile-link {
+
+}
+
+.nav__mobile-close {
+    
+}
+
+.close-btn-nav {
+    width: 30px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
 
 
+.logo-moblie {
+    width: 100px;
+    display: none;
+}
 
+
+/* End nav bar mobile */
 .shoe-logo {
     position: absolute;
     background-color: rgb(92, 186, 155);
@@ -258,9 +370,11 @@ section {
 
 .products {
     display: flex;
-    width: 00px;
+    width: 1400px;
     margin: 20px 0;
     padding-left: 23px;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .products li {
@@ -306,7 +420,7 @@ section {
 }
 
 .pro-top {
-    width: 230px;
+    width: 100%;
 
 }
 
@@ -502,41 +616,152 @@ section {
     
 }
 
-.footer .wrapper {
-    width: 100%;
-    background-color: #555555;
-    height: 400px;
-    padding: 10px 20px;
+.mobile_brand-banner {
+    display: none;
 }
 
-.wrapper h2 {
+.brand_mobile {
+    width: 100%;
+    border-bottom: 1px dashed grey;
+    background-color: black;
+    font-size: 30px;
+ 
+}
+
+.brand_mobile a {
+    display: block;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.brand_mobile li {
+    height: 3em;
+    line-height: 3em;
+    padding-left: 1.5em;
+    cursor: pointer;
+}
+
+.brand_mobile li:nth-child(1):hover {
+    background-color: rgb(92, 186, 155);
+}
+
+.brand_mobile li:nth-child(2):hover {
+    background-color: #e1838b;
+}
+
+.brand_mobile li:nth-child(3):hover {
+    background-color: #f2c98c;
+}
+
+
+
+/* FOOTER */
+.footer-divider {
+    margin-top: 20px !important;
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding-top: 20px !important;
+
+}
+
+.footer-divider ul {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+.logo-footer-li {
+    width: 150px;
+
+}
+
+.footer .footer-wrapper {
     
-    color: #FFFFFF;
-    font-style: italic;
+    background-color: white;
+    height: 300px;
+    padding: 10px 20px;
+    
+}
+
+.footer-item h2 {
+    
+    
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer-item ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+
+.footer-item a:hover {
+    text-shadow: -0.1px -0.1px 0 #000, 0.1px -0.1px 0 #000, -0.1px 0.1px 0 #000, 0.1px 0.1px 0 #000;
+}
+
+.footer-wrapper h2 {
+    
+    color: black;
+    font-style: bold;
 }
 
 .footer-sec {
-    width: 75%;
+    text-align: center;
+    width: 60%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     margin-top: 50px;
 }
 
 .footer-sec li  {
     width: 200px;
     font-size: 20px;
-
+    
     
 }
 
 .footer-sec a {
-    color: #CCCCCC;
+    color: black;
     font-size: 16px;
     
 }
 
+.lisence {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
 
+.lisence-img {
+    width: 300px;
+}
+
+.lisence-img img {
+    height: auto;
+}
+
+.lisence .copy-right {
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    width: 500px;
+}
 
 /* Fixed cart */
 
@@ -565,3 +790,203 @@ section {
 .bi-bag {
     font-size: 25px;
 }
+
+
+
+/* Phần responsive*/
+@media  (max-width: 1024px) {
+    /* Nav */
+    .nav {
+       
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 12px;
+    }
+    .logo-moblie,
+    .search-bar-moblie,
+    .nav__bars-btn {
+        display: block;
+        
+    }
+    .nav {
+        margin-top: 10px;
+        margin-bottom: 80px;
+    }
+    .nav__pc {
+        display: none;
+    }
+    .navlist {
+        
+        display: none;
+    }
+
+    /* end nav */
+    .fixedCart{
+        display: none !important;
+    }
+    .products {
+        flex-wrap: wrap;
+        
+    }
+    .products li {
+        margin-bottom: 20px;
+    }
+    .adidas-shoe-banner,
+    .converse-shoe-banner {
+        position: relative;
+        width: 60%;
+        height: auto;
+        left: 400px;
+        top: -300px;
+    }
+    .nike-banner,
+    .banner,
+    .converse-banner {
+        height: 430px;
+    }
+
+    .nike-shoe-banner {
+        width: 50%;
+        top: -30px;
+        left: 450px;
+    }
+    .b-shoe{
+        padding:50px;
+        padding-top: 200px;
+    }
+    
+    
+}
+
+@media (max-width: 768px) {
+    
+    .mobile_brand-banner {
+        display: block;
+    }
+
+    
+    .pc__brand-banner {
+        display: none;
+    }
+    .adidas-shoe-banner,
+    .nike-shoe-banner,
+    .converse-shoe-banner {
+        display: none;
+    }
+    .b-shoe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .b-shoe p {
+        margin-bottom: 20px;
+    }
+
+
+    .title {
+        
+        text-align: center;
+    }
+
+    .title p {
+        padding-left: 0;
+    }
+
+    .mobile_brand-banner .title {
+        font-size: 1rem;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .products li {
+        width: 200px;
+    }
+  
+
+    .lisence .copy-right {
+        line-height: 30px;
+        text-align: center;
+        
+   }
+}
+
+
+@media (max-width: 434px) {
+    .search-bar-moblie input {
+        font-size: 10px;
+    }
+
+    .products li:last-child {
+        display: none;
+    }
+
+    .pro-name a {
+        font-size: 0.88em;
+    }
+
+    .mobile_brand-banner  .title {
+        height: fit-content;
+    }
+
+    .products {
+       align-items: start;
+       justify-content: center;
+    }
+     
+    .products li {
+        width: 120px;
+    }
+
+    .search-bar-moblie {
+        display: flex;
+        width: 100px;
+        
+    }
+
+    .search-bar-moblie .sm-btn-search {
+        display: block;
+        width: 100%;
+        font-size: 2.5em;
+        
+    }
+
+    .search-bar-moblie .sm-btn-search i {
+        float: right;
+    }
+
+    .search-bar-moblie .search-bar-wrapper {
+        display: none;
+    }
+
+    .footer-divider ul {
+        width: 10em;
+    }
+
+    .logo-footer-li {
+        width: 3em;
+    }
+  
+}
+
+@media (max-width: 355px) {
+    .products li {
+        width: 100px;
+    }
+
+    .footer-divider p {
+        font-size: 0.9em;
+    }
+    .footer-divider ul {
+        width: 8em;
+    }
+
+    .logo-footer-li {
+        width: 2.5em;
+    }
+}
+
+/* Hết phần responsive cho nav */

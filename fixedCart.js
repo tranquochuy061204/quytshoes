@@ -36,7 +36,9 @@ function updateCartDisplay() {
         newCartItem.classList.add('cart-product-item');
         const priceString = item.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
         newCartItem.innerHTML = `
-            <button class="removeItem"><img src="./images/x-lg.svg" alt="">${item.code}</button>
+            <button class="removeItem" data-code="${item.code}" data-size="${item.size}">
+                <img src="./images/x-lg.svg" alt="">${item.code}
+            </button>
             <div class="cart-media-thumb"><img src="../.${item.image}" alt=""></div>
             <div class="cart-media-body">
                 <h4 class="media-heading">${item.name}</h4>
@@ -55,9 +57,12 @@ function updateCartDisplay() {
     });
 
     const removeBtns = document.querySelectorAll('.removeItem');
+
     removeBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-            removeItemFromCart(btn.innerText);
+            const productCode = btn.getAttribute('data-code');
+            const productSize = btn.getAttribute('data-size');
+            removeItemFromCart(productCode, productSize);
         });
     });
 }

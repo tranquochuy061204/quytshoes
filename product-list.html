@@ -84,9 +84,9 @@
 
                 <div class="brand-filter">
 
-                    <button onclick="filterBrand('Adidas');  clickSearch ()" class="btn-brand">Adidas</button>
-                    <button onclick="filterBrand('Nike');  clickSearch ()" class="btn-brand">Nike</button>
-                    <button onclick="filterBrand('Converse');  clickSearch ()" class="btn-brand">Converse</button>
+                    <button onclick="filterBrand('Adidas');  clickSearch (); saveBrand('Adidas')" class="btn-brand">Adidas</button>
+                    <button onclick="filterBrand('Nike');  clickSearch (); saveBrand('Nike')" class="btn-brand">Nike</button>
+                    <button onclick="filterBrand('Converse');  clickSearch (); saveBrand('Converse')" class="btn-brand">Converse</button>
 
                 </div>
 
@@ -102,45 +102,56 @@
     </div>
 
 
-    <div class="footer-divider p-0 m-0">
-        <p>Cảm ơn các bạn đã ghé thăm !</p>
-    </div>
+   <!-- footer -->
+   <div class="footer-divider p-0 m-0">
+    <p>Cảm ơn các bạn đã ghé thăm !</p>
+    <ul class="row">
+        <li class="logo-footer-li"><img src="./images/adidas/adidas-logo.png" alt=""></li>
+        <li class="logo-footer-li"><img src="./images/nike/nike-logo.png" alt=""></li>
+        <li class="logo-footer-li"><img src="./images/converse/Converse-logo-white.png" alt=""></li>
+    </ul>
+</div>
 
-    <section class="footer">
-        
-        <div class="container-fluid p-0">
-            <div class="footer-wrapper row">
-             
+<section class="footer">
+    
+    <div class="container-fluid p-0">
+        <div class="footer-wrapper row">
 
-                <div class="row footer-sec mx-auto">
-                    <div class="footer-item col-md-4">
-                        <h2>Sản phẩm</h2>
-                        <ul>
-                            <li><a href="">Adidas</a></li>
-                            <li><a href="">Nike</a></li>
-                            <li><a href="">Converse</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-item col-md-4">
-                        <h2>Thành viên</h2>
-                        <ul>
-                            <li><a href="">Trần Quốc Huy</a></li>
-                            <li><a href="">Trương Văn Thạch Bảo</a></li>
-                            <li><a href="">A</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-item col-md-4">
-                        <h2>Liên hệ</h2>
-                        <ul>
-                            <li><a href="">Email chúng tôi</a></li>
-                            <li><a href="">Igstagram</a></li>
-                            <li><a href="">Zalo</a></li>
-                        </ul>
-                    </div>
+            <div class="row footer-sec mx-auto">
+                <div class="footer-item col-md-4">
+                    <h2 class="p-0">Sản phẩm</h2>
+                    <ul>
+                        <li><a href="">Adidas</a></li>
+                        <li><a href="">Nike</a></li>
+                        <li><a href="">Converse</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item col-md-4">
+                    <h2 class="p-0">Thành viên</h2>
+                    <ul>
+                        <li><a href="">Trần Quốc Huy</a></li>
+                        <li><a href="">Trương Văn Thạch Bảo</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="footer-item col-md-4">
+                    <h2 class="p-0">Liên hệ</h2>
+                    <ul>
+                        <li><a href="">Email chúng tôi</a></li>
+                        <li><a href="">Ingstagram</a></li>
+                        <li><a href="">Zalo</a></li>
+                    </ul>
                 </div>
             </div>
+
+            <div class="row lisence">
+                <div class="lisence-img col-md-6"><img src="./images/icon_bocongthuong.png" alt=""></div>
+
+                <p class="copy-right col-md-6">Copyright © 2024 SpotSneaker. All rights reserved</p>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
   
     

@@ -5,17 +5,16 @@ let selectedQuantity = document.querySelector('.selected-quantity')
 console.log(selectedQuantity)
 
 
-function removeItemFromCart(productCode) {
-    cartData = cartData.filter(item => item.code != productCode);
+function removeItemFromCart(productCode, productSize) {
+    cartData = cartData.filter(item => !(item.code == productCode && item.size == productSize));
+
     localStorage.setItem("cart", JSON.stringify(cartData));
     updateCartDisplay();
     updateProductCountDisplay();
-    updateTotalPrice ();
+    updateTotalPrice();
 }
 
  const warning = document.querySelector('.warning')
-
-
 
 function addItemToCart(productCode) {
     let product = productsCart.find(product => product.code == productCode);
@@ -31,13 +30,13 @@ function addItemToCart(productCode) {
     }
     warning.style.display = 'none';
 
-    let existingProduct = cartData.find(item => item.code == productCode);
+    let existingProduct = cartData.find(item => item.code == productCode && item.size == selectedSize.innerText);
+
+    console.log(existingProduct)
 
     if (!existingProduct) {
-        product.size = selectedSize.innerText;
-        product.quantity = parseInt(selectedQuantity.innerText);
-        
-        cartData.push(product);
+        let newProduct = { ...product, size: selectedSize.innerText, quantity: parseInt(selectedQuantity.innerText) };
+        cartData.push(newProduct);
     } else {
         existingProduct.quantity += parseInt(selectedQuantity.innerText);
     }
@@ -48,6 +47,7 @@ function addItemToCart(productCode) {
     updateTotalPrice ();
     cart.classList.remove('hide');
 }
+
 
 function updateQuantity(productCode, quantity) {
     cartData.forEach(item => {

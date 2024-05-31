@@ -29,8 +29,9 @@
             <div class="container nav mx-auto">
                 <div class="navlist row">
                   
+                <div class="nav__pc row">
 
-                  <div class="col-md-6">
+                  <div class="col-md-6 col-sm-6">
                     <div class="menu">
                     <ul class="menu-ul text-center">
                         <li class="menu-item">
@@ -53,7 +54,7 @@
                  </div>
 
                    <!-- Other -->
-                    <div class="col-md-6 other">
+                    <div class="col-md-6 other col-sm-6">
                         <div class="search-bar">
                             <div class="search-bar-wrapper">
                             <input id="searchInput" class="search-bar-input" placeholder="Tìm kiếm..." type="text">
@@ -68,8 +69,69 @@
                     </div>
                  </div>
 
-           
+               
+                 </div>
+ 
+                 
 
+                 <div class="logo-moblie col-xs-4 col-lg-4 col-md-4 col-sm-4">
+                    <div class="logo-moblie-container"><img src="/images/sneakers.png" alt=""></div>
+                 </div>
+
+                 <div class="search-bar-moblie col-xs-4 col-lg-4 col-md-4 col-sm-4">
+                        <div class="sm-btn-search"><i class="bi bi-search"></i></div>
+                        <div class="nav__overlay"></div>
+                     <div class="search-bar-wrapper">
+                     <input id="searchInputMobile" class="search-bar-input" placeholder="Tìm kiếm..." type="text">
+                     <button class="search-bar-btn"><i class="bi bi-search"></i></button>
+                 </div>
+
+                 
+    
+                    
+                     
+                     
+          </div>
+                    <div class="nav__bars-btn  my-auto col-xs-4 col-lg-4 col-md-4 col-sm-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                        </div>
+                            
+                        <div class="nav__overlay"></div>
+
+                        <div class="nav__mobile">
+                            <div class="menu__mobile">
+                                <div class="nav__mobile-close">
+                                    <div class="close-btn-nav">
+                                        <img src="./images/x-lg.svg" alt="">
+                                    </div>
+                                </div>
+
+                         <ul class="menu__mobile-ul">
+                            
+                             <li class="menu__mobile-item">
+                                 <p class="menu__mobile-text"><a href="menu__mobile-link">SẢN PHẨM</a></p>
+                               </li>
+                             <li class="menu__mobile-item">
+                                 <p class="menu__mobile-text"><a href="menu__mobile-link">NAM</a></p>
+                               </li>
+                               <li class="menu__mobile-item">
+                                 <p class="menu__mobile-text"><a href="menu__mobile-link">NỮ</a></p>
+                               </li>
+                               <li class="menu__mobile-item">
+                                 <p class="menu__mobile-text"><a href="menu__mobile-link">UNISEX</a></p>
+                               </li>
+                           </ul>
+                         </div>
+                         <div>
+ 
+                         </div>
+ 
+                      </div>
+            </div>
+                
+              
+
+                
         </div>
              
     </header>
@@ -309,11 +371,12 @@
     <!-- Banner nhỏ -->
 
     <section class="brand-banner">
-        <div class="container">
+        <div class="container pc__brand-banner">
             <div class="title">Các thương hiệu của tiệm chúng tôi hiện tại</div>
 
-            <div class="row"><ul class="brand-banner-ul mx-auto">
-                <li class="brand-banner-list adidas-brand">
+            <div class="row">
+                <ul class="brand-banner-ul mx-auto">
+                <li class="brand-banner-list adidas-brand col-md-4 col-sm-4 col-lg-4 col-xs-4">
                     
                     <a href="#">
                         <h1 class="brand-name mx-auto">Adidas</h1>
@@ -321,13 +384,13 @@
                     </a>
                 </li>
 
-                <li class="brand-banner-list nike-brand">
+                <li class="brand-banner-list nike-brand col-md-4 col-sm-4 col-lg-4 col-xs-4">
                     
                     <a href="#"><h1 class="brand-name mx-auto">Nike</h1>
                         <p class="brand-description">Just do it !</p></a>
                 </li>
 
-                <li class="brand-banner-list converse-brand">
+                <li class="brand-banner-list converse-brand col-md-4 col-sm-4 col-lg-4 col-xs-4">
                     
                     
                     <a href="#"><h1 class="brand-name mx-auto">Converse</h1>
@@ -338,43 +401,75 @@
 </div>
             
         </div>
+
+
+        <div class="mobile_brand-banner">
+           
+            
+            <div class="container">
+                <div class="title">Các thương hiệu của tiệm chúng tôi hiện tại</div>
+                <ul class="brand_mobile">
+                    <li class="brand_mobile"><a href="product-list.html" onclick="saveBrand('Adidas')">ADIDAS</a></li>
+                    <li class="brand_mobile"><a href="product-list.html" onclick="saveBrand('Nike')">NIKE</a></li>
+                    <li class="brand_mobile"><a href="product-list.html" onclick="saveBrand('Converse')">CONVERSE</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
     </section>
 
-    <section class="footer">
-        
-        <div class="container-fluid p-0">
-            <div class="wrapper row">
-             
+   <!-- footer -->
+   <div class="footer-divider p-0 m-0">
+    <p>Cảm ơn các bạn đã ghé thăm !</p>
+    <ul class="row">
+        <li class="logo-footer-li"><img src="./images/adidas/adidas-logo.png" alt=""></li>
+        <li class="logo-footer-li"><img src="./images/nike/nike-logo.png" alt=""></li>
+        <li class="logo-footer-li"><img src="./images/converse/Converse-logo-white.png" alt=""></li>
+    </ul>
+</div>
 
-                <div class="row footer-sec mx-auto">
-                    <div class="footer-item col-md-4">
-                        <h2>Sản phẩm</h2>
-                        <ul>
-                            <li><a href="">Adidas</a></li>
-                            <li><a href="">Nike</a></li>
-                            <li><a href="">Converse</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-item col-md-4">
-                        <h2>Thành viên</h2>
-                        <ul>
-                            <li><a href="">Trần Quốc Huy</a></li>
-                            <li><a href="">Trương Văn Thạch Bảo</a></li>
-                            <li><a href="">A</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-item col-md-4">
-                        <h2>Liên hệ</h2>
-                        <ul>
-                            <li><a href="">Email chúng tôi</a></li>
-                            <li><a href="">Igstagram</a></li>
-                            <li><a href="">Zalo</a></li>
-                        </ul>
-                    </div>
+<section class="footer">
+    
+    <div class="container-fluid p-0">
+        <div class="footer-wrapper row">
+
+            <div class="row footer-sec mx-auto">
+                <div class="footer-item col-md-4">
+                    <h2 class="p-0">Sản phẩm</h2>
+                    <ul>
+                        <li><a href="">Adidas</a></li>
+                        <li><a href="">Nike</a></li>
+                        <li><a href="">Converse</a></li>
+                    </ul>
+                </div>
+                <div class="footer-item col-md-4">
+                    <h2 class="p-0">Thành viên</h2>
+                    <ul>
+                        <li><a href="">Trần Quốc Huy</a></li>
+                        <li><a href="">Trương Văn Thạch Bảo</a></li>
+                       
+                    </ul>
+                </div>
+                <div class="footer-item col-md-4">
+                    <h2 class="p-0">Liên hệ</h2>
+                    <ul>
+                        <li><a href="">Email chúng tôi</a></li>
+                        <li><a href="">Ingstagram</a></li>
+                        <li><a href="">Zalo</a></li>
+                    </ul>
                 </div>
             </div>
+
+            <div class="row lisence">
+                <div class="lisence-img col-md-6"><img src="./images/icon_bocongthuong.png" alt=""></div>
+
+                <p class="copy-right col-md-6">Copyright © 2024 SpotSneaker. All rights reserved</p>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Fixed Cart -->
     <div class="fixedCart">
