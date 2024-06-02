@@ -6,7 +6,7 @@ let buttons = document.querySelectorAll('.btn-brand')
 
 var products = document.querySelector('.products');
 
-let selectedGender;
+let selectedGender; 
 
 let selectedBrand = localStorage.getItem('selectedBrand')
 

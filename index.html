@@ -18,11 +18,11 @@
 
 
 <body class=".roboto-medium">
+
+
     <header>
         <!-- Thanh đen-->
             <div class="row blackbar"></div>
-
- 
 
         <!-- Nav -->
     
@@ -39,15 +39,64 @@
                           </li>
                         <li class="menu-item">
                           <a href="./product-list.html " onclick="saveGender('')" class="menu-link">SẢN PHẨM</a>
+                         
+                          <ul class="ul-drop-down">
+                            <li class="drop-down-item">
+                                <a href="product-list.html" onclick="saveBrand('Adidas'); saveGender('')"><img src="./images/adidas-banner.jpg" lat=""></a>
+                            </li>
+                            <li class="drop-down-item">
+                                <a href="product-list.html" onclick="saveBrand('Nike'); saveGender('')"><img src="./images/nike-banner.jpg" alt=""></a>
+                            </li>
+                            <li class="drop-down-item">
+                                <a href="product-list.html" onclick="saveBrand('Converse'); saveGender('')"><img src="./images/converse-banner.jpg" alt=""></a>
+                            </li>
+                          </ul>
+
                         </li>
                         <li class="menu-item">
                             <a href="./product-list.html" onclick="saveGender('nam')" class="menu-link">NAM</a>
+
+                            <ul class="ul-drop-down">
+                                <li class="drop-down-item">
+                                    <a href="product-list.html" onclick="saveBrand('Adidas'); saveGender('nam')"><img src="./images/adidas-banner.jpg" lat=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="product-list.html" onclick="saveBrand('Nike'); saveGender('nam')"><img src="./images/nike-banner.jpg" alt=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="product-list.html" onclick="saveBrand('Converse'); saveGender('nam')"><img src="./images/converse-banner.jpg" alt=""></a>
+                                </li>
+                              </ul>
                           </li>
                           <li class="menu-item">
                             <a href="./product-list.html" onclick="saveGender('nữ')" class="menu-link">NỮ</a>
+
+                            <ul class="ul-drop-down">
+                                <li class="drop-down-item">
+                                    <a href="product-list.html" onclick="saveBrand('Adidas'); saveGender('nữ')"><img src="./images/adidas-banner.jpg" lat=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="product-list.html" onclick="saveBrand('Nike'); saveGender('nữ')"><img src="./images/nike-banner.jpg" alt=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="product-list.html" onclick="saveBrand('Converse'); saveGender('nữ')"><img src="./images/converse-banner.jpg" alt=""></a>
+                                </li>
+                              </ul>
                           </li>
                           <li class="menu-item">
                             <a href="./product-list.html" onclick="saveGender('unisex')"  class="menu-link">UNISEX</a>
+
+                            <ul class="ul-drop-down">
+                                <li class="drop-down-item">
+                                    <a href="product-list.html" onclick="saveBrand('Adidas'); saveGender('unisex')"><img src="./images/adidas-banner.jpg" lat=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="product-list.html" onclick="saveBrand('Nike'); saveGender('unisex')"><img src="./images/nike-banner.jpg" alt=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="product-list.html" onclick="saveBrand('Converse'); saveGender('unisex')"><img src="./images/converse-banner.jpg" alt=""></a>
+                                </li>
+                              </ul>
                           </li>
                       </ul>
                     </div>
@@ -63,8 +112,8 @@
                         </div>
 
                         <ul class="other-ul">
-                            <li class="other-item"><i class="bi bi-bag"></i></li>
-                            <li class="other-item"><i class="bi bi-person-fill"></i></li>
+                            <li class="other-item"><a href=""><i class="bi bi-bag"></i></a></i></li>
+                            <li class="other-item"><a href="./Login-out/login.html"><i class="bi bi-person-fill"></i></a></li>
                         </ul>
                     </div>
                  </div>
@@ -75,7 +124,7 @@
                  
 
                  <div class="logo-moblie col-xs-4 col-lg-4 col-md-4 col-sm-4">
-                    <div class="logo-moblie-container"><img src="/images/sneakers.png" alt=""></div>
+                    <div class="logo-moblie-container"><img src="./images/sneakers.png" alt=""></div>
                  </div>
 
                  <div class="search-bar-moblie col-xs-4 col-lg-4 col-md-4 col-sm-4">
@@ -86,24 +135,26 @@
                      <button class="search-bar-btn"><i class="bi bi-search"></i></button>
                  </div>
 
-                 
-    
-                    
-                     
-                     
+
           </div>
-                    <div class="nav__bars-btn  my-auto col-xs-4 col-lg-4 col-md-4 col-sm-4">
+                    <label for="nav-mobile-input" class="nav__bars-btn my-auto col-xs-4 col-lg-4 col-md-4 col-sm-4">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
-                        </div>
+                        </label>
                             
-                        <div class="nav__overlay"></div>
+                      
+
+                        <input type="checkbox" id="nav-mobile-input" hidden class="nav__input">
+
+                        
+
+                        <label for="nav-mobile-input" class="nav__overlay"></label>
 
                         <div class="nav__mobile">
                             <div class="menu__mobile">
                                 <div class="nav__mobile-close">
-                                    <div class="close-btn-nav">
+                                    <label for="nav-mobile-input" class="close-btn-nav">
                                         <img src="./images/x-lg.svg" alt="">
-                                    </div>
+                                    </label>
                                 </div>
 
                          <ul class="menu__mobile-ul">
@@ -127,13 +178,8 @@
                          </div>
  
                       </div>
-            </div>
-                
-              
-
-                
-        </div>
-             
+            </div>  
+        </div>  
     </header>
 
 
@@ -143,7 +189,7 @@
             <div class="row banner mx-auto">
                 <div class="shoe-logo"><img src="./images/adidas/adidas-logo.png" alt=""></div>
                 <div class="col-md-12"><div class="b-shoe"><h1>GIÀY ADIDAS!</h1><p>Mua ngay cho nóng:</p><button>Check Shop</button></div>
-                <div class="adidas-shoe-banner"><a href="#"><img src="./images/adidas/adidas-banner.png" alt="adidas-banner"></a></div>
+                <div class="adidas-shoe-banner"><a href="./product-list.html" onclick="saveBrand('Adidas'); saveGender('')"><img src="./images/adidas/adidas-banner.png" alt="adidas-banner"></a></div>
             </div>
             </div>
         </div>
@@ -219,7 +265,7 @@
             <div class="row mx-auto nike-banner">
                 <div class="shoe-logo nike-logo"><div><img src="./images/nike/nike-logo.png"alt=""></div></div>
                 <div class="col-md-12"><div class="b-shoe nike-shoe"><h1>NIKE!</h1><p>Mua ngay cho nóng:</p><button>Check Shop</button></div>
-                <div class="nike-shoe-banner"><a href="#"><img src="./images/nike/jordan-banner.png" alt=""></a></div>
+                <div class="nike-shoe-banner"><a href="./product-list.html" onclick="saveBrand('Nike'); saveGender('')"><img src="./images/nike/jordan-banner.png" alt=""></a></div>
             </div>
             </div>
         </div>
@@ -297,7 +343,7 @@
             <div class="row mx-auto converse-banner">
                 <div class="shoe-logo converse-logo"><div><img src="./images/converse/Converse-logo-white.png"alt=""></div></div>
                 <div class="col-md-12"><div class="b-shoe converse-shoe"><h1>Converse!</h1><p>Mua ngay cho nóng:</p><button>Check Shop</button></div>
-                <div class="converse-shoe-banner"><a href="#"><img src="./images/converse/convesrse-banner.png" alt=""></a></div>
+                <div class="converse-shoe-banner"><a href="./product-list.html" onclick="saveBrand('Converse'); saveGender('')"><img src="./images/converse/convesrse-banner.png" alt=""></a></div>
             </div>
             </div>
         </div>
@@ -378,7 +424,7 @@
                 <ul class="brand-banner-ul mx-auto">
                 <li class="brand-banner-list adidas-brand col-md-4 col-sm-4 col-lg-4 col-xs-4">
                     
-                    <a href="#">
+                    <a href="./product-list.html" onclick="saveBrand('Adidas'); saveGender('')">
                         <h1 class="brand-name mx-auto">Adidas</h1>
                         <p class="brand-description"></p>
                     </a>
@@ -386,14 +432,14 @@
 
                 <li class="brand-banner-list nike-brand col-md-4 col-sm-4 col-lg-4 col-xs-4">
                     
-                    <a href="#"><h1 class="brand-name mx-auto">Nike</h1>
-                        <p class="brand-description">Just do it !</p></a>
+                    <a href="./product-list.html" onclick="saveBrand('Nike'); saveGender('')"><h1 class="brand-name mx-auto">Nike</h1>
+                        <p class="brand-description"></p></a>
                 </li>
 
                 <li class="brand-banner-list converse-brand col-md-4 col-sm-4 col-lg-4 col-xs-4">
                     
                     
-                    <a href="#"><h1 class="brand-name mx-auto">Converse</h1>
+                    <a href="./product-list.html" onclick="saveBrand('Converse'); saveGender('')"><h1 class="brand-name mx-auto">Converse</h1>
                         <p class="brand-description"></p></a>
                     
                 </li>
@@ -409,9 +455,9 @@
             <div class="container">
                 <div class="title">Các thương hiệu của tiệm chúng tôi hiện tại</div>
                 <ul class="brand_mobile">
-                    <li class="brand_mobile"><a href="product-list.html" onclick="saveBrand('Adidas')">ADIDAS</a></li>
-                    <li class="brand_mobile"><a href="product-list.html" onclick="saveBrand('Nike')">NIKE</a></li>
-                    <li class="brand_mobile"><a href="product-list.html" onclick="saveBrand('Converse')">CONVERSE</a></li>
+                    <li class="brand_mobile"><a href="product-list.html" onclick="saveBrand('Adidas'); saveGender('')">ADIDAS</a></li>
+                    <li class="brand_mobile"><a href="product-list.html" onclick="saveBrand('Nike'); saveGender('')">NIKE</a></li>
+                    <li class="brand_mobile"><a href="product-list.html" onclick="saveBrand('Converse'); saveGender('')">CONVERSE</a></li>
                 </ul>
             </div>
 
