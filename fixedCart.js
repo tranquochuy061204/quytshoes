@@ -67,7 +67,7 @@ function updateCartDisplay() {
     });
 }
 
-    const totalPriceElement = document.querySelector('.total-value')
+    const totalPriceElement = document.querySelectorAll('.total-value')
 
     function updateTotalPrice () {
         let total = 0;
@@ -76,7 +76,10 @@ function updateCartDisplay() {
                 total += item.price * item.quantity;
             });
         }
-        totalPriceElement.innerText = total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + 'đ';
+
+        totalPriceElement.forEach(item => {
+            item.innerText = total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + 'đ';
+        })
     }
 
 
@@ -99,6 +102,7 @@ function updateCartDisplay() {
         updateCartDisplay();
         updateProductCountDisplay();
         updateTotalPrice ();
+        payListInit();
     }
 
     const removeBtns = document.querySelectorAll('.removeItem');

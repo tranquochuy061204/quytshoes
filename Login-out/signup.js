@@ -1,8 +1,12 @@
 
 
 function signup(e) {
+  
+
     e.preventDefault();
 
+    localStorage.clear
+    
     var username = document.getElementById('username').value.trim();
     var email = document.getElementById('email').value.trim();
     var phoneNumber = document.getElementById('numberphone').value.trim();

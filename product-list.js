@@ -238,10 +238,11 @@ function clickSearch () {
 
 var searchInput = document.querySelector('.search-bar-wrapper input');
 
+var searchInputMobile = document.getElementById('searchInputMobile')
 
 searchInput.addEventListener('keydown', function(e) {
     
-    if (e.keyCode === 13) {
+    if (e.key === 'Enter') {
 
         let buttons = document.querySelectorAll('.btn-brand') 
       
@@ -325,6 +326,93 @@ searchInput.addEventListener('keydown', function(e) {
 })
 
 
+searchInputMobile.addEventListener('keydown', function(e) {
+    
+    if (e.key === 'Enter') {
+
+        let buttons = document.querySelectorAll('.btn-brand') 
+      
+        let txtSearch = searchInputMobile.value.trim().toUpperCase();
+       
+        let listProducts = document.querySelectorAll('.product-item');
+        
+        let genderTranslator = selectedGender;
+        if (genderTranslator == 'male') {
+            genderTranslator = 'nam'
+        } else if (genderTranslator == 'female') {
+            genderTranslator = 'nữ'
+        }
+
+        buttons.forEach (btn => {
+            if (btn.classList.contains('active')) {
+            listProducts.forEach(item => {
+                item.classList.add('hide');
+                if (item.innerText.toUpperCase().includes(txtSearch) && item.classList.contains(btn.innerText) && item.innerText.toUpperCase().includes(genderTranslator.toUpperCase())) { 
+                    
+                        
+                        item.classList.remove('hide');
+                        item.classList.add('showed');
+                        item.classList.add('searched-item')
+                      
+                    
+                }
+                else {
+                    item.classList.remove('searched-item')
+                    item.classList.add('hide');
+                    item.classList.remove('showed');
+                }
+    
+            })
+            }
+        })
+
+            
+
+        buttons.forEach(btn => { 
+            if (btn.classList.contains('active')) {
+                mockData.forEach((data,index) => {
+
+                    let genderTranslator = selectedGender;
+                    if (genderTranslator == 'nam') {
+                        genderTranslator = 'male'
+                    } else if (genderTranslator == 'nữ') {
+                        genderTranslator = 'female'
+                    }
+
+                    if (txtSearch===data.code && btn.innerText === data.brand && data.gender === genderTranslator) {
+                    
+                    var newProduct = document.createElement('div');
+                    newProduct.classList.add('product-item', 'col-md-3');
+                    const priceString = mockData[index].price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+                    var genderTranslate = mockData[index].gender;
+                    if (genderTranslate == 'male') {
+                        genderTranslate = 'nam'
+                    } else if (genderTranslate == 'female') {
+                        genderTranslate = 'nữ'
+                    }
+                    newProduct.innerHTML = 
+                        `<div class=pro-item">
+                    <div class="pro-top"><a class="pro-thumb" href="${mockData[index].link}"><img src="${mockData[index].image}" alt=""></a></div>
+                    </div>
+                    <div class="pro-top-hover"><a href="${mockData[index].link}"><img src="${mockData[index].imageHover}" alt=""></a></div>
+                    <p class="pro-name"><a class="pro-name-link" href="${mockData[index].link}">${mockData[index].name}</a></p>
+                    <p class="pro-gender">Giày ${genderTranslate}</p>
+                    <p class="pro-price">${priceString}<span class="vnd fs-1">₫</span></p>`;
+        
+                    products.appendChild(newProduct);
+                 
+                        
+                    } 
+                })
+            }
+            
+         })
+       
+    } 
+})
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search); // Lấy thông tin từ URL
     const searchTerm = urlParams.get('search'); // Lấy giá trị của tham số 'search' từ URL
@@ -332,6 +420,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (searchTerm) { // Kiểm tra xem có giá trị tìm kiếm không
         // Thực hiện tìm kiếm với giá trị được truyền từ URL
         searchInput.value = searchTerm;
+        searchInputMobile.value = searchTerm;
     }
 });
 

@@ -17,7 +17,7 @@ function login(e) {
         return;
     }
 
-    window.location.href = "HI.html";
+    window.location.href = "../index.html";
 }
 
 document.addEventListener("DOMContentLoaded", function() {

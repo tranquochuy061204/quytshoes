@@ -38,7 +38,7 @@
                             <a href="#" class="menu-link">TRANG CHỦ</a>
                           </li>
                         <li class="menu-item">
-                          <a href="./product-list.html " onclick="saveGender('')" class="menu-link">SẢN PHẨM</a>
+                          <a href="./product-list.html " onclick="saveGender(''); saveBrand('Adidas');" class="menu-link">SẢN PHẨM</a>
                          
                           <ul class="ul-drop-down">
                             <li class="drop-down-item">
@@ -112,7 +112,10 @@
                         </div>
 
                         <ul class="other-ul">
-                            <li class="other-item"><a href=""><i class="bi bi-bag"></i></a></i></li>
+                            <li class="other-item">
+                                <a href="./payment.html"><i class="bi bi-bag"></i></a></i>
+                                <p class="quantityCart"><span class="countProducts"></span></p>
+                            </li>
                             <li class="other-item"><a href="./Login-out/login.html"><i class="bi bi-person-fill"></i></a></li>
                         </ul>
                     </div>
@@ -130,16 +133,25 @@
                  <div class="search-bar-moblie col-xs-4 col-lg-4 col-md-4 col-sm-4">
                         <div class="sm-btn-search"><i class="bi bi-search"></i></div>
                         <div class="nav__overlay"></div>
+
                      <div class="search-bar-wrapper">
                      <input id="searchInputMobile" class="search-bar-input" placeholder="Tìm kiếm..." type="text">
                      <button class="search-bar-btn"><i class="bi bi-search"></i></button>
+                    </div>
+
+                    <ul class="mobile__other-ul">
+                        <li class="mobile__other-item"><a href="./payment.html"><i class="bi bi-bag"></i></a></i></li>
+                    </ul>
+
                  </div>
 
+                 
+                 <label for="nav-mobile-input" class="nav__bars-btn my-auto col-xs-4 col-lg-4 col-md-4 col-sm-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    </label>
 
           </div>
-                    <label for="nav-mobile-input" class="nav__bars-btn my-auto col-xs-4 col-lg-4 col-md-4 col-sm-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
-                        </label>
+                    
                             
                       
 
@@ -217,10 +229,10 @@
                     <li class="">
                       <a href="">
                         <div class="pro-item">
-                            <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/adidas/Giay_Stan_Smith_trang_FX5502_01_standard.avif" alt=""></a></div>
+                            <div class="pro-top"><a class="pro-thumb" href="./adidas-products/Adidas-stan-smith/adidas-shoes-A002.html"><img src="./images/adidas/Giay_Stan_Smith_trang_FX5502_01_standard.avif" alt=""></a></div>
                         </div>
-                        <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/adidas/Giay_Stan_Smith_trang_FX5502_02_standard_hover.avif" alt=""></a></div>
-                        <p class="pro-name"><a href="">Adidas Stan Smith</a></p>
+                        <div class="pro-top-hover"><a href="./adidas-products/Adidas-stan-smith/adidas-shoes-A002.html"><img src="./images/adidas/Giay_Stan_Smith_trang_FX5502_02_standard_hover.avif" alt=""></a></div>
+                        <p class="pro-name"><a href="./adidas-products/Adidas-stan-smith/adidas-shoes-A002.html">Adidas Stan Smith</a></p>
                         <p class="pro-price">2.600.000đ</p>
                       </a>
                     </li>
@@ -237,20 +249,20 @@
                     <li class="">
                        <a href="">
                         <div class="pro-item">
-                            <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/adidas/Giay_Gazelle_trang_IG1635_01_standard.avif" alt=""></a></div>
+                            <div class="pro-top"><a class="pro-thumb" href="./adidas-products/Adidas Gazelle/adidas-shoes-A004.html"><img src="./images/adidas/Giay_Gazelle_trang_IG1635_01_standard.avif" alt=""></a></div>
                         </div>
-                        <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/adidas/Giay_Gazelle_trang_IG1635_02_standard_hover.avif" alt=""></a></div>
-                        <p class="pro-name"><a href="">Adidas Gazelle</a></p>
+                        <div class="pro-top-hover"><a href="./adidas-products/Adidas Gazelle/adidas-shoes-A004.html"><img src="./images/adidas/Giay_Gazelle_trang_IG1635_02_standard_hover.avif" alt=""></a></div>
+                        <p class="pro-name"><a href="./adidas-products/Adidas Gazelle/adidas-shoes-A004.html">Adidas Gazelle</a></p>
                         <p class="pro-price">2.500.000đ</p>
                        </a>
                     </li>
                     <li class="">
                         <a href="">
                         <div class="pro-item">
-                            <div class="pro-top"><a class="pro-thumb" href=""><img src="./images/adidas/FORUM_LOW_CL_trang_IG3777_01_standard.avif" alt=""></a></div>
+                            <div class="pro-top"><a class="pro-thumb" href="./adidas-products/Adidas Forum Low CL/adidas-shoes-A005.html"><img src="./images/adidas/FORUM_LOW_CL_trang_IG3777_01_standard.avif" alt=""></a></div>
                         </div>
-                        <div class="pro-top-hover"><a href="pro-thumb-hover"><img src="./images/adidas/FORUM_LOW_CL_trang_IG3777_02_standard_hover.avif" alt=""></a></div>
-                        <p class="pro-name"><a href="">Adidas Forum Low CL</a></p>
+                        <div class="pro-top-hover"><a href="/adidas-products/Adidas Forum Low CL/adidas-shoes-A005.html"><img src="./images/adidas/FORUM_LOW_CL_trang_IG3777_02_standard_hover.avif" alt=""></a></div>
+                        <p class="pro-name"><a href="/adidas-products/Adidas Forum Low CL/adidas-shoes-A005.html">Adidas Forum Low CL</a></p>
                         <p class="pro-price">2.600.000đ</p>
                     </a>
                     </li>
@@ -549,7 +561,7 @@
                         <span class="total-value"></span>
                     </h5>
                 </li>
-                <li class="list-cart-item cart-btn"><button><strong>Thanh toán ngay</strong></button></li>
+                <li class="list-cart-item cart-btn"><button><a href="./payment.html"><strong>Thanh toán ngay</strong></button></a></li>
             </ul>
         </div>
     </div>

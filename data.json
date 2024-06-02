@@ -551,7 +551,7 @@
   },   
   {
       "brand": "Converse",
-      "name": "Nike Chuck 70 De Luxe Heel Satin",
+      "name": "Converse Chuck 70 De Luxe Heel Satin",
       "code": "C007",
       "price": 2310000,
       "image": "./images/converse/product-list/converse-shoes-C007.jpg",
@@ -651,7 +651,7 @@
   },
   {
       "brand": "Converse",
-      "name": "Converse Run Star Legacy CX",
+      "name": "Converse Chuck Taylor All Star Lift",
       "code": "C017",
       "price": 1400000,
       "image": "./images/converse/product-list/converse-shoes-C017.jpg",
@@ -661,14 +661,75 @@
   },
   {
       "brand": "Converse",
-      "name": "Converse Run Star Legacy CX",
+      "name": "Converse Run Star Hike",
       "code": "C018",
-      "price": 1400000,
+      "price": 1750000,
       "image": "./images/converse/product-list/converse-shoes-C018.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C018-hover.jpg",
       "gender": "female",
       "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Chuck Taylor All Star Modern Lift Platform Canvas",
+      "code": "C019",
+      "price": 2200000,
+      "image": "./images/converse/product-list/converse-shoes-C019.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C019-hover.jpg",
+      "gender": "female",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Tiny Tattoos",
+      "code": "C020",
+      "price": 1100000,
+      "image": "./images/converse/product-list/converse-shoes-C020.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C020-hover.jpg",
+      "gender": "female",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse X Dungeons And Dragons Chuck 70s",
+      "code": "C021",
+      "price": 2700000,
+      "image": "./images/converse/product-list/converse-shoes-C021.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C021-hover.jpg",
+      "gender": "male",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse Fastbreak Pro",
+      "code": "C022",
+      "price": 1260000,
+      "image": "./images/converse/product-list/converse-shoes-C022.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C022-hover.jpg",
+      "gender": "male",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse AS-1 Pro",
+      "code": "C023",
+      "price": 1150000,
+      "image": "./images/converse/product-list/converse-shoes-C023.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C023-hover.jpg",
+      "gender": "male",
+      "link":""
+  },
+  {
+      "brand": "Converse",
+      "name": "Converse X OLD MONEY Weapons",
+      "code": "C024",
+      "price": 1750000,
+      "image": "./images/converse/product-list/converse-shoes-C024.jpg",
+      "imageHover": "./images/converse/product-list/converse-shoes-C024-hover.jpg",
+      "gender": "male",
+      "link":""
   }
+
 
 
    

@@ -19,63 +19,178 @@
 
 <body>
 
-
     <header>
         <!-- Thanh đen-->
             <div class="row blackbar"></div>
 
- 
-
         <!-- Nav -->
     
-        <div class="container nav mx-auto">
-            <div class="navlist row">
-              
+            <div class="container nav mx-auto">
+                <div class="navlist row">
+                  
+                <div class="nav__pc row">
 
-              <div class="col-md-6">
-                <div class="menu">
-                <ul class="menu-ul text-center">
-                    <li class="menu-item">
-                        <a href="../../index.html" class="menu-link">TRANG CHỦ</a>
-                      </li>
-                    <li class="menu-item">
-                      <a href="../../product-list.html" onclick="saveGender('')" class="menu-link">SẢN PHẨM</a>
-                    </li>
-                    <li class="menu-item">
-                        <a href="../../product-list.html" onclick="saveGender('nam')" class="menu-link">NAM</a>
-                      </li>
-                      <li class="menu-item">
-                        <a href="../../product-list.html" onclick="saveGender('nữ')" class="menu-link">NỮ</a>
-                      </li>
-                      <li class="menu-item">
-                        <a href="../../product-list.html" onclick="saveGender('unisex')" class="menu-link">UNISEX</a>
-                      </li>
-                  </ul>
-                </div>
-             </div>
+                  <div class="col-md-6 col-sm-6">
+                    <div class="menu">
+                    <ul class="menu-ul text-center">
+                        <li class="menu-item">
+                            <a href="#" class="menu-link">TRANG CHỦ</a>
+                          </li>
+                        <li class="menu-item">
+                          <a href="../../product-list.html " onclick="saveGender(''); saveBrand('Adidas');" class="menu-link">SẢN PHẨM</a>
+                         
+                          <ul class="ul-drop-down">
+                            <li class="drop-down-item">
+                                <a href="../../product-list.html" onclick="saveBrand('Adidas'); saveGender('')"><img src="../../images/adidas-banner.jpg" lat=""></a>
+                            </li>
+                            <li class="drop-down-item">
+                                <a href="../../product-list.html" onclick="saveBrand('Nike'); saveGender('')"><img src="../../images/nike-banner.jpg" alt=""></a>
+                            </li>
+                            <li class="drop-down-item">
+                                <a href="../../product-list.html" onclick="saveBrand('Converse'); saveGender('')"><img src="../../images/converse-banner.jpg" alt=""></a>
+                            </li>
+                          </ul>
 
-               <!-- Other -->
-                <div class="col-md-6 other">
-                    <div class="search-bar">
-                        <div class="search-bar-wrapper">
-                        <input id="searchInput" class="search-bar-input" placeholder="Tìm kiếm..." type="text">
-                        <button class="search-bar-btn"><i class="bi bi-search"></i></button>
+                        </li>
+                        <li class="menu-item">
+                            <a href="../../product-list.html" onclick="saveGender('nam')" class="menu-link">NAM</a>
+
+                            <ul class="ul-drop-down">
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Adidas'); saveGender('nam')"><img src="../../images/adidas-banner.jpg" lat=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Nike'); saveGender('nam')"><img src="../../images/nike-banner.jpg" alt=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Converse'); saveGender('nam')"><img src="../../images/converse-banner.jpg" alt=""></a>
+                                </li>
+                              </ul>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../product-list.html" onclick="saveGender('nữ')" class="menu-link">NỮ</a>
+
+                            <ul class="ul-drop-down">
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Adidas'); saveGender('nữ')"><img src="../../images/adidas-banner.jpg" lat=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Nike'); saveGender('nữ')"><img src="../../images/nike-banner.jpg" alt=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Converse'); saveGender('nữ')"><img src="../../images/converse-banner.jpg" alt=""></a>
+                                </li>
+                              </ul>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../product-list.html" onclick="saveGender('unisex')"  class="menu-link">UNISEX</a>
+
+                            <ul class="ul-drop-down">
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Adidas'); saveGender('unisex')"><img src="../../images/adidas-banner.jpg" lat=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Nike'); saveGender('unisex')"><img src="../../images/nike-banner.jpg" alt=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Converse'); saveGender('unisex')"><img src="../../images/converse-banner.jpg" alt=""></a>
+                                </li>
+                              </ul>
+                          </li>
+                      </ul>
                     </div>
+                 </div>
+
+                   <!-- Other -->
+                    <div class="col-md-6 other col-sm-6">
+                        <div class="search-bar">
+                            <div class="search-bar-wrapper">
+                            <input id="searchInput" class="search-bar-input" placeholder="Tìm kiếm..." type="text">
+                            <button class="search-bar-btn"><i class="bi bi-search"></i></button>
+                        </div>
+                        </div>
+
+                        <ul class="other-ul">
+                            <li class="other-item">
+                                <a href=""><i class="bi bi-bag"></i></a></i>
+                                <p class="quantityCart"><span class="countProducts"></span></p>
+                            </li>
+                            <li class="other-item"><a href="../../Login-out/login.html"><i class="bi bi-person-fill"></i></a></li>
+                        </ul>
+                    </div>
+                 </div>
+
+               
+                 </div>
+ 
+                 
+              <div class="logo-moblie col-xs-4 col-lg-4 col-md-4 col-sm-4">
+                    <div class="logo-moblie-container"><img src="../../images/sneakers.png" alt=""></div>
+                 </div>
+
+                 <div class="search-bar-moblie col-xs-4 col-lg-4 col-md-4 col-sm-4">
+                        <div class="sm-btn-search"><i class="bi bi-search"></i></div>
+                        <div class="nav__overlay"></div>
+
+                     <div class="search-bar-wrapper">
+                     <input id="searchInputMobile" class="search-bar-input" placeholder="Tìm kiếm..." type="text">
+                     <button class="search-bar-btn"><i class="bi bi-search"></i></button>
                     </div>
 
-                    <ul class="other-ul">
-                        <li class="other-item"><i class="bi bi-bag"></i></li>
-                        <li class="other-item"><i class="bi bi-person-fill"></i></li>
+                    <ul class="mobile__other-ul">
+                        <li class="mobile__other-item"><a href=""><i class="bi bi-bag"></i></a></i></li>
                     </ul>
-                </div>
-             </div>
 
-       
+                 </div>
 
-    </div>
-             
+                 
+                 <label for="nav-mobile-input" class="nav__bars-btn my-auto col-xs-4 col-lg-4 col-md-4 col-sm-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    </label>
+
+          </div>
+                    
+                            
+                      
+
+                        <input type="checkbox" id="nav-mobile-input" hidden class="nav__input">
+
+                        
+
+                        <label for="nav-mobile-input" class="nav__overlay"></label>
+
+                        <div class="nav__mobile">
+                            <div class="menu__mobile">
+                                <div class="nav__mobile-close">
+                                    <label for="nav-mobile-input" class="close-btn-nav">
+                                        <img src="./images/x-lg.svg" alt="">
+                                    </label>
+                                </div>
+
+                         <ul class="menu__mobile-ul">
+                            
+                             <li class="menu__mobile-item">
+                                 <p class="menu__mobile-text"><a href="menu__mobile-link">SẢN PHẨM</a></p>
+                               </li>
+                             <li class="menu__mobile-item">
+                                 <p class="menu__mobile-text"><a href="menu__mobile-link">NAM</a></p>
+                               </li>
+                               <li class="menu__mobile-item">
+                                 <p class="menu__mobile-text"><a href="menu__mobile-link">NỮ</a></p>
+                               </li>
+                               <li class="menu__mobile-item">
+                                 <p class="menu__mobile-text"><a href="menu__mobile-link">UNISEX</a></p>
+                               </li>
+                           </ul>
+                         </div>
+                         <div>
+ 
+                         </div>
+ 
+                      </div>
+            </div>  
+        </div>  
     </header>
-
 
     <!-- Content Trưng bày sản phẩm chi tiết -->
 
@@ -182,7 +297,7 @@
                             </li>
 
                             <li class="prd-detail-color-item">
-                                <a href=""><img src="./images/adidas-shoes-A001-B.avif" alt=""></a>
+                                <a href="./adidas-shoes-A001-B.html"><img src="./images/adidas-shoes-A001-B.avif" alt=""></a>
                             </li>
 
                             <li class="prd-detail-color-item">
