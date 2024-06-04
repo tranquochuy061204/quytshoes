@@ -279,7 +279,7 @@ section {
     left: 0;
     bottom: 0;
     background-color: rgb(0, 0, 0, 0.3);
-    z-index: 1;
+    z-index: 998;
     display: none;
     opacity: 0;
     animation: fadeIn linear 0.2s;
@@ -287,8 +287,9 @@ section {
 
 /* Nav moblie */
 
+.sub-menu__brand,
 .nav__mobile {
-    z-index: 3;
+    z-index: 999;
     position: fixed;
     right: 0;
     top: 0;
@@ -306,11 +307,19 @@ section {
 }
 
 
+
+
+
 .nav__input:checked ~ .nav__overlay {
     display: block;
 }
 
 .nav__input:checked ~ .nav__mobile {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.checkbox-list:checked ~ .sub-menu__brand {
     transform: translateX(0%);
     opacity: 1;
 }
@@ -324,6 +333,8 @@ section {
     
 }
 
+
+
 .menu__mobile-item {
     font-size: 2em;
     height: 100px;
@@ -331,24 +342,30 @@ section {
     border-bottom: 1px solid black;
 }
 
+.sub-item__brand {
+    font-size: 1em;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+}
+
 .menu__mobile-text {
     padding-left: 20px;
 
 }
 
-.menu__mobile-link {
-
-}
-
-.nav__mobile-close {
-    
-}
 
 .close-btn-nav {
     width: 30px;
     position: absolute;
     top: 1rem;
     right: 1rem;
+}
+
+.sub-menu__brand .close-btn-nav {
+    top: -2rem;
+
 }
 
 
@@ -359,8 +376,21 @@ section {
 
 .mobile__other-item {
     font-size: 1em;
+    position: relative;
+}
+
+.login__mobile {
+    margin-top: 11em;
+    padding-left: 20px;
+}
+
+
+.login__mobile .other-item {
+    font-size: 2em;
     
 }
+
+
 
 
 @keyframes fadeIn {
@@ -373,8 +403,8 @@ section {
 }
 
 /* End nav bar mobile */
-/* Chi tiet san pham */
 
+/* Chi tiet san pham */
 .prd-detail {
     max-width: 1200px;
     margin-top: 30px;
@@ -687,7 +717,7 @@ section {
 }
 
 
-/* Phần responsive paste ở cuối*/
+/* Phần responsive*/
 @media  (max-width: 1024px) {
     /* Nav */
     .nav {
@@ -737,7 +767,32 @@ section {
     }
 
     /* end nav */
+
+    /* content */
+    .prd-detail-main-img {
+        width: 100%;
+    }
+
+    .prd-detail-slide {
+        margin-top: 10px;
+
+        width: 100%;
+    }
+
+    
 }
+
+@media (max-width: 768px) {
+     
+    /* footer */
+
+    .lisence .copy-right {
+        line-height: 30px;
+        text-align: center;
+        
+   }
+}
+
 
 @media (max-width: 434px) {
     .nav__mobile {
@@ -767,6 +822,63 @@ section {
     .search-bar-moblie .search-bar-wrapper {
         display: none;
     }
+
+
+    #prd-detail-name {
+        font-size: 2.5em !important;
+    }
+
+    .prd-detail-slide {
+        padding: 0 1em;
+     
+    }
+
+      /* footer */
+      .footer-divider ul {
+        width: 10em;
+    }
+
+    .logo-footer-li {
+        width: 3em;
+    }
+    
 }
 
+
+@media (max-width: 355px) {
+
+   
+    .prd-detail-slide {
+        padding: 0;
+    }
+
+    .products li {
+        width: 100px;
+    }
+
+
+    /* footer */
+    .footer-divider p {
+        font-size: 0.9em;
+    }
+    .footer-divider ul {
+        width: 8em;
+    }
+
+    .logo-footer-li {
+        width: 2.5em;
+    }
+
+}
     
+@media (max-width: 320px) {
+     /* nav */
+     .login__mobile {
+        margin-top: 1em;
+
+    }
+
+
+
+    /* end nav */
+}

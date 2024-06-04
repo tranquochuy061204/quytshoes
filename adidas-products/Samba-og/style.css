@@ -278,7 +278,7 @@ section {
     left: 0;
     bottom: 0;
     background-color: rgb(0, 0, 0, 0.3);
-    z-index: 1;
+    z-index: 998;
     display: none;
     opacity: 0;
     animation: fadeIn linear 0.2s;
@@ -286,8 +286,9 @@ section {
 
 /* Nav moblie */
 
+.sub-menu__brand,
 .nav__mobile {
-    z-index: 3;
+    z-index: 999;
     position: fixed;
     right: 0;
     top: 0;
@@ -305,11 +306,19 @@ section {
 }
 
 
+
+
+
 .nav__input:checked ~ .nav__overlay {
     display: block;
 }
 
 .nav__input:checked ~ .nav__mobile {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.checkbox-list:checked ~ .sub-menu__brand {
     transform: translateX(0%);
     opacity: 1;
 }
@@ -323,6 +332,8 @@ section {
     
 }
 
+
+
 .menu__mobile-item {
     font-size: 2em;
     height: 100px;
@@ -330,24 +341,30 @@ section {
     border-bottom: 1px solid black;
 }
 
+.sub-item__brand {
+    font-size: 1em;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+}
+
 .menu__mobile-text {
     padding-left: 20px;
 
 }
 
-.menu__mobile-link {
-
-}
-
-.nav__mobile-close {
-    
-}
 
 .close-btn-nav {
     width: 30px;
     position: absolute;
     top: 1rem;
     right: 1rem;
+}
+
+.sub-menu__brand .close-btn-nav {
+    top: -2rem;
+
 }
 
 
@@ -358,8 +375,21 @@ section {
 
 .mobile__other-item {
     font-size: 1em;
+    position: relative;
+}
+
+.login__mobile {
+    margin-top: 11em;
+    padding-left: 20px;
+}
+
+
+.login__mobile .other-item {
+    font-size: 2em;
     
 }
+
+
 
 
 @keyframes fadeIn {
@@ -372,6 +402,7 @@ section {
 }
 
 /* End nav bar mobile */
+
 
 /* Chi tiet san pham */
 
@@ -815,6 +846,7 @@ section {
 
 @media (max-width: 355px) {
 
+   
     .prd-detail-slide {
         padding: 0;
     }
@@ -823,6 +855,8 @@ section {
         width: 100px;
     }
 
+
+    /* footer */
     .footer-divider p {
         font-size: 0.9em;
     }
@@ -836,3 +870,14 @@ section {
 
 }
     
+@media (max-width: 320px) {
+     /* nav */
+     .login__mobile {
+        margin-top: 1em;
+
+    }
+
+
+
+    /* end nav */
+}

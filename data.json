@@ -277,7 +277,7 @@
         "image": "./images/nike/product-list/nike-shoes-N003.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N003-hover.png",
         "gender": "female",
-        "link":""
+        "link":"./nike-products/Nike Court Vision Low/nike-shoes-N003.html"
     },   
     {
         "brand": "Nike",
@@ -287,7 +287,7 @@
         "image": "./images/nike/product-list/nike-shoes-N004.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N004-hover.png",
         "gender": "unisex",
-        "link":""
+        "link":"./nike-products/Nike Blazer Mid '77/nike-shoes-N004.html"
     },   
     {
         "brand": "Nike",
@@ -297,7 +297,7 @@
         "image": "./images/nike/product-list/nike-shoes-N005.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N005-hover.png",
         "gender": "male",
-        "link":""
+        "link":"./nike-products/Nike Air Max 90/nike-shoes-N005.html"
 },   
     {
         "brand": "Nike",
@@ -307,7 +307,7 @@
         "image": "./images/nike/product-list/nike-shoes-N006.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N006-hover.png",
         "gender": "unisex",
-        "link":""
+        "link":"./nike-products/Air Jordan 1 Elevate Low/nike-shoes-N006.html"
     },   
     {
         "brand": "Nike",
@@ -317,7 +317,7 @@
         "image": "./images/nike/product-list/nike-shoes-N007.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N007-hover.png",
         "gender": "male",
-        "link":""
+        "link":"./nike-products/Nike Zoom Vomero 5/nike-shoes-N007.html"
   },   
     {
         "brand": "Nike",
@@ -327,7 +327,7 @@
         "image": "./images/nike/product-list/nike-shoes-N008.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N008-hover.png",
         "gender": "unisex",
-        "link":""
+        "link":"./nike-products/Nike Blazer Low '77 Vintage/nike-shoes-N008.html"
     },   
     {
         "brand": "Nike",
@@ -337,7 +337,7 @@
         "image": "./images/nike/product-list/nike-shoes-N009.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N009-hover.png",
         "gender": "female",
-        "link":""
+        "link":"./nike-products/Nike Air Force 1 '07 LV8/nike-shoes-N009.html"
     },   
     {
         "brand": "Nike",
@@ -347,7 +347,7 @@
         "image": "./images/nike/product-list/nike-shoes-N010.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N010-hover.png",
         "gender": "male",
-        "link":""
+        "link":"./nike-products/Nike Air Max 1 Premium/nike-shoes-N010.html"
  },   
     {
         "brand": "Nike",
@@ -357,7 +357,7 @@
         "image": "./images/nike/product-list/nike-shoes-N011.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N011-hover.png",
         "gender": "female",
-        "link":""
+        "link":"./nike-products/Nike Dunk Low Unlocked By You/nike-shoes-N011.html"
     },   
     {
         "brand": "Nike",
@@ -367,7 +367,7 @@
         "image": "./images/nike/product-list/nike-shoes-N012.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N012-hover.png",
         "gender": "female",
-        "link":""
+        "link":"./nike-products/air-force-1/nike-shoes-N012.html"
     },   
     {
         "brand": "Nike",
@@ -377,7 +377,7 @@
         "image": "./images/nike/product-list/nike-shoes-N013.jpg",
         "imageHover": "./images/nike/product-list/nike-shoes-N013-hover.jpg",
         "gender": "female",
-        "link":""
+        "link":"./nike-products/Nike Air Force 1 Sage Low/nike-shoes-N013.html"
     },   
     {
         "brand": "Nike",
@@ -387,7 +387,7 @@
         "image": "./images/nike/product-list/nike-shoes-N014.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N014-hover.png",
         "gender": "male",
-         "link":""
+         "link":"./nike-products/Nike Court Royale 2 Next Nature/nike-shoes-N014.html"
  },   
     {
         "brand": "Nike",
@@ -397,7 +397,7 @@
         "image": "./images/nike/product-list/nike-shoes-N015.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N015-hover.png",
         "gender": "male",
-        "link":""
+        "link":"./nike-products/Nike Killshot 2 Leather/nike-shoes-N015.html"
   },   
     {
         "brand": "Nike",
@@ -407,7 +407,7 @@
         "image": "./images/nike/product-list/nike-shoes-N016.jpg",
         "imageHover": "./images/nike/product-list/nike-shoes-N016-hover.png",
         "gender": "male",
-        "link":""
+        "link":"./nike-products/Air Jordan 1 Zoom CMFT 2/nike-shoes-N016.html"
   },   
     {
         "brand": "Nike",
@@ -417,7 +417,7 @@
         "image": "./images/nike/product-list/nike-shoes-N017.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N017-hover.png",
         "gender": "unisex",
-        "link":""
+        "link":"./nike-products/Nike Terminator High/nike-shoes-N017.html"
     },
     {
         "brand": "Nike",
@@ -427,7 +427,7 @@
         "image": "./images/nike/product-list/nike-shoes-N018.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N018-hover.png",
         "gender": "unisex",
-        "link":""
+        "link":"./nike-products/Nike Court Legacy Lift/nike-shoes-N018.html"
     },   
     {
         "brand": "Nike",
@@ -437,7 +437,7 @@
         "image": "./images/nike/product-list/nike-shoes-N019.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N019-hover.png",
         "gender": "unisex",
-        "link":""
+        "link":"./nike-products/Nike SB Zoom Janoski OG+/nike-shoes-N019.html"
     },   
     {
         "brand": "Nike",
@@ -447,7 +447,7 @@
         "image": "./images/nike/product-list/nike-shoes-N020.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N020-hover.png",
         "gender": "unisex",
-        "link":""
+        "link":"./nike-products/Nike Air Force 1 '07 EasyOn/nike-shoes-N020.html"
     },   
     {
         "brand": "Nike",
@@ -457,7 +457,7 @@
         "image": "./images/nike/product-list/nike-shoes-N021.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N021-hover.png",
         "gender": "female",
-        "link":""
+        "link":"./nike-products/Nike Air Force 1 '07 Next Nature/nike-shoes-N021.html"
     },   
     {
         "brand": "Nike",
@@ -467,7 +467,7 @@
         "image": "./images/nike/product-list/nike-shoes-N022.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N022-hover.png",
         "gender": "female",
-        "link":""
+        "link":"./nike-products/Nike Killshot 2/nike-shoes-N022.html"
     },   
     {
         "brand": "Nike",
@@ -477,7 +477,7 @@
         "image": "./images/nike/product-list/nike-shoes-N023.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N023-hover.png",
         "gender": "male",
-        "link":""
+        "link":"./nike-products/Nike Court Vision Low Next Nature/nike-shoes-N023.html"
  },   
     {
         "brand": "Nike",
@@ -487,7 +487,7 @@
         "image": "./images/nike/product-list/nike-shoes-N024.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N024-hover.png",
         "gender": "male",
-        "link":""
+        "link":"./nike-products/Nike Air Force 1 Low EVO/nike-shoes-N024.html"
   },   
   {
       "brand": "Converse",
@@ -497,7 +497,7 @@
       "image": "./images/converse/product-list/converse-shoes-C001.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C001-hover.jpg",
       "gender": "unisex",
-      "link":""
+      "link":"./converse-products/Converse Chuck Taylor All Star/converse-shoes-C001.html"
   },   
   {
       "brand": "Converse",
@@ -507,7 +507,7 @@
       "image": "./images/converse/product-list/converse-shoes-C002.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C002-hover.jpg",
       "gender": "unisex",
-      "link":""
+      "link":"./converse-products/Converse Chuck 70 Paint Splatter/converse-shoes-C002.html"
   },   
   {
       "brand": "Converse",
@@ -517,7 +517,7 @@
       "image": "./images/converse/product-list/converse-shoes-C003.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C003-hover.jpg",
       "gender": "male",
-      "link":""
+      "link":"./converse-products/Converse Chuck Taylor All Star Move Platform/converse-shoes-C003.html"
   },   
   {
       "brand": "Converse",
@@ -527,7 +527,7 @@
       "image": "./images/converse/product-list/converse-shoes-C004.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C004-hover.jpg",
       "gender": "male",
-      "link":""
+      "link":"./converse-products/Converse Chuck 70 Monochrome/converse-shoes-C004.html"
   },   
   {
       "brand": "Converse",
@@ -537,7 +537,7 @@
       "image": "./images/converse/product-list/converse-shoes-C005.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C005-hover.jpg",
       "gender": "unisex",
-      "link":""
+      "link":"./converse-products/Converse Chuck 70/converse-shoes-C005.html"
   },   
   {
       "brand": "Converse",
@@ -547,7 +547,7 @@
       "image": "./images/converse/product-list/converse-shoes-C006.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C006-hover.jpg",
       "gender": "female",
-      "link":""
+      "link":"./converse-products/Converse Chuck 70 Converse Ribbon/converse-shoes-C006.html"
   },   
   {
       "brand": "Converse",
@@ -557,7 +557,7 @@
       "image": "./images/converse/product-list/converse-shoes-C007.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C007-hover.jpg",
       "gender": "female",
-      "link":""
+      "link":"./converse-products/Converse Chuck 70 De Luxe Heel Satin/converse-shoes-C007.html"
   },   
   {
       "brand": "Converse",
@@ -567,7 +567,7 @@
       "image": "./images/converse/product-list/converse-shoes-C008.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C008-hover.jpg",
       "gender": "female",
-      "link":""
+      "link":"./converse-products/Converse Chuck 70 De Luxe Wedge/converse-shoes-C008.html"
   },
   {
       "brand": "Converse",
@@ -577,7 +577,7 @@
       "image": "./images/converse/product-list/converse-shoes-C009.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C009-hover.jpg",
       "gender": "unisex",
-      "link":""
+      "link":"./converse-products/Converse Chuck Taylor All Star/converse-shoes-C009.html"
   },
   {
       "brand": "Converse",
@@ -587,7 +587,7 @@
       "image": "./images/converse/product-list/converse-shoes-C010.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C010-hover.jpg",
       "gender": "unisex",
-      "link":""
+      "link":"./converse-products/Converse Chuck 70 Hacked Heel/converse-shoes-C010.html"
   },
   {
       "brand": "Converse",
@@ -597,7 +597,7 @@
       "image": "./images/converse/product-list/converse-shoes-C011.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C011-hover.jpg",
       "gender": "unisex",
-      "link":""
+      "link":"./converse-products/Converse Chuck 70 Vintage Athletic/converse-shoes-C011.html"
   },
   {
       "brand": "Converse",
@@ -607,7 +607,7 @@
       "image": "./images/converse/product-list/converse-shoes-C012.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C012-hover.jpg",
       "gender": "male",
-      "link":""
+      "link":"./converse-products/Converse Chuck 70 Aesthetics/converse-shoes-C012.html"
   },
   {
       "brand": "Converse",
@@ -617,7 +617,7 @@
       "image": "./images/converse/product-list/converse-shoes-C013.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C013-hover.jpg",
       "gender": "male",
-      "link":""
+      "link":"./converse-products/Converse Weapon/converse-shoes-C013.html"
   },
   {
       "brand": "Converse",
@@ -627,7 +627,7 @@
       "image": "./images/converse/product-list/converse-shoes-C014.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C014-hover.jpg",
       "gender": "female",
-      "link":""
+      "link":"./converse-products/Converse Run Star Legacy CX/converse-shoes-C014.html"
   },
   {
       "brand": "Converse",
@@ -637,7 +637,7 @@
       "image": "./images/converse/product-list/converse-shoes-C015.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C015-hover.jpg",
       "gender": "unisex",
-      "link":""
+      "link":"./converse-products/Converse Run Star Motion Foundational/converse-shoes-C015.html"
   },
   {
       "brand": "Converse",
@@ -647,7 +647,7 @@
       "image": "./images/converse/product-list/converse-shoes-C016.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C016-hover.jpg",
       "gender": "unisex",
-      "link":""
+      "link":"./converse-products/Converse Chuck 70 Black & White/converse-shoes-C016.html"
   },
   {
       "brand": "Converse",
@@ -657,7 +657,7 @@
       "image": "./images/converse/product-list/converse-shoes-C017.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C017-hover.jpg",
       "gender": "female",
-      "link":""
+      "link":"./converse-products/Converse Chuck Taylor All Star Lift/converse-shoes-C017.html"
   },
   {
       "brand": "Converse",
@@ -667,7 +667,7 @@
       "image": "./images/converse/product-list/converse-shoes-C018.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C018-hover.jpg",
       "gender": "female",
-      "link":""
+      "link":"./converse-products/Converse Run Star Hike/converse-shoes-C018.html"
   },
   {
       "brand": "Converse",
@@ -677,7 +677,7 @@
       "image": "./images/converse/product-list/converse-shoes-C019.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C019-hover.jpg",
       "gender": "female",
-      "link":""
+      "link":"./converse-products/Converse Chuck Taylor All Star Modern Lift Platform Canvas/converse-shoes-C019.html"
   },
   {
       "brand": "Converse",
@@ -687,7 +687,7 @@
       "image": "./images/converse/product-list/converse-shoes-C020.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C020-hover.jpg",
       "gender": "female",
-      "link":""
+      "link":"./converse-products/Converse Tiny Tattoos/converse-shoes-C020.html"
   },
   {
       "brand": "Converse",
@@ -697,7 +697,7 @@
       "image": "./images/converse/product-list/converse-shoes-C021.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C021-hover.jpg",
       "gender": "male",
-      "link":""
+      "link":"./converse-products/Converse X Dungeons And Dragons Chuck 70s/converse-shoes-C021.html"
   },
   {
       "brand": "Converse",
@@ -707,7 +707,7 @@
       "image": "./images/converse/product-list/converse-shoes-C022.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C022-hover.jpg",
       "gender": "male",
-      "link":""
+      "link":"./converse-products/Converse Fastbreak Pro/converse-shoes-C022.html"
   },
   {
       "brand": "Converse",
@@ -717,7 +717,7 @@
       "image": "./images/converse/product-list/converse-shoes-C023.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C023-hover.jpg",
       "gender": "male",
-      "link":""
+      "link":"./converse-products/Converse AS-1 Pro/converse-shoes-C023.html"
   },
   {
       "brand": "Converse",
@@ -727,7 +727,7 @@
       "image": "./images/converse/product-list/converse-shoes-C024.jpg",
       "imageHover": "./images/converse/product-list/converse-shoes-C024-hover.jpg",
       "gender": "male",
-      "link":""
+      "link":"./converse-products/Converse X OLD MONEY Weapons/converse-shoes-C024.html"
   }
 
 

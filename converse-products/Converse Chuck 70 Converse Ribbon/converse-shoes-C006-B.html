@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../../fixedCart.css">
+    <title>Converse Chuck 70 Converse Ribbon</title>
+</head>
+
+
+<body>
+
+
+
+    <header>
+        <!-- Thanh đen-->
+            <div class="row blackbar"></div>
+
+        <!-- Nav -->
+    
+            <div class="container nav mx-auto">
+                <div class="navlist row">
+                  
+                <div class="nav__pc row">
+
+                  <div class="col-md-6 col-sm-6">
+                    <div class="menu">
+                    <ul class="menu-ul text-center">
+                        <li class="menu-item">
+                            <a href="../../index.html" class="menu-link">TRANG CHỦ</a>
+                          </li>
+                        <li class="menu-item">
+                          <a href="../../product-list.html " onclick="saveGender(''); saveBrand('Adidas');" class="menu-link">SẢN PHẨM</a>
+                         
+                          <ul class="ul-drop-down">
+                            <li class="drop-down-item">
+                                <a href="../../product-list.html" onclick="saveBrand('Adidas'); saveGender('')"><img src="../../images/adidas-banner.jpg" lat=""></a>
+                            </li>
+                            <li class="drop-down-item">
+                                <a href="../../product-list.html" onclick="saveBrand('Nike'); saveGender('')"><img src="../../images/nike-banner.jpg" alt=""></a>
+                            </li>
+                            <li class="drop-down-item">
+                                <a href="../../product-list.html" onclick="saveBrand('Converse'); saveGender('')"><img src="../../images/converse-banner.jpg" alt=""></a>
+                            </li>
+                          </ul>
+
+                        </li>
+                        <li class="menu-item">
+                            <a href="../../product-list.html" onclick="saveGender('nam')" class="menu-link">NAM</a>
+
+                            <ul class="ul-drop-down">
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Adidas'); saveGender('nam')"><img src="../../images/adidas-banner.jpg" lat=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Nike'); saveGender('nam')"><img src="../../images/nike-banner.jpg" alt=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Converse'); saveGender('nam')"><img src="../../images/converse-banner.jpg" alt=""></a>
+                                </li>
+                              </ul>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../product-list.html" onclick="saveGender('nữ')" class="menu-link">NỮ</a>
+
+                            <ul class="ul-drop-down">
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Adidas'); saveGender('nữ')"><img src="../../images/adidas-banner.jpg" lat=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Nike'); saveGender('nữ')"><img src="../../images/nike-banner.jpg" alt=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Converse'); saveGender('nữ')"><img src="../../images/converse-banner.jpg" alt=""></a>
+                                </li>
+                              </ul>
+                          </li>
+                          <li class="menu-item">
+                            <a href="../../product-list.html" onclick="saveGender('unisex')"  class="menu-link">UNISEX</a>
+
+                            <ul class="ul-drop-down">
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Adidas'); saveGender('unisex')"><img src="../../images/adidas-banner.jpg" lat=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Nike'); saveGender('unisex')"><img src="../../images/nike-banner.jpg" alt=""></a>
+                                </li>
+                                <li class="drop-down-item">
+                                    <a href="../../product-list.html" onclick="saveBrand('Converse'); saveGender('unisex')"><img src="../../images/converse-banner.jpg" alt=""></a>
+                                </li>
+                              </ul>
+                          </li>
+                      </ul>
+                    </div>
+                 </div>
+
+                   <!-- Other -->
+                    <div class="col-md-6 other col-sm-6">
+                        <div class="search-bar">
+                            <div class="search-bar-wrapper">
+                            <input id="searchInput" class="search-bar-input" placeholder="Tìm kiếm..." type="text">
+                            <button class="search-bar-btn"><i class="bi bi-search"></i></button>
+                        </div>
+                        </div>
+
+                        <ul class="other-ul">
+                            <li class="other-item">
+                                <a href="../../payment.html"><i class="bi bi-bag"></i></a></i>
+                                <p class="quantityCart"><span class="countProducts"></span></p>
+                            </li>
+                            <li class="other-item"><a href="../../Login-out/login.html"><i class="bi bi-person-fill"></i></a></li>
+                        </ul>
+                    </div>
+                 </div>
+
+               
+                 </div>
+ 
+                 
+
+                 <div class="logo-moblie col-xs-4 col-lg-4 col-md-4 col-sm-4">
+                    <div class="logo-moblie-container"><a href="../../index.html"><img src="../../images/sneakers.png" alt=""></a></div>
+                 </div>
+
+                 <div class="search-bar-moblie col-xs-4 col-lg-4 col-md-4 col-sm-4">
+                        <label for="searchBarHidden" class="sm-btn-search"><i class="bi bi-search"></i></label>
+                        <input type="checkbox" name="" hidden id="searchBarHidden" class="search-bar-hidden">
+                        <label for="searchBarHidden" class="nav__overlay"></label>
+
+                     <div class="search-bar-wrapper">
+                     <input id="searchInputMobile" class="search-bar-input" placeholder="Tìm kiếm..." type="text">
+                     <button class="search-bar-btn"><i class="bi bi-search"></i></button>
+                    </div>
+
+                    <ul class="mobile__other-ul">
+                        <li class="mobile__other-item">
+                            <a href="./payment.html"><i class="bi bi-bag"></i></a>
+                            <p class="quantityCart"><span class="countProducts"></span></p>
+                    </li>
+                    </ul>
+
+                 </div>
+
+                 
+                 <label for="nav-mobile-input" class="nav__bars-btn my-auto col-xs-4 col-lg-4 col-md-4 col-sm-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                    </label>
+
+          </div>
+                    
+                            
+                      
+
+                        <input type="checkbox" id="nav-mobile-input" hidden class="nav__input">
+
+                        
+
+                        <label for="nav-mobile-input" class="nav__overlay"></label>
+
+                        <div class="nav__mobile">
+                            <div class="menu__mobile">
+                                <div class="nav__mobile-close">
+                                    <label for="nav-mobile-input" class="close-btn-nav">
+                                        <img src="../../images/x-lg.svg" alt="">
+                                    </label>
+                                </div>
+
+                         <ul class="menu__mobile-ul">
+                            
+                             <li class="menu__mobile-item">
+                                 <p class="menu__mobile-text"><label for="allProducts" class="menu__mobile-link" href="">SẢN PHẨM</label></p>
+                                    <input type="checkbox" class="checkbox-list" hidden id="allProducts"> 
+                                    <ul class="sub-menu__brand">
+                                        <div class="nav__mobile-close">
+                                            <label for="allProducts" class="close-btn-nav">
+                                                <img src="../../images/x-lg.svg" alt="">
+                                            </label>
+                                        </div>
+                                        <li class="sub-item__brand"><a href="../../product-list.html" onclick="saveBrand('Adidas'); saveGender('')">Adidas</a></li>
+                                        <li class="sub-item__brand"><a href="../../product-list.html" onclick="saveBrand('Nike'); saveGender('')">Nike</a></li>
+                                        <li class="sub-item__brand"><a href="../../product-list.html" onclick="saveBrand('Converse'); saveGender('')">Converse</a></li>
+                                    </ul>
+                               </li>
+                             <li class="menu__mobile-item">
+                                 <p class="menu__mobile-text"><label for="maleProducts" class="menu__mobile-link" href="">NAM</label></p>
+                                <input type="checkbox" class="checkbox-list" hidden id="maleProducts">
+                                <ul class="sub-menu__brand">
+                                    <div class="nav__mobile-close">
+                                        <label for="maleProducts" class="close-btn-nav">
+                                            <img src="./images/x-lg.svg" alt="">
+                                        </label>
+                                    </div>
+                                    <li class="sub-item__brand"><a href="../../product-list.html" onclick="saveBrand('Adidas'); saveGender('nam')">Adidas</a></li>
+                                        <li class="sub-item__brand"><a href="../../product-list.html" onclick="saveBrand('Nike'); saveGender('nam')">Nike</a></li>
+                                        <li class="sub-item__brand"><a href="../../product-list.html" onclick="saveBrand('Converse'); saveGender('nam')">Converse</a></li>
+                                </ul>
+                               </li>
+                               <li class="menu__mobile-item">
+                                 <p class="menu__mobile-text"><label for="femaleProducts" class="menu__mobile-link" href="">NỮ</label></p>
+                                <input type="checkbox" class="checkbox-list" hidden id="femaleProducts">
+                                <ul class="sub-menu__brand">
+                                    <div class="nav__mobile-close">
+                                        <label for="femaleProducts" class="close-btn-nav">
+                                            <img src="../../images/x-lg.svg" alt="">
+                                        </label>
+                                    </div>
+                                    <li class="sub-item__brand"><a href="../../product-list.html" onclick="saveBrand('Adidas'); saveGender('nữ')">Adidas</a></li>
+                                        <li class="sub-item__brand"><a href="../../product-list.html" onclick="saveBrand('Nike'); saveGender('nữ')">Nike</a></li>
+                                        <li class="sub-item__brand"><a href="../../product-list.html" onclick="saveBrand('Converse'); saveGender('nữ')">Converse</a></li>
+                                </ul>
+                               </li>
+                               <li class="menu__mobile-item">
+                                 <p class="menu__mobile-text"><label for="unisexProducts" class="menu__mobile-link" href="">UNISEX</label></p>
+                                <input type="checkbox" class="checkbox-list" hidden id="unisexProducts">
+                                <ul class="sub-menu__brand">
+                                    <div class="nav__mobile-close">
+                                        <label for="unisexProducts" class="close-btn-nav">
+                                            <img src="../../images/x-lg.svg" alt="">
+                                        </label>
+                                    </div>
+                                    <li class="sub-item__brand"><a href="../../product-list.html" onclick="saveBrand('Adidas'); saveGender('unisex')">Adidas</a></li>
+                                        <li class="sub-item__brand"><a href="../../product-list.html" onclick="saveBrand('Nike'); saveGender('unisex')">Nike</a></li>
+                                        <li class="sub-item__brand"><a href="../../product-list.html" onclick="saveBrand('Converse'); saveGender('unisex')">Converse</a></li>
+                                </ul>
+                               </li>
+                           </ul>
+                         </div>
+
+                         <div class="login__mobile">
+                            <p class="other-item"><a href="../../Login-out/login.html"><i class="bi bi-person-fill"></i>Đăng nhập</a></p>
+                         </div>
+ 
+                      </div>
+            </div>  
+        </div>  
+    </header>
+
+    <!-- Content Trưng bày sản phẩm chi tiết -->
+
+    <div class="container-fluid prd-detail">
+        <div class="row">
+            <!-- Chi tiết hình ảnh sản phẩm-->
+            <div class="col-lg-7">
+                <div class="wrapper-slide">
+                   
+                    <div class="prd-detail-main-img slider-for"> 
+                                <img id="main-img" src="./images/converse-shoes-C006-B-01.jpg" alt="">
+                        </div>
+
+                </div>
+
+                <div>
+                    <div class="prd-detail-slide slider-nav">
+                    <!-- 1 -->
+                    <div class="thumbnail">
+
+                        <div class="content-item">
+                            <img src="./images/converse-shoes-C006-B-01.jpg" alt="">
+                        </div>
+                            
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="thumbnail">
+
+                        <div class="content-item">
+                            <img src="./images/converse-shoes-C006-B-02.jpg" alt="">
+                        </div>
+                            
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="thumbnail">
+
+                        <div class="content-item">
+                            <img src="./images/converse-shoes-C006-B-03.jpg" alt="">
+                        </div>
+                            
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="thumbnail">
+
+                        <div class="content-item">
+                            <img src="./images/converse-shoes-C006-B-04.jpg" alt="">
+                        </div>
+                            
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="thumbnail">
+
+                        <div class="content-item">
+                            <img src="./images/converse-shoes-C006-B-05.jpg" alt="">
+                        </div>
+                            
+                    </div>
+
+                     <!-- 6 -->
+                     <div class="thumbnail">
+
+                        <div class="content-item">
+                            <img src="./images/converse-shoes-C006-B-06.jpg" alt="">
+                        </div>
+                            
+                    </div>
+
+                  
+
+                </div>
+            </div>
+            
+        </div>
+                <!-- Thông tin sản phẩm -->
+                <div class="col-lg-5 prd-detail-description">
+                    <h1 id="prd-detail-name">Converse Chuck 70 Converse Ribbon</h1>
+                    <p id="prd-detail-code">Mã sản phẩm: <strong>C006-B</strong></p>
+                    <p id="prd-detail-price"><strong>1.400.000<u style="font-size: 18px; font-weight: 500;">đ</u></strong></p>
+                    <div class="divider"></div>
+                    <div class="color">
+                        <p id="prd-detail-color"><strong>Màu sắc</strong></p>
+                        <ul id="colors-ul">
+                            <li class="prd-detail-color-item">
+                                <a href="converse-shoes-C006.html"><img src="./images/converse-shoes-C006-01.jpg" alt=""></a>
+                            </li>
+                            <li class="prd-detail-color-item">
+                                <a href="converse-shoes-C006-B.html"><img src="./images/converse-shoes-C006-B.jpg" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="size">
+                        <p id="prd-detail-size"><strong>Kích cỡ</strong></p>
+                        <div class="size-selector">
+                            <button class="prd-detail-size-item">35</button>
+                            <button class="prd-detail-size-item">36</button>
+                            <button class="prd-detail-size-item">37</button>
+                            <button class="prd-detail-size-item">38</button>
+                            <button class="prd-detail-size-item">39</button>
+                            <button class="prd-detail-size-item">40</button>
+                            <button class="prd-detail-size-item">41</button>
+                            <button class="prd-detail-size-item">42</button>
+                            <button class="prd-detail-size-item">43</button>
+                            <button class="prd-detail-size-item">44</button>
+                            <button class="prd-detail-size-item">45</button>
+                        </div>
+
+                    </div>
+                    <div class="quantity">
+                        <p id="prd-detail-quantity"><strong>Số lượng</strong></p>
+                        <div class="size-selector">
+                            <button class="prd-detail-quantity-item">1</button>
+                            <button class="prd-detail-quantity-item">2</button>
+                            <button class="prd-detail-quantity-item">3</button>
+                            <button class="prd-detail-quantity-item">4</button>
+                            <button class="prd-detail-quantity-item">5</button>
+                            <button class="prd-detail-quantity-item">6</button>
+                            <button class="prd-detail-quantity-item">7</button>
+                            <button class="prd-detail-quantity-item">8</button>
+                            <button class="prd-detail-quantity-item">9</button>
+                            <button class="prd-detail-quantity-item">10</button>
+                            <button class="prd-detail-quantity-item">11</button>
+                            <button class="prd-detail-quantity-item">12</button>
+                        </div>
+
+                    </div>
+
+                    <div class="addToCart">
+                        <button onclick="addItemToCart('C006-B');" class="addToCart-btn"><strong>THÊM VÀO GIỎ HÀNG</strong></button>
+                    </div>
+                    <div class="payNow">
+                        <button class="payNow-btn"><strong>Thanh Toán Ngay</strong></button>
+                    </div>
+                    <div class="warning">Vui lòng chọn kích thước và số lượng!</div>
+                    <div class="warning-1">Đã có sẵn mặt hàng này trong giỏ rồi !</div>
+                </div>
+       
+        </div>
+       
+    </div>
+
+                   
+
+           
+        </div>
+    </div>
+
+     <!-- footer -->
+     <div class="footer-divider p-0 m-0">
+        <p>Cảm ơn các bạn đã ghé thăm !</p>
+        <ul class="row">
+            <li class="logo-footer-li"><img src="../../images/adidas/adidas-logo.png" alt=""></li>
+            <li class="logo-footer-li"><img src="../../images/nike/nike-logo.png" alt=""></li>
+            <li class="logo-footer-li"><img src="../../images/converse/Converse-logo-white.png" alt=""></li>
+        </ul>
+    </div>
+    
+    <section class="footer">
+        
+        <div class="container-fluid p-0">
+            <div class="footer-wrapper row">
+    
+                <div class="row footer-sec mx-auto">
+                    <div class="footer-item col-md-4">
+                        <h2 class="p-0">Sản phẩm</h2>
+                        <ul>
+                            <li><a href="">Adidas</a></li>
+                            <li><a href="">Nike</a></li>
+                            <li><a href="">Converse</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item col-md-4">
+                        <h2 class="p-0">Thành viên</h2>
+                        <ul>
+                            <li><a href="">Trần Quốc Huy</a></li>
+                            <li><a href="">Trương Văn Thạch Bảo</a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="footer-item col-md-4">
+                        <h2 class="p-0">Liên hệ</h2>
+                        <ul>
+                            <li><a href="">Email chúng tôi</a></li>
+                            <li><a href="">Ingstagram</a></li>
+                            <li><a href="">Zalo</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="row lisence">
+                    <div class="lisence-img col-md-6"><img src="../../images/icon_bocongthuong.png" alt=""></div>
+    
+                    <p class="copy-right col-md-6">Copyright © 2024 SpotSneaker. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+  
+
+    <!-- Fixed Cart -->
+
+    <div class="fixedCart">
+        <span class="countProducts">0</span>
+        
+        <i class="bi bi-bag"></i>
+        <div id="shop-cart" class="cart">   
+            <ul class="list-group">
+                <li class="list-cart-item cart-title">Giỏ Hàng (<span class="countProducts">0</span>)</li>
+                <div class="cart-divider"></div>
+                <li class="list-cart-item cart-items">
+                    
+                    <!-- <div class="cart-product-item">
+                        
+                        <div class="cart-media-thumb"><img src="../../images/adidas/product-list/converse-shoes-C006-B.jpg" alt=""></div>
+                    <div class="cart-media-body">
+                        <h4 class="media-heading">Adidas Samba Og</h4>
+                        <h5><span class="medida-price">2.700.000đ</span></h5>
+                        
+                        <h5>
+                            <span class="media-size">Size:</span>
+                            <span class="value">35</span>
+                        </h5>
+                        <h5>
+                            <span class="media-quantity">Size:</span>
+                            <span class="quantity-value">35</span>
+                        </h5>
+                    </div>
+                    </div> -->
+
+                </li>
+                <div class="cart-divider"></div>
+                <li class="list-cart-item cart-total">
+                    <h5 class="media-total-prize">
+                        <span class="media-total">Tổng giá tiền:</span>
+                        <span class="total-value"></span>
+                    </h5>
+                </li>
+                <li class="list-cart-item cart-btn"><button><strong>Thanh toán ngay</strong></button></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../../fixedCart.js"></script>
+    <script src="../../pagescript.js"></script>
+    <script src="./searchGlobal.js"></script>
+    <script src="../../cart.js"></script>
+    <script src="./script.js"></script>
+    
+</body>
+</html>

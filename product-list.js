@@ -10,6 +10,13 @@ let selectedGender;
 
 let selectedBrand = localStorage.getItem('selectedBrand')
 
+
+let i = 0
+
+for(i ; i < 1; i++) {
+    window.location.reload
+}
+
 fetchData();
 
 async function fetchData() {
@@ -37,7 +44,9 @@ async function fetchData() {
       const Init = pageInit();
 
       const filterInit = filterBrand(selectedBrand)
-    
+      
+      defaultGender ()
+
       clickSearch()
 
 
@@ -148,11 +157,15 @@ function filterBrand (value) {
 
 function clickSearch () {
 
+        bannerChanger ()
+
         let buttons = document.querySelectorAll('.btn-brand') 
       
-        let txtSearch = searchInput.value.trim().toUpperCase();
+        let txtSearch = searchInputMobile.value.trim().toUpperCase();
 
-            console.log(txtSearch)
+        if(!txtSearch) 
+            {txtSearch = searchInput.value.trim().toUpperCase(); }
+        
 
         let listProducts = document.querySelectorAll('.product-item');
         
@@ -412,6 +425,24 @@ searchInputMobile.addEventListener('keydown', function(e) {
 })
 
 
+let prdListBanner = document.querySelector('.product-list-banner-img')
+
+function bannerChanger () {
+    selectedBrand = localStorage.getItem('selectedBrand')
+
+if (selectedBrand == 'Adidas') {
+    prdListBanner.src = './images/adidas-products-list-banner.jpeg'
+} else if (selectedBrand == 'Nike')
+ {
+    prdListBanner.src = './images/nike-products-list-banner.jpeg'
+ } else {
+    prdListBanner.src = './images/converse-products-list-banner.jpg'
+ }
+
+}
+
+bannerChanger ()
+
 
 document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search); // Lấy thông tin từ URL
@@ -424,11 +455,75 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+
+const genderBtns = document.querySelectorAll('.btn-gender')
+
+function defaultGender() {
+    genderBtns.forEach(btn => {
+        if (btn.innerText.toLowerCase() === selectedGender) {
+            btn.classList.add('active');
+            updateGenderDescription();
+        }
+    });
+}
+
+function filterGender(value) {
+    let buttons = document.querySelectorAll('.btn-gender');
+
+    buttons.forEach(btn => {
+        if (value.toUpperCase() === btn.innerText.toUpperCase()) {
+            btn.classList.add("active");
+            selectedGender = btn.innerText.toLowerCase();
+            if (selectedGender === 'all') {
+                selectedGender = ''; 
+            }
+            localStorage.setItem('selectedGender', selectedGender);
+        } else {
+            btn.classList.remove("active");
+        }
+    });
+
+    filterBrand(selectedBrand); 
+    clickSearch(); 
+}
+const genderDescription = document.querySelector('.genderDes');
+
+
+function updateGenderDescription() {
+    let genderSelected = document.querySelector('.btn-gender.active');
+    if (genderSelected) {
+        if (genderSelected.innerText.toLowerCase() === 'all') {
+            genderDescription.innerText = 'Tất cả';
+        } else {
+            genderDescription.innerText = `Giày ${genderSelected.innerText}`;
+        }
+    }
+}
+
+
+genderBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+        genderBtns.forEach(button => button.classList.remove('active')); 
+        btn.classList.add('active'); 
+        selectedGender = btn.innerText.toLowerCase(); 
+        if (selectedGender === 'all') {
+            selectedGender = ''; 
+        }
+        localStorage.setItem('selectedGender', selectedGender); 
+        updateGenderDescription();
+        filterGender(btn.innerText.toLowerCase()); 
+    });
+});
+
+
+updateGenderDescription();
+
 //Nam, Nữ tag
     function selectGender() {
     document.addEventListener('DOMContentLoaded', function() {
-    selectedGender = localStorage.getItem('selectedGender')
-    selectedBrand = localStorage.getItem('selectedBrand')
+        selectedGender = localStorage.getItem('selectedGender') || 'all';
+        selectedBrand = localStorage.getItem('selectedBrand')
+        defaultGender();
   });}
 
   selectGender()
@@ -441,4 +536,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 listInit ()
+
+
 

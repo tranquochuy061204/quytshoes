@@ -10,7 +10,7 @@
 img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 p {
@@ -66,6 +66,7 @@ section {
     font-style: normal;
   }
   
+
 /* Nav */
 
 .blackbar {
@@ -132,10 +133,10 @@ section {
     height: 80%;
 }
 
-/* .menu-item:hover .ul-drop-down {
+.menu-item:hover .ul-drop-down {
     display: flex;
     opacity: 1;
-} */
+}
 
 
 .navlist .menu-ul>li:first-child {
@@ -272,7 +273,7 @@ section {
     left: 0;
     bottom: 0;
     background-color: rgb(0, 0, 0, 0.3);
-    z-index: 1;
+    z-index: 998;
     display: none;
     opacity: 0;
     animation: fadeIn linear 0.2s;
@@ -280,8 +281,9 @@ section {
 
 /* Nav moblie */
 
+.sub-menu__brand,
 .nav__mobile {
-    z-index: 3;
+    z-index: 999;
     position: fixed;
     right: 0;
     top: 0;
@@ -299,11 +301,19 @@ section {
 }
 
 
+
+
+
 .nav__input:checked ~ .nav__overlay {
     display: block;
 }
 
 .nav__input:checked ~ .nav__mobile {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.checkbox-list:checked ~ .sub-menu__brand {
     transform: translateX(0%);
     opacity: 1;
 }
@@ -317,6 +327,8 @@ section {
     
 }
 
+
+
 .menu__mobile-item {
     font-size: 2em;
     height: 100px;
@@ -324,24 +336,30 @@ section {
     border-bottom: 1px solid black;
 }
 
+.sub-item__brand {
+    font-size: 1em;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+}
+
 .menu__mobile-text {
     padding-left: 20px;
 
 }
 
-.menu__mobile-link {
-
-}
-
-.nav__mobile-close {
-    
-}
 
 .close-btn-nav {
     width: 30px;
     position: absolute;
     top: 1rem;
     right: 1rem;
+}
+
+.sub-menu__brand .close-btn-nav {
+    top: -2rem;
+
 }
 
 
@@ -352,7 +370,19 @@ section {
 
 .mobile__other-item {
     font-size: 1em;
+    position: relative;
+}
+
+.login__mobile {
+    margin-top: 11em;
+    padding-left: 20px;
+}
+
+
+.login__mobile .other-item {
+    font-size: 2em;
     
+
 }
 
 
@@ -367,15 +397,28 @@ section {
 
 /* End nav bar mobile */
 
+
 /* DSSP */
 
 .wrapper {
     
     height: auto;
 
+
     
-    
-    
+}
+
+.product-list-banner {
+    width: 50%;
+
+}
+
+.genderDes {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    width: 30%;
+    text-align: center;
 }
 
 .products {
@@ -390,14 +433,14 @@ section {
 
 .products .product-item {
     position: relative;
-    width: 280px;
+    width: 90%;
     margin: 0 10px;
     height: 400px;
     transition: width 0.1s ease-in;
 }
 
 .products .product-item:hover {
-    width: 300px;
+    width: 100%;
     height: 450px;
     box-shadow: 5px 5px #f3ecec, -5px -5px  #f3ecec ;
 }
@@ -502,22 +545,46 @@ section {
 }
 
 
+.mobile__gender-filter {
+    padding-left: 35px;
+    display: flex;
+    justify-content: start;
+    display: flex;
+    
+}
+
+.line {
+    background-color: #000;
+    height: 2px;
+    width: 100%;
+    display: block;
+}
 
 .brand-filter {
     height: 100px;
     display: flex;
     padding-left: 35px;
+   
 }
 
+.btn-gender,
 .brand-filter button {
     margin: 20px 20px;
     padding: 0 10px;
     width: fit-content;
     border: none;
-   background-color: white;
-   cursor: pointer;
+    background-color: white;
+    cursor: pointer;
 
 }
+
+.btn-gender {
+    
+    text-transform: uppercase;
+    font-size: 1em;
+   
+}
+ 
 
 /* footer */
 
@@ -659,7 +726,7 @@ section {
 
 /* Phần responsive paste ở cuối*/
 @media  (max-width: 1024px) {
-    /* Nav */
+       /* Nav */
     .nav {
        
         width: 100%;
@@ -670,23 +737,22 @@ section {
         padding: 0 12px;
     }
     .logo-moblie,
-    
     .nav__bars-btn {
         display: block;
         
     }
-
 
     .search-bar-moblie {
         display: flex;
        
     }
 
- .search-bar-moblie .mobile__other-ul {
+    .search-bar-moblie .mobile__other-ul {
         margin-left: 40px;
         font-size: 40px;
     }
-.bi-bag {
+
+    .bi-bag {
         font-size: 0.8em !important;
     }
 
@@ -706,23 +772,21 @@ section {
         display: none !important;
     }
 
-    /* end nav */
-
     
     /* Content */
     .products {
         grid-template-columns: repeat(3, 1fr);
     }
+    .mobile__gender-filter {
+        justify-content: space-around;
+    }
 
+    .line {
+        display: block;
+    }
 }
 
-@media screen and (max-width: 768px) {
-    .lisence .copy-right {
-        line-height: 30px;
-        text-align: center;
-   }
 
-}
 
 @media (max-width: 768px) {
     .products {
@@ -730,7 +794,20 @@ section {
         width: 100%;
     }
 
+    .products {
+        padding-left: 0;
 
+    }
+    .genderDes {
+        font-size: 1.5em;
+        width: 50%;
+    }
+
+    
+    .lisence .copy-right {
+        line-height: 30px;
+        text-align: center;
+   }
 }
 
 
@@ -750,9 +827,21 @@ section {
         padding-left: 0;
     }
 
+    .mobile__gender-filter {
+        width: 80%;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .mobile__gender-filter:first-child div {
+        
+
+    }
+
 }
 
-@media (max-width: 434px) {
+@media (max-width: 467px) {
+    .sub-menu__brand,
     .nav__mobile {
         width: 100%;
     }
@@ -766,6 +855,8 @@ section {
         
     }
 
+   
+
     .search-bar-moblie .sm-btn-search {
         display: block;
         width: 100%;
@@ -778,8 +869,24 @@ section {
     }
 
     .search-bar-moblie .search-bar-wrapper {
+        position: fixed;
+        left: 25%;
+        top: 20%;
         display: none;
+        z-index: 999;
     }
+
+    .search-bar-hidden:checked ~ .search-bar-wrapper {
+        display: flex;
+    }
+
+    .search-bar-hidden:checked  ~ .nav__overlay {
+        opacity: 1;
+        display: block;
+    }
+
+
+    /* end nav */
 
     /* Content */
     .pro-top img {
@@ -821,6 +928,15 @@ section {
 
 @media (max-width: 355px) {
 
+    .mobile__gender-filter {
+        width: 60%;
+        
+    }
+
+    .btn-gender {
+        width: 20%;
+    }
+
     .product-item {
         width: 120px !important;
     }
@@ -837,3 +953,17 @@ section {
         width: 2.5em;
     }
 }
+
+@media (max-width: 320px) {
+    /* nav */
+    .login__mobile {
+       margin-top: 1em;
+
+   }
+
+
+
+   /* end nav */
+}
+
+/* Hết phần responsive cho nav */

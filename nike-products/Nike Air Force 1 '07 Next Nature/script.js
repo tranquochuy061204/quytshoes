@@ -4,7 +4,35 @@ $(document).ready(function(){
         slidesToShow: 4,
         slidesToScroll: 4,
         infinite:true,
-        arrows:true
+        arrows:true,
+        
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 4,
+              infinite: true,
+             
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 4
+              
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+              
+            }
+          }
+        ]
       });
 
 })
