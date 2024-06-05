@@ -72,7 +72,6 @@ section {
     font-style: normal;
   }
   
-
 /* Nav */
 
 .blackbar {
@@ -404,6 +403,9 @@ section {
 
 /* End nav bar mobile */
 
+
+/* Chi tiet san pham */
+
 .prd-detail {
     max-width: 1200px;
     margin-top: 30px;
@@ -606,12 +608,12 @@ section {
     display: none;
 }
 
-/* Footer */
+/* footer */
 
 .footer-divider {
     margin-top: 20px !important;
     background-color: black;
-    height: 200px;
+    height: 250px;
     width: 100%;
     text-align: center;
     font-size: 35px;
@@ -620,31 +622,69 @@ section {
 
 }
 
+.footer-divider ul {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+.logo-footer-li {
+    width: 150px;
+
+}
+
 .footer .footer-wrapper {
-  
+    
     background-color: white;
-    height: 400px;
+    height: 300px;
     padding: 10px 20px;
+    
+}
+
+.footer-item h2 {
+    
+    
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer-item ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+
+.footer-item a:hover {
+    text-shadow: -0.1px -0.1px 0 #000, 0.1px -0.1px 0 #000, -0.1px 0.1px 0 #000, 0.1px 0.1px 0 #000;
 }
 
 .footer-wrapper h2 {
     
     color: black;
-    font-style: italic;
+    font-style: bold;
 }
 
 .footer-sec {
-    width: 75%;
+    text-align: center;
+    width: 60%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     margin-top: 50px;
 }
 
 .footer-sec li  {
     width: 200px;
     font-size: 20px;
-
+    
     
 }
 
@@ -654,5 +694,190 @@ section {
     
 }
 
+.lisence {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+.lisence-img {
+    width: 300px;
+}
+
+.lisence-img img {
+    height: auto;
+}
+
+.lisence .copy-right {
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    width: 500px;
+}
+
+/* Phần responsive*/
+@media  (max-width: 1024px) {
+    /* Nav */
+    .nav {
+       
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 12px;
+    }
+    .logo-moblie,
+    
+    .nav__bars-btn {
+        display: block;
+        
+    }
 
 
+    .search-bar-moblie {
+        display: flex;
+       
+    }
+
+ .search-bar-moblie .mobile__other-ul {
+        margin-left: 40px;
+        font-size: 40px;
+    }
+.bi-bag {
+        font-size: 0.8em !important;
+    }
+
+    .nav {
+        margin-top: 10px;
+        margin-bottom: 80px;
+    }
+    .nav__pc {
+        display: none;
+    }
+    .navlist {
+        
+        display: none;
+    }
+
+    .fixedCart{
+        display: none !important;
+    }
+
+    /* end nav */
+
+    /* content */
+    .prd-detail-main-img {
+        width: 100%;
+    }
+
+    .prd-detail-slide {
+        margin-top: 10px;
+
+        width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+     
+    /* footer */
+
+    .lisence .copy-right {
+        line-height: 30px;
+        text-align: center;
+        
+   }
+}
+
+
+@media (max-width: 434px) {
+    .nav__mobile {
+        width: 100%;
+    }
+    .search-bar-moblie input {
+        font-size: 10px;
+    }
+
+    .search-bar-moblie {
+        display: flex;
+        width: 100px;
+        
+    }
+
+    .search-bar-moblie .sm-btn-search {
+        display: block;
+        width: 100%;
+        font-size: 2.5em;
+        
+    }
+
+    .search-bar-moblie .sm-btn-search i {
+        float: right;
+    }
+
+    .search-bar-moblie .search-bar-wrapper {
+        display: none;
+    }
+
+
+    #prd-detail-name {
+        font-size: 2.5em !important;
+    }
+
+    .prd-detail-slide {
+        padding: 0 1em;
+     
+    }
+
+      /* footer */
+      .footer-divider ul {
+        width: 10em;
+    }
+
+    .logo-footer-li {
+        width: 3em;
+    }
+    
+}
+
+
+@media (max-width: 355px) {
+
+   
+    .prd-detail-slide {
+        padding: 0;
+    }
+
+    .products li {
+        width: 100px;
+    }
+
+
+    /* footer */
+    .footer-divider p {
+        font-size: 0.9em;
+    }
+    .footer-divider ul {
+        width: 8em;
+    }
+
+    .logo-footer-li {
+        width: 2.5em;
+    }
+
+}
+    
+@media (max-width: 320px) {
+     /* nav */
+     .login__mobile {
+        margin-top: 1em;
+
+    }
+
+
+
+    /* end nav */
+}
