@@ -25,6 +25,12 @@ body{
     font-size: 18px;
     margin-bottom: -10px;
 }
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .input-general{
     margin-left: 50px;
     margin-bottom: 10px;

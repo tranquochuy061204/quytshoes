@@ -7,7 +7,7 @@ body{
     background-size: cover;
 }
 .wrapper{
-    width: 400px;
+    width: 100%;
     margin: 0 auto;
     border: 2px solid white;
     border-radius: 2px;
@@ -28,8 +28,13 @@ body{
     font-size: 20px;
     margin-bottom: -10px;
 }
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+}
 .input-general{
-    margin-left: 50px;
+    margin: 0 auto;
     margin-bottom: 10px;
 }
 .input-general .boder{
@@ -95,6 +100,13 @@ body{
 }
 
 
+
+.second-wrapper {
+    margin: 0 auto;
+    width: 80%;
+
+}
+
 .second-wrapper h1 {
     text-align: center;
 
@@ -135,4 +147,32 @@ body{
     
     text-decoration: none;
     color: #FFF;
+}
+
+
+
+@media  (max-width: 1024px) {
+    
+
+
+    .backToMainMenu {
+        margin: 0 ;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    
+    .second-wrapper h1 {
+        font-size: 1.5em;
+
+    }
+
+    .second-wrapper p {
+        font-size: 1em;
+
+    }
+
+    
+
 }
