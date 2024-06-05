@@ -10,6 +10,12 @@ let selectedGender;
 
 let selectedBrand = localStorage.getItem('selectedBrand')
 
+const searchFor = document.querySelector('.searchFor')
+
+const searchForP = document.querySelector('.searchFor p')
+
+const searchBarMobile = document.querySelector('.search-bar-moblie')
+
 
 let i = 0
 
@@ -257,9 +263,15 @@ searchInput.addEventListener('keydown', function(e) {
     
     if (e.key === 'Enter') {
 
+        searchFor.style.display = 'block'
+
         let buttons = document.querySelectorAll('.btn-brand') 
       
         let txtSearch = searchInput.value.trim().toUpperCase();
+
+        searchForP.innerText = 'Tìm kiếm cho:'
+
+        searchForP.innerText += ' ' + searchInput.value.trim()
        
         let listProducts = document.querySelectorAll('.product-item');
         
@@ -339,13 +351,26 @@ searchInput.addEventListener('keydown', function(e) {
 })
 
 
+
 searchInputMobile.addEventListener('keydown', function(e) {
     
     if (e.key === 'Enter') {
 
+       
+        
+        searchFor.style.display = 'block'
+
+
+
+       searchBarMobile.style.display =  'none'
+
         let buttons = document.querySelectorAll('.btn-brand') 
       
         let txtSearch = searchInputMobile.value.trim().toUpperCase();
+
+        searchForP.innerText = 'Tìm kiếm cho:'
+
+        searchForP.innerText += ' ' + searchInputMobile.value.trim()
        
         let listProducts = document.querySelectorAll('.product-item');
         
@@ -444,6 +469,10 @@ if (selectedBrand == 'Adidas') {
 bannerChanger ()
 
 
+
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search); // Lấy thông tin từ URL
     const searchTerm = urlParams.get('search'); // Lấy giá trị của tham số 'search' từ URL
@@ -452,6 +481,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Thực hiện tìm kiếm với giá trị được truyền từ URL
         searchInput.value = searchTerm;
         searchInputMobile.value = searchTerm;
+        searchFor.innerText += searchTerm
     }
 });
 

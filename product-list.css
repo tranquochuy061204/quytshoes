@@ -421,6 +421,16 @@ section {
     text-align: center;
 }
 
+.searchFor {
+    padding-left: 40px;
+    display: none;
+}
+
+.searchFor p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .products {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
