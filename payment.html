@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./fixedCart.css">
     <link rel="stylesheet" href="./payment.css">
-    <title>Document</title>
+    <title>Thanh toán</title>
 </head>
 
 <body>
@@ -236,7 +236,7 @@
         </div>  
     </header>
     <!-- content -->
-    <div class="container">
+    <div class="container first-container">
     <div class="row">
         <!-- Phần sản phấm -->
         <div class="col-md-7 pay-list"></div>
@@ -250,6 +250,10 @@
                     Đơn hàng 
                 </h1>
                 <p class="pre-total">Tổng giá trị đơn hàng: <span class="total-value"></span></p>
+
+                <label class="addressDes" for="address">Nhập địa chỉ:</label><br>
+                <input id="address" type="text">
+                <p class="warning">Không được để trống địa chỉ !</p>
                 <button class="continue-pay">Tiếp tục thanh toán</button>
             </div>
         </div>
@@ -257,6 +261,18 @@
     </div>
         </div>
     </div>
+
+    <div class="container second-container text-center">
+        <h1>CẢM ƠN VÌ ĐÃ MUA HÀNG !</h1>
+        <a href="./index.html"><button class="continue">Tiếp tục mua hàng</button></a>
+
+    </div>
+
+    <div class="container third-container text-center">
+        <h1>Bạn chưa có sản phẩm nào trong giỏ !</h1>
+        <a href="./product-list.html"><button class="continue">Hãy thêm vào giỏ hàng</button></a>
+    </div>
+
     <!-- end content -->
 
        <!-- footer -->
@@ -310,47 +326,46 @@
         </div>
     </section>
     
-        <!-- Fixed Cart -->
-        <div class="fixedCart">
-            <span class="countProducts"> </span>
-            
-            <i class="bi bi-bag"></i>
-            <div id="shop-cart" class="cart">   
-                <ul class="list-group">
-                    <li class="list-cart-item cart-title">Giỏ Hàng (<span class="countProducts"> </span>)</li>
-                    <div class="cart-divider"></div>
-                    <li class="list-cart-item cart-items">
-                        
-                        <!-- <div class="cart-product-item">
-                            <button class="removeItem"><img src="./images/x-lg.svg" alt="">A001</button>
-                            <div class="cart-media-thumb"><img src="../../images/adidas/product-list/adidas-shoes-A001.avif" alt=""></div>
-                        <div class="cart-media-body">
-                            <h4 class="media-heading">Adidas Samba Og</h4>
-                            <h5><span class="medida-price">2.700.000đ</span></h5>
-                            <h5>
-                                <span class="media-size">Size:</span>
-                                <span class="value">35</span>
-                            </h5>
-                        </div>
-                        </div> -->
-    
-                    </li>
-                    <div class="cart-divider"></div>
-                    <li class="list-cart-item cart-total">
-                        <h5 class="media-total-prize">
-                            <span class="media-total">Tổng giá tiền:</span>
-                            <span class="total-value"></span>
+       <!-- Fixed Cart -->
+       <div class="fixedCart">
+        <span class="countProducts"></span>
+        
+        <i class="bi bi-bag"></i>
+        <div id="shop-cart" class="cart">   
+            <ul class="list-group">
+                <li class="list-cart-item cart-title">Giỏ Hàng (<span class="countProducts"></span>)</li>
+                <div class="cart-divider"></div>
+                <li class="list-cart-item cart-items">
+                    
+                    <!-- <div class="cart-product-item">
+                        <button class="removeItem"><img src="./images/x-lg.svg" alt="">A001</button>
+                        <div class="cart-media-thumb"><img src="../../images/adidas/product-list/adidas-shoes-A001.avif" alt=""></div>
+                    <div class="cart-media-body">
+                        <h4 class="media-heading">Adidas Samba Og</h4>
+                        <h5><span class="medida-price">2.700.000đ</span></h5>
+                        <h5>
+                            <span class="media-size">Size:</span>
+                            <span class="value">35</span>
                         </h5>
-                    </li>
-                    <li class="list-cart-item cart-btn"><button><a href="./payment.html"><strong>Thanh toán ngay</strong></button></a></li>
-                </ul>
-            </div>
+                    </div>
+                    </div> -->
+
+                </li>
+                <div class="cart-divider"></div>
+                <li class="list-cart-item cart-total">
+                    <h5 class="media-total-prize">
+                        <span class="media-total">Tổng giá tiền:</span>
+                        <span class="total-value"></span>
+                    </h5>
+                </li>
+                <li class="list-cart-item cart-btn"><a href="./payment.html"><button><strong>Thanh toán ngay</strong></button></a></li>
+            </ul>
         </div>
-    
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="fixedCart.js"></script>
+    <script src="fixedCart2.js"></script>
     <script src="./pagescript.js"></script>
     <script src="./searchGlobal.js"></script>
     <script src="./payment.js"></script>

@@ -1,3 +1,7 @@
+let isLogedIn = false;
+
+var currentUser 
+
 function login(e) {
     e.preventDefault();
 
@@ -17,9 +21,33 @@ function login(e) {
         return;
     }
 
+    currentUser = username
+
+    localStorage.setItem('currentUser', currentUser)
+
+
+    isLogedIn = true 
+    localStorage.setItem('isLogedIn', isLogedIn)
     window.location.href = "../index.html";
 }
 
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('login-form').addEventListener('submit', login);
 });
+
+
+
+
+const logOut = document.querySelector('.logOut')
+
+
+logOut.addEventListener('click', () => {
+    isLogedIn = false
+
+    localStorage.setItem('isLogedIn', isLogedIn)
+
+    window.location.reload()
+    isLogedInCheck()
+})
+
+

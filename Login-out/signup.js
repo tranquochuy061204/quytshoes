@@ -1,12 +1,16 @@
 
+function isValidJson(jsonString) {
+    try {
+        JSON.parse(jsonString);
+    } catch (e) {
+        return false;
+    }
+    return true;
+}
 
 function signup(e) {
-  
-
     e.preventDefault();
 
-    localStorage.clear
-    
     var username = document.getElementById('username').value.trim();
     var email = document.getElementById('email').value.trim();
     var phoneNumber = document.getElementById('numberphone').value.trim();
@@ -18,7 +22,6 @@ function signup(e) {
         alert("Vui lòng nhập thông tin.");
         return;
     }
-
 
     // Kiểm tra email
     var emailRegex = /^[a-zA-Z0-9._%+-]+@(?:gmail\.com|email\.com)$/; // Biểu thức chính quy kiểm tra định dạng email
@@ -55,19 +58,29 @@ function signup(e) {
 
     // Kiểm tra email đã tồn tại chưa
     for (var i = 0; i < localStorage.length; i++) {
-        var storedUser = JSON.parse(localStorage.getItem(localStorage.key(i)));
-        if (storedUser.email === email) {
-            alert("Email đã được sử dụng. Vui lòng nhập email khác.");
-            return;
+        var key = localStorage.key(i);
+        var storedUser = localStorage.getItem(key);
+
+        if (isValidJson(storedUser)) {
+            storedUser = JSON.parse(storedUser);
+            if (storedUser.email === email) {
+                alert("Email đã được sử dụng. Vui lòng nhập email khác.");
+                return;
+            }
         }
     }
 
     // Kiểm tra số điện thoại đã tồn tại chưa
     for (var i = 0; i < localStorage.length; i++) {
-        var storedUser = JSON.parse(localStorage.getItem(localStorage.key(i)));
-        if (storedUser.phoneNumber === phoneNumber) {
-            alert("Số điện thoại đã được sử dụng. Vui lòng nhập số điện thoại khác.");
-            return;
+        var key = localStorage.key(i);
+        var storedUser = localStorage.getItem(key);
+
+        if (isValidJson(storedUser)) {
+            storedUser = JSON.parse(storedUser);
+            if (storedUser.phoneNumber === phoneNumber) {
+                alert("Số điện thoại đã được sử dụng. Vui lòng nhập số điện thoại khác.");
+                return;
+            }
         }
     }
 

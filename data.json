@@ -259,6 +259,17 @@
         "gender": "male",
         "link":"./nike-products/air-jordan-1-low-se/nike-shoes-N001.html"
  },
+    
+    {
+        "brand": "Nike",
+        "name": "Nike Air Jordan 1 Low SE",
+        "code": "N001-B",
+        "price": 3520000,
+        "image": "./images/nike/product-list/nike-shoes-N001-B.jpg",
+        "imageHover": "./images/nike/product-list/nike-shoes-N001-B-hover.jpeg",
+        "gender": "male",
+        "link":"./nike-products/air-jordan-1-low-se/nike-shoes-N001-B.html"
+ },
     {
         "brand": "Nike",
         "name": "Nike Air Force 1 '07",
@@ -268,6 +279,16 @@
         "imageHover": "./images/nike/product-list/nike-shoes-N002-hover.png",
         "gender": "unisex",
         "link":"./nike-products/air-force-1/nike-shoes-N002.html"
+    },
+    {
+        "brand": "Nike",
+        "name": "Nike Air Force 1 '07",
+        "code": "N002-B",
+        "price": 2930000,
+        "image": "./images/nike/product-list/nike-shoes-N002-B.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N002-B-hover.jpeg",
+        "gender": "unisex",
+        "link":"./nike-products/air-force-1/nike-shoes-N002-B.html"
     }
     ,   {
         "brand": "Nike",
@@ -277,7 +298,7 @@
         "image": "./images/nike/product-list/nike-shoes-N003.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N003-hover.png",
         "gender": "female",
-        "link":"./nike-products/Nike Court Vision Low/nike-shoes-N003.html"
+        "link":"./nike-products/court-vision-low/nike-shoes-N003.html"
     },   
     {
         "brand": "Nike",
@@ -287,7 +308,7 @@
         "image": "./images/nike/product-list/nike-shoes-N004.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N004-hover.png",
         "gender": "unisex",
-        "link":"./nike-products/Nike Blazer Mid '77/nike-shoes-N004.html"
+        "link":"./nike-products/blazer-mid-'77/nike-shoes-N004.html"
     },   
     {
         "brand": "Nike",
@@ -299,26 +320,69 @@
         "gender": "male",
         "link":"./nike-products/Nike Air Max 90/nike-shoes-N005.html"
 },   
+{
+    "brand": "Nike",
+    "name": "Nike Air Max 90",
+    "code": "N005-B",
+    "price": 3520000,
+    "image": "./images/nike/product-list/nike-shoes-N005-B.png",
+    "imageHover": "./images/nike/product-list/nike-shoes-N005-B-hover.png",
+    "gender": "male",
+    "link":"./nike-products/Nike Air Max 90/nike-shoes-N005-B.html"
+},   
+{
+    "brand": "Nike",
+    "name": "Nike Air Max 90",
+    "code": "N005-C",
+    "price": 3520000,
+    "image": "./images/nike/product-list/nike-shoes-N005-C.png",
+    "imageHover": "./images/nike/product-list/nike-shoes-N005-C-hover.png",
+    "gender": "male",
+    "link":"./nike-products/Nike Air Max 90/nike-shoes-N005-C.html"
+},   
     {
         "brand": "Nike",
-        "name": "Air Jordan 1 Elevate Low",
+        "name": "Nike Zoom Vomero 5",
         "code": "N006",
         "price": 3829000,
         "image": "./images/nike/product-list/nike-shoes-N006.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N006-hover.png",
         "gender": "unisex",
-        "link":"./nike-products/Air Jordan 1 Elevate Low/nike-shoes-N006.html"
+        "link":"./nike-products/Nike Zoom Vomero 5/nike-shoes-N006.html"
     },   
     {
+        
         "brand": "Nike",
-        "name": "Nike Zoom Vomero 5",
+        "name": "Air Jordan 1 Elevate Low",
         "code": "N007",
         "price": 4700000,
         "image": "./images/nike/product-list/nike-shoes-N007.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N007-hover.png",
         "gender": "male",
-        "link":"./nike-products/Nike Zoom Vomero 5/nike-shoes-N007.html"
+        "link":"./nike-products/Air Jordan 1 Elevate Low/nike-shoes-N007.html"
   },   
+  {
+        
+    "brand": "Nike",
+    "name": "Air Jordan 1 Elevate Low",
+    "code": "N007-B",
+    "price": 4700000,
+    "image": "./images/nike/product-list/nike-shoes-N007-B.jpg",
+    "imageHover": "./images/nike/product-list/nike-shoes-N007-B-hover.png",
+    "gender": "male",
+    "link":"./nike-products/Air Jordan 1 Elevate Low/nike-shoes-N007-B.html"
+},
+{
+        
+    "brand": "Nike",
+    "name": "Air Jordan 1 Elevate Low",
+    "code": "N007-C",
+    "price": 4700000,
+    "image": "./images/nike/product-list/nike-shoes-N007-C.jpg",
+    "imageHover": "./images/nike/product-list/nike-shoes-N007-C-hover.png",
+    "gender": "male",
+    "link":"./nike-products/Air Jordan 1 Elevate Low/nike-shoes-N007-C.html"
+},
     {
         "brand": "Nike",
         "name": "Nike Blazer Low '77 Vintage",
@@ -329,6 +393,46 @@
         "gender": "unisex",
         "link":"./nike-products/Nike Blazer Low '77 Vintage/nike-shoes-N008.html"
     },   
+    {
+        "brand": "Nike",
+        "name": "Nike Blazer Low '77 Vintage",
+        "code": "N008-B",
+        "price": 2500000,
+        "image": "./images/nike/product-list/nike-shoes-N008-B.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N008-B-hover.png",
+        "gender": "unisex",
+        "link":"./nike-products/Nike Blazer Low '77 Vintage/nike-shoes-N008-B.html"
+    },  
+    {
+        "brand": "Nike",
+        "name": "Nike Blazer Low '77 Vintage",
+        "code": "N008-C",
+        "price": 2500000,
+        "image": "./images/nike/product-list/nike-shoes-N008-C.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N008-C-hover.png",
+        "gender": "unisex",
+        "link":"./nike-products/Nike Blazer Low '77 Vintage/nike-shoes-N008-C.html"
+    },  
+    {
+        "brand": "Nike",
+        "name": "Nike Blazer Low '77 Vintage",
+        "code": "N008-D",
+        "price": 2500000,
+        "image": "./images/nike/product-list/nike-shoes-N008-D.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N008-D-hover.png",
+        "gender": "unisex",
+        "link":"./nike-products/Nike Blazer Low '77 Vintage/nike-shoes-N008-D.html"
+    },  
+    {
+        "brand": "Nike",
+        "name": "Nike Blazer Low '77 Vintage",
+        "code": "N008-E",
+        "price": 2500000,
+        "image": "./images/nike/product-list/nike-shoes-N008-E.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N008-E-hover.png",
+        "gender": "unisex",
+        "link":"./nike-products/Nike Blazer Low '77 Vintage/nike-shoes-N008-E.html"
+    },  
     {
         "brand": "Nike",
         "name": "Nike Air Force 1 '07 LV8",
@@ -361,14 +465,54 @@
     },   
     {
         "brand": "Nike",
+        "name": "Nike Dunk Low Unlocked By You",
+        "code": "N011-B",
+        "price": 4699000,
+        "image": "./images/nike/product-list/nike-shoes-N011-B.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N011-B-hover.png",
+        "gender": "female",
+        "link":"./nike-products/Nike Dunk Low Unlocked By You/nike-shoes-N011-B.html"
+    },  
+    {
+        "brand": "Nike",
+        "name": "Nike Dunk Low Unlocked By You",
+        "code": "N011-C",
+        "price": 4699000,
+        "image": "./images/nike/product-list/nike-shoes-N011-C.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N011-C-hover.png",
+        "gender": "female",
+        "link":"./nike-products/Nike Dunk Low Unlocked By You/nike-shoes-N011-C.html"
+    },  
+    {
+        "brand": "Nike",
         "name": "Jordan Stadium 90",
         "code": "N012",
         "price": 4110000,
         "image": "./images/nike/product-list/nike-shoes-N012.png",
         "imageHover": "./images/nike/product-list/nike-shoes-N012-hover.png",
         "gender": "female",
-        "link":"./nike-products/air-force-1/nike-shoes-N012.html"
+        "link":"./nike-products/Jordan Stadium 90/nike-shoes-N012.html"
     },   
+    {
+        "brand": "Nike",
+        "name": "Jordan Stadium 90",
+        "code": "N012-B",
+        "price": 4110000,
+        "image": "./images/nike/product-list/nike-shoes-N012-B.jpg",
+        "imageHover": "./images/nike/product-list/nike-shoes-N012-B-hover.png",
+        "gender": "female",
+        "link":"./nike-products/Jordan Stadium 90/nike-shoes-N012-B.html"
+    },  
+    {
+        "brand": "Nike",
+        "name": "Jordan Stadium 90",
+        "code": "N012-C",
+        "price": 4110000,
+        "image": "./images/nike/product-list/nike-shoes-N012-C.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N012-C-hover.png",
+        "gender": "female",
+        "link":"./nike-products/Jordan Stadium 90/nike-shoes-N012-C.html"
+    },  
     {
         "brand": "Nike",
         "name": "Nike Air Force 1 Sage Low",
@@ -389,6 +533,16 @@
         "gender": "male",
          "link":"./nike-products/Nike Court Royale 2 Next Nature/nike-shoes-N014.html"
  },   
+ {
+    "brand": "Nike",
+    "name": "Nike Court Royale 2 Next Nature",
+    "code": "N014-B",
+    "price": 1610000,
+    "image": "./images/nike/product-list/nike-shoes-N014-B.png",
+    "imageHover": "./images/nike/product-list/nike-shoes-N014-B-hover.png",
+    "gender": "male",
+     "link":"./nike-products/Nike Court Royale 2 Next Nature/nike-shoes-N014-B.html"
+},   
     {
         "brand": "Nike",
         "name": "Nike Killshot 2 Leather",
@@ -399,16 +553,46 @@
         "gender": "male",
         "link":"./nike-products/Nike Killshot 2 Leather/nike-shoes-N015.html"
   },   
+  {
+    "brand": "Nike",
+    "name": "Nike Killshot 2 Leather",
+    "code": "N015-B",
+    "price": 2780000,
+    "image": "./images/nike/product-list/nike-shoes-N015-B.png",
+    "imageHover": "./images/nike/product-list/nike-shoes-N015-B-hover.png",
+    "gender": "male",
+    "link":"./nike-products/Nike Killshot 2 Leather/nike-shoes-N015-B.html"
+}, 
     {
         "brand": "Nike",
-        "name": "Air Jordan 1 Zoom CMFT 2",
+        "name": "Nike Air Jordan 1 Zoom CMFT 2",
         "code": "N016",
         "price": 4260000,
         "image": "./images/nike/product-list/nike-shoes-N016.jpg",
         "imageHover": "./images/nike/product-list/nike-shoes-N016-hover.png",
         "gender": "male",
-        "link":"./nike-products/Air Jordan 1 Zoom CMFT 2/nike-shoes-N016.html"
+        "link":"./nike-products/Nike Air Jordan 1 Zoom CMFT 2/nike-shoes-N016.html"
   },   
+  {
+    "brand": "Nike",
+    "name": "Nike Air Jordan 1 Zoom CMFT 2",
+    "code": "N016-B",
+    "price": 4260000,
+    "image": "./images/nike/product-list/nike-shoes-N016-B.jpeg",
+    "imageHover": "./images/nike/product-list/nike-shoes-N016-B-hover.png",
+    "gender": "male",
+    "link":"./nike-products/Nike Air Jordan 1 Zoom CMFT 2/nike-shoes-N016-B.html"
+}, 
+{
+    "brand": "Nike",
+    "name": "Air Jordan 1 Zoom CMFT 2",
+    "code": "N016-C",
+    "price": 4260000,
+    "image": "./images/nike/product-list/nike-shoes-N016-C.png",
+    "imageHover": "./images/nike/product-list/nike-shoes-N016-C-hover.png",
+    "gender": "male",
+    "link":"./nike-products/Nike Air Jordan 1 Zoom CMFT 2/nike-shoes-N016-C.html"
+}, 
     {
         "brand": "Nike",
         "name": "Nike Terminator High",
@@ -421,6 +605,16 @@
     },
     {
         "brand": "Nike",
+        "name": "Nike Terminator High",
+        "code": "N017-B",
+        "price": 4110000,
+        "image": "./images/nike/product-list/nike-shoes-N017-B.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N017-B-hover.png",
+        "gender": "unisex",
+        "link":"./nike-products/Nike Terminator High/nike-shoes-N017-B.html"
+    },
+    {
+        "brand": "Nike",
         "name": "Nike Court Legacy Lift",
         "code": "N018",
         "price": 2070000,
@@ -429,6 +623,16 @@
         "gender": "unisex",
         "link":"./nike-products/Nike Court Legacy Lift/nike-shoes-N018.html"
     },   
+    {
+        "brand": "Nike",
+        "name": "Nike Court Legacy Lift",
+        "code": "N018-B",
+        "price": 2070000,
+        "image": "./images/nike/product-list/nike-shoes-N018-B.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N018-B-hover.png",
+        "gender": "unisex",
+        "link":"./nike-products/Nike Court Legacy Lift/nike-shoes-N018-B.html"
+    }, 
     {
         "brand": "Nike",
         "name": "Nike SB Zoom Janoski OG+",
@@ -451,6 +655,16 @@
     },   
     {
         "brand": "Nike",
+        "name": "Nike Air Force 1 '07 EasyOn",
+        "code": "N020-B",
+        "price": 3240000,
+        "image": "./images/nike/product-list/nike-shoes-N020-B.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N020-B-hover.jpeg",
+        "gender": "unisex",
+        "link":"./nike-products/Nike Air Force 1 '07 EasyOn/nike-shoes-N020.html"
+    },  
+    {
+        "brand": "Nike",
         "name": "Nike Air Force 1 '07 Next Nature",
         "code": "N021",
         "price": 3520000,
@@ -469,16 +683,26 @@
         "gender": "female",
         "link":"./nike-products/Nike Killshot 2/nike-shoes-N022.html"
     },   
-    {
+     {
         "brand": "Nike",
         "name": "Nike Court Vision Low Next Nature",
-        "code": "N023",
+        "code": "N023-B",
         "price": 1910000,
-        "image": "./images/nike/product-list/nike-shoes-N023.png",
-        "imageHover": "./images/nike/product-list/nike-shoes-N023-hover.png",
+        "image": "./images/nike/product-list/nike-shoes-N023-B.png",
+        "imageHover": "./images/nike/product-list/nike-shoes-N023-B-hover.png",
         "gender": "male",
-        "link":"./nike-products/Nike Court Vision Low Next Nature/nike-shoes-N023.html"
- },   
+        "link":"./nike-products/Nike Court Vision Low Next Nature/nike-shoes-N023-B.html"
+ },  
+ {
+    "brand": "Nike",
+    "name": "Nike Court Vision Low Next Nature",
+    "code": "N023",
+    "price": 1910000,
+    "image": "./images/nike/product-list/nike-shoes-N023.png",
+    "imageHover": "./images/nike/product-list/nike-shoes-N023-hover.png",
+    "gender": "male",
+    "link":"./nike-products/Nike Court Vision Low Next Nature/nike-shoes-N023.html"
+},  
     {
         "brand": "Nike",
         "name": "Nike Air Force 1 Low EVO",
@@ -518,7 +742,17 @@
       "imageHover": "./images/converse/product-list/converse-shoes-C003-hover.jpg",
       "gender": "male",
       "link":"./converse-products/Converse Chuck Taylor All Star Move Platform/converse-shoes-C003.html"
-  },   
+  },  
+  {
+    "brand": "Converse",
+    "name": "Converse Chuck Taylor All Star Move Platform",
+    "code": "C003-B",
+    "price": 4110000,
+    "image": "./images/converse/product-list/converse-shoes-C003-B.jpg",
+    "imageHover": "./images/converse/product-list/converse-shoes-C003-B-hover.jpg",
+    "gender": "male",
+    "link":"./converse-products/Converse Chuck Taylor All Star Move Platform/converse-shoes-C003-B.html"
+},  
   {
       "brand": "Converse",
       "name": "Converse Chuck 70 Monochrome",
@@ -540,6 +774,16 @@
       "link":"./converse-products/Converse Chuck 70/converse-shoes-C005.html"
   },   
   {
+    "brand": "Converse",
+    "name": "Converse Chuck 70",
+    "code": "C005-B",
+    "price": 2000000,
+    "image": "./images/converse/product-list/converse-shoes-C005-B.jpg",
+    "imageHover": "./images/converse/product-list/converse-shoes-C005-B-hover.jpg",
+    "gender": "unisex",
+    "link":"./converse-products/Converse Chuck 70/converse-shoes-C005-B.html"
+},  
+  {
       "brand": "Converse",
       "name": "Converse Chuck 70 Converse Ribbon",
       "code": "C006",
@@ -549,6 +793,16 @@
       "gender": "female",
       "link":"./converse-products/Converse Chuck 70 Converse Ribbon/converse-shoes-C006.html"
   },   
+  {
+    "brand": "Converse",
+    "name": "Converse Chuck 70 Converse Ribbon",
+    "code": "C006-B",
+    "price": 1400000,
+    "image": "./images/converse/product-list/converse-shoes-C006-B.jpg",
+    "imageHover": "./images/converse/product-list/converse-shoes-C006-B-hover.jpg",
+    "gender": "female",
+    "link":"./converse-products/Converse Chuck 70 Converse Ribbon/converse-shoes-C006-B.html"
+}, 
   {
       "brand": "Converse",
       "name": "Converse Chuck 70 De Luxe Heel Satin",
@@ -620,6 +874,16 @@
       "link":"./converse-products/Converse Weapon/converse-shoes-C013.html"
   },
   {
+    "brand": "Converse",
+    "name": "Converse Weapon",
+    "code": "C013-B",
+    "price": 1400000,
+    "image": "./images/converse/product-list/converse-shoes-C013-B.jpg",
+    "imageHover": "./images/converse/product-list/converse-shoes-C013-B-hover.jpg",
+    "gender": "male",
+    "link":"./converse-products/Converse Weapon/converse-shoes-C013-B.html"
+},
+  {
       "brand": "Converse",
       "name": "Converse Run Star Legacy CX",
       "code": "C014",
@@ -639,6 +903,16 @@
       "gender": "unisex",
       "link":"./converse-products/Converse Run Star Motion Foundational/converse-shoes-C015.html"
   },
+  {
+    "brand": "Converse",
+    "name": "Converse Run Star Motion Foundational",
+    "code": "C015-B",
+    "price": 2600000,
+    "image": "./images/converse/product-list/converse-shoes-C015-B.jpg",
+    "imageHover": "./images/converse/product-list/converse-shoes-C015-B-hover.jpg",
+    "gender": "unisex",
+    "link":"./converse-products/Converse Run Star Motion Foundational/converse-shoes-C015-B.html"
+},
   {
       "brand": "Converse",
       "name": "Converse Chuck 70 Black & White",

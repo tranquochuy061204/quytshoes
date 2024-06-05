@@ -77,6 +77,10 @@
     width: 100%;
 }
 
+.cart-product-item {
+    object-fit: contain;
+}
+
 .cart-product-item h5 {
     font-size: 15px;
 
@@ -93,6 +97,7 @@
 }
 
 .cart-items {
+    min-height: 30px;
     max-height: 300px;
     overflow-y: scroll;
 }

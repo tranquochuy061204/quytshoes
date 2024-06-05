@@ -1,5 +1,7 @@
 cartData = JSON.parse(localStorage.getItem('cart'));
 
+
+
 const payList = document.querySelector('.pay-list');
 
 function payListInit() {
@@ -56,3 +58,69 @@ function attachRemoveEventListeners() {
 }
 
 payListInit();
+
+
+
+
+
+let isLogedIn = JSON.parse(localStorage.getItem('isLogedIn'))
+
+
+const continuePay = document.querySelector('.continue-pay')
+
+const firstContainer = document.querySelector('.first-container')
+
+const secondContainer = document.querySelector('.second-container') 
+
+const thirdContainer = document.querySelector('.third-container') 
+
+
+const inputAdress = document.getElementById('address')
+
+const warning = document.querySelector('.warning')
+
+
+inputAdress.addEventListener('keydown', () => {
+    if (inputAdress.value != '') {
+        warning.style.display = 'none'
+    }
+})
+
+
+if (cartData.length == 0) {
+    firstContainer.style.display = 'none'
+    thirdContainer.style.display = 'block'
+} 
+
+else {
+    firstContainer.style.display = 'block'
+    thirdContainer.style.display = 'none'
+
+}
+
+function continuePaying () {
+continuePay.addEventListener('click', ()=> {
+    if (inputAdress.value == '') {
+        warning.style.display = 'block'
+        
+        return
+    }
+
+    if(isLogedIn == false) {
+        alert('Bạn phải đăng nhập để thanh toán')
+        window.location.href = './Login-out/login.html'
+    }    
+    else {
+        
+        localStorage.setItem('cart', '[]')
+        cartData = JSON.parse(localStorage.getItem('cart'));
+        firstContainer.style.display = 'none'
+        secondContainer.style.display = 'block'
+        initializeCart()
+        
+    }
+
+})
+}
+
+continuePaying () 
