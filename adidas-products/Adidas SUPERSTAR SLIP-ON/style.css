@@ -324,6 +324,16 @@ section {
     opacity: 1;
 }
 
+
+.search-bar-hidden:checked ~ .search-bar-wrapper {
+    display: flex;
+}
+
+.search-bar-hidden:checked  ~ .nav__overlay {
+    opacity: 1;
+    display: block;
+}
+
 .menu__mobile {
     position: relative;
     padding-top: 30px;
@@ -403,6 +413,10 @@ section {
 }
 
 /* End nav bar mobile */
+
+
+
+/* Chi tiet san pham */
 
 .prd-detail {
     max-width: 1200px;
@@ -605,6 +619,7 @@ section {
     color: red;
     display: none;
 }
+
 
 /* footer */
 
@@ -813,6 +828,14 @@ section {
         
     }
 
+    .search-bar-moblie .search-bar-wrapper {
+        position: fixed;
+        left: 25%;
+        top: 20%;
+        display: none;
+        z-index: 999;
+    }
+
     .search-bar-moblie .sm-btn-search i {
         float: right;
     }
@@ -880,3 +903,4 @@ section {
 
     /* end nav */
 }
+

@@ -482,6 +482,8 @@ document.addEventListener('DOMContentLoaded', function() {
         searchInput.value = searchTerm;
         searchInputMobile.value = searchTerm;
         searchFor.innerText += searchTerm
+
+        searchFor.style.display = 'block'
     }
 });
 

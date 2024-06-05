@@ -324,6 +324,16 @@ section {
     opacity: 1;
 }
 
+
+.search-bar-hidden:checked ~ .search-bar-wrapper {
+    display: flex;
+}
+
+.search-bar-hidden:checked  ~ .nav__overlay {
+    opacity: 1;
+    display: block;
+}
+
 .menu__mobile {
     position: relative;
     padding-top: 30px;
@@ -816,6 +826,14 @@ section {
         width: 100%;
         font-size: 2.5em;
         
+    }
+
+    .search-bar-moblie .search-bar-wrapper {
+        position: fixed;
+        left: 25%;
+        top: 20%;
+        display: none;
+        z-index: 999;
     }
 
     .search-bar-moblie .sm-btn-search i {
