@@ -1,4 +1,8 @@
 
+if (!localStorage.getItem("cart")) {
+    localStorage.setItem("cart", "[]");
+}
+
 
 fetch('../../data.json')
     .then(response => response.json())
